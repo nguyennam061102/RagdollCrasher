@@ -17,10 +17,15 @@ public class BikeController : Singleton<BikeController>
     [SerializeField] private WheelCollider _colliderB;
     [Header("--------Parameter----")]
     [SerializeField] float speed;
+    [SerializeField] float velocity;
     [SerializeField] float timeNitro;
     [SerializeField] bool isAirborne = false;
+    [SerializeField] bool isMovePlayer = false;
+    [SerializeField] bool isMoving;
+    Vector3 dir;
     void Start()
     {
+        isMoving = true;
         spline.AddTrigger(0, 1, SplineTrigger.Type.Forward).AddListener(() =>
         {
             AddForce();
@@ -30,6 +35,16 @@ public class BikeController : Singleton<BikeController>
             SetAirBorne();
         });
     }
+    private void Update()
+    {
+        if (isAirborne)
+        {
+            if(Input.GetMouseButtonDown(0) && !isMovePlayer)
+            {
+                MovePlayer();
+            }
+        }
+    }
     void FixedUpdate()
     {
         MoveAlongSpline();
@@ -37,7 +52,8 @@ public class BikeController : Singleton<BikeController>
 
     void MoveAlongSpline()
     {
-        Vector3 dir = transform.forward;
+        dir = transform.forward;
+        if (!isMoving) return;
         if (Input.GetMouseButton(0))
         {
             if (isAirborne)
@@ -45,18 +61,33 @@ public class BikeController : Singleton<BikeController>
                 timeNitro -= Time.deltaTime;
                 if (timeNitro > 0)
                 {
-                    splineFollower.followSpeed += Time.fixedDeltaTime;
+                    rb.velocity = dir * velocity;
+                    velocity += speed * Time.fixedDeltaTime;
+                    splineFollower.followSpeed = velocity;
+                }
+                else
+                {
+                    MovePlayer();
                 }
             }
             else
             {
-                splineFollower.followSpeed += speed * Time.fixedDeltaTime;
+                rb.velocity = dir * velocity;
+                velocity += speed * Time.fixedDeltaTime;
+                splineFollower.followSpeed = velocity;
             }
         }
         
-        rb.velocity = dir * splineFollower.followSpeed;
         RotateWheel(_colliderF, _transformF);
         RotateWheel(_colliderB, _transformB);
+    }
+    void MovePlayer()
+    {
+        isMovePlayer = true;
+        isMoving = false;
+        RagdollController.Ins.transform.SetParent(null);
+        RagdollController.Ins.OnInit(velocity, timeNitro);
+        //rb.velocity = dir * velocity;
     }
     void StopAlongSpline()
     {
