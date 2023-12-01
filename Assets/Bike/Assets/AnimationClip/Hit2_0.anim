@@ -1,0 +1,3848 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hit2
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.50000006, y: 0.49999997, z: -0.49999997, w: 0.50000006}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.50000006, y: 0.49999997, z: -0.49999997, w: 0.50000006}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.56178707, y: -0.38103893, z: 0.5956587, w: -0.42941275}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.56178707, y: -0.38103893, z: 0.5956587, w: -0.42941275}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.27258465, y: 0.94625854, z: 0.16423152, w: 0.05762274}
+        inSlope: {x: -5.356977, y: -1.7213422, z: -0.7440616, w: 0.47251296}
+        outSlope: {x: -5.356977, y: -1.7213422, z: -0.7440616, w: 0.47251296}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: -0.48965052, y: 0.8591894, z: 0.12998466, w: 0.0716936}
+        inSlope: {x: -6.709966, y: -3.919085, z: -1.2594713, w: 0.30419934}
+        outSlope: {x: -6.709966, y: -3.919085, z: -1.2594713, w: 0.30419934}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.7199217, y: 0.6849827, z: 0.08026565, w: 0.077902965}
+        inSlope: {x: -6.2378187, y: -6.664959, z: -1.8606832, w: 0.2591284}
+        outSlope: {x: -6.2378187, y: -6.664959, z: -1.8606832, w: 0.2591284}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -0.90550536, y: 0.4148606, z: 0.0059395907, w: 0.08896874}
+        inSlope: {x: -3.5278525, y: -6.142457, z: -1.806529, w: 0.35071105}
+        outSlope: {x: -3.5278525, y: -6.142457, z: -1.806529, w: 0.35071105}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: -0.9551097, y: 0.27548787, z: -0.040169097, w: 0.1012837}
+        inSlope: {x: -0.7443254, y: -2.0906944, z: -0.690392, w: 0.18301311}
+        outSlope: {x: -0.7443254, y: -2.0906944, z: -0.690392, w: 0.18301311}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.9551277, y: 0.2754791, z: -0.04008716, w: 0.10116978}
+        inSlope: {x: -0.00053733645, y: -0.00028878442, z: 0.0023913602, w: -0.00334416}
+        outSlope: {x: -0.00053733645, y: -0.00028878442, z: 0.0023913602, w: -0.00334416}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00010842512, y: 0.00013683774, z: 0.49710184, w: 0.8676922}
+        inSlope: {x: 0.0005712713, y: 0.001961377, z: 7.1948113, w: -4.5651574}
+        outSlope: {x: 0.0005712713, y: 0.001961377, z: 7.1948113, w: -4.5651574}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: -8.2135E-05, y: 0.00020659939, z: 0.75352263, w: 0.65742195}
+        inSlope: {x: 0.00043166595, y: 0.0017658155, z: 6.021077, w: -6.431074}
+        outSlope: {x: 0.00043166595, y: 0.0017658155, z: 6.021077, w: -6.431074}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -7.9647005E-05, y: 0.00025456035, z: 0.89851236, w: 0.43894818}
+        inSlope: {x: 0.0006206925, y: 0.00079681503, z: 2.8746927, w: -4.962631}
+        outSlope: {x: 0.0006206925, y: 0.00079681503, z: 2.8746927, w: -4.962631}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -4.0756055E-05, y: 0.00025972095, z: 0.94517004, w: 0.32657865}
+        inSlope: {x: 0.0005965405, y: 8.4624255E-05, z: 0.73609775, w: -1.7916863}
+        outSlope: {x: 0.0005965405, y: 8.4624255E-05, z: 0.73609775, w: -1.7916863}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: -3.9878218E-05, y: 0.0002602019, z: 0.94758487, w: 0.31950405}
+        inSlope: {x: 1.31567385E-05, y: 1.1124757E-05, z: 0.036108308, w: -0.10578043}
+        outSlope: {x: 1.31567385E-05, y: 1.1124757E-05, z: 0.036108308, w: -0.10578043}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -3.9878927E-05, y: 0.0002604626, z: 0.9475773, w: 0.31952652}
+        inSlope: {x: -5.531082E-05, y: 0.00013925353, z: 0.00060348574, w: -0.0017881058}
+        outSlope: {x: -5.531082E-05, y: 0.00013925353, z: 0.00060348574, w: -0.0017881058}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1/Harley_FXDR_biker_rig_LLeg2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.17416926, y: -0.027879031, z: -0.40621114, w: 0.8965938}
+        inSlope: {x: -0.35257652, y: -3.393969, z: -4.356114, w: -2.170495}
+        outSlope: {x: -0.35257652, y: -3.393969, z: -4.356114, w: -2.170495}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: 0.14378774, y: -0.14313498, z: -0.5679253, w: 0.7976831}
+        inSlope: {x: -0.91285104, y: -2.382133, z: -3.3757777, w: -2.2861092}
+        outSlope: {x: -0.91285104, y: -2.382133, z: -3.3757777, w: -2.2861092}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: 0.11331171, y: -0.18669002, z: -0.631266, w: 0.7441845}
+        inSlope: {x: -0.4748767, y: 0.105074406, z: 0.43583822, w: 0.3905648}
+        outSlope: {x: -0.4748767, y: 0.105074406, z: 0.43583822, w: 0.3905648}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: 0.112128906, y: -0.13613138, z: -0.53887165, w: 0.82371885}
+        inSlope: {x: -0.025230257, y: 1.585937, z: 2.722977, w: 2.0740325}
+        outSlope: {x: -0.025230257, y: 1.585937, z: 2.722977, w: 2.0740325}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 0.1116297, y: -0.080960914, z: -0.44973442, w: 0.8824529}
+        inSlope: {x: -0.0062375814, y: 0.8264103, z: 1.337426, w: 0.880933}
+        outSlope: {x: -0.0062375814, y: 0.8264103, z: 1.337426, w: 0.880933}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.11171306, y: -0.08103662, z: -0.44970873, w: 0.8824485}
+        inSlope: {x: 0.0020160242, y: -0.003124429, z: -0.004709885, w: -0.002944134}
+        outSlope: {x: 0.0020160242, y: -0.003124429, z: -0.004709885, w: -0.002944134}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1/Harley_FXDR_biker_rig_LLeg2/Harley_FXDR_biker_rig_LLegAnkle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.25424978, y: -0.8981857, z: 0.34025803, w: 0.11333165}
+        inSlope: {x: 5.215271, y: 1.0330409, z: -2.0981693, w: -0.01891753}
+        outSlope: {x: 5.215271, y: 1.0330409, z: -2.0981693, w: -0.01891753}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: 0.47452092, y: -0.83997, z: 0.24606729, w: 0.09344068}
+        inSlope: {x: 6.925254, y: 3.2657087, z: -2.765136, w: -1.5625937}
+        outSlope: {x: 6.925254, y: 3.2657087, z: -2.765136, w: -1.5625937}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: 0.7159395, y: -0.68046886, z: 0.15591317, w: 0.009157353}
+        inSlope: {x: 6.276742, y: 6.110546, z: -2.3168778, w: -2.6625438}
+        outSlope: {x: 6.276742, y: 6.110546, z: -2.3168778, w: -2.6625438}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: 0.8929709, y: -0.43260193, z: 0.09160853, w: -0.08406194}
+        inSlope: {x: 3.3623312, y: 5.475856, z: -1.4102501, w: -1.841588}
+        outSlope: {x: 3.3623312, y: 5.475856, z: -1.4102501, w: -1.841588}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 0.94009286, y: -0.31541404, z: 0.061897088, w: -0.11361415}
+        inSlope: {x: 0.70713174, y: 1.7580403, z: -0.44629073, w: -0.44171566}
+        outSlope: {x: 0.70713174, y: 1.7580403, z: -0.44629073, w: -0.44171566}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.94011366, y: -0.31539768, z: 0.06185542, w: -0.11351005}
+        inSlope: {x: 0.00062227313, y: 0.00051319617, z: -0.0012222508, w: 0.0030644275}
+        outSlope: {x: 0.00062227313, y: 0.00051319617, z: -0.0012222508, w: 0.0030644275}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 4.60873E-05, y: -0.0004790133, z: 0.5078976, w: 0.8614173}
+        inSlope: {x: -7.361523E-07, y: -0.0056565325, z: 6.68394, w: -4.4026732}
+        outSlope: {x: -7.361523E-07, y: -0.0056565325, z: 6.68394, w: -4.4026732}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: 1.1295964E-07, y: -0.0006373031, z: 0.752944, w: 0.65808433}
+        inSlope: {x: -0.0006908096, y: -0.0040889196, z: 5.7137623, w: -6.047345}
+        outSlope: {x: -0.0006908096, y: -0.0040889196, z: 5.7137623, w: -6.047345}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: 3.2713203E-08, y: -0.0007516116, z: 0.8888202, w: 0.45825556}
+        inSlope: {x: -0.0009210804, y: -0.0026755678, z: 2.6099105, w: -4.243086}
+        outSlope: {x: -0.0009210804, y: -0.0026755678, z: 2.6099105, w: -4.243086}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -6.129147E-05, y: -0.00081567484, z: 0.92693925, w: 0.37521055}
+        inSlope: {x: 9.1834227E-07, y: -0.0004883576, z: 0.55682653, w: -1.208853}
+        outSlope: {x: 9.1834227E-07, y: -0.0004883576, z: 0.55682653, w: -1.208853}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 9.569393E-08, y: -0.0007841674, z: 0.92594135, w: 0.37766665}
+        inSlope: {x: 0.00026977772, y: 0.00069111114, z: -0.016190525, w: 0.03983617}
+        outSlope: {x: 0.00026977772, y: 0.00069111114, z: -0.016190525, w: 0.03983617}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -4.33048E-05, y: -0.00076960056, z: 0.92585987, w: 0.37786633}
+        inSlope: {x: 3.5826815E-07, y: 1.3097888E-06, z: 0.00026818237, w: -0.0006588348}
+        outSlope: {x: 3.5826815E-07, y: 1.3097888E-06, z: 0.00026818237, w: -0.0006588348}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1/Harley_FXDR_biker_rig_RLeg2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.32559776, y: -0.015832538, z: -0.38006526, w: 0.865613}
+        inSlope: {x: 1.7563922, y: 0.46275067, z: -1.3920908, w: -0.00910214}
+        outSlope: {x: 1.7563922, y: 0.46275067, z: -1.3920908, w: -0.00910214}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: -0.2380248, y: -0.020881496, z: -0.4383223, w: 0.8664766}
+        inSlope: {x: 3.29982, y: -0.9495556, z: -0.5737879, w: 0.49573624}
+        outSlope: {x: 3.29982, y: -0.9495556, z: -0.5737879, w: 0.49573624}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.10560684, y: -0.07913709, z: -0.4183183, w: 0.8986625}
+        inSlope: {x: 4.3475423, y: -1.8740574, z: 2.504284, w: 1.2521446}
+        outSlope: {x: 4.3475423, y: -1.8740574, z: 2.504284, w: 1.2521446}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: 0.05181071, y: -0.14581841, z: -0.27137202, w: 0.94995254}
+        inSlope: {x: 3.452306, y: -1.4289382, z: 3.6241512, w: 0.92981344}
+        outSlope: {x: 3.452306, y: -1.4289382, z: 3.6241512, w: 0.92981344}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 0.12454547, y: -0.17439899, z: -0.1767092, w: 0.96064943}
+        inSlope: {x: 1.0904752, y: -0.4312182, z: 1.4342918, w: 0.1626989}
+        outSlope: {x: 1.0904752, y: -0.4312182, z: 1.4342918, w: 0.1626989}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.124510035, y: -0.17456667, z: -0.17575131, w: 0.9607993}
+        inSlope: {x: 0.0013511295, y: -0.0018208206, z: -0.0005485406, w: -0.0006070009}
+        outSlope: {x: 0.0013511295, y: -0.0018208206, z: -0.0005485406, w: -0.0006070009}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1/Harley_FXDR_biker_rig_RLeg2/Harley_FXDR_biker_rig_RLegAnkle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00016447206, y: -0.002122016, z: -0.06483458, w: 0.9978938}
+        inSlope: {x: -0.008660087, y: -0.10262747, z: 0.0009876038, w: -0.000300404}
+        outSlope: {x: -0.008660087, y: -0.10262747, z: 0.0009876038, w: -0.000300404}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.0016323094, y: -0.019535298, z: -0.06449736, w: 0.9977253}
+        inSlope: {x: -8.5216635E-07, y: -3.0736595E-07, z: -3.7998525E-05, w: -2.68225E-06}
+        outSlope: {x: -8.5216635E-07, y: -3.0736595E-07, z: -3.7998525E-05, w: -2.68225E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0010188012, y: -0.011666373, z: -0.0044181165, w: 0.9999217}
+        inSlope: {x: -0.052231703, y: -0.58780223, z: 0.0024979222, w: -0.01165139}
+        outSlope: {x: -0.052231703, y: -0.58780223, z: 0.0024979222, w: -0.01165139}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: -0.0098528145, y: -0.11120444, z: -0.0032413767, w: 0.9937434}
+        inSlope: {x: -0.01530775, y: -0.17271464, z: 0.003416672, w: -0.018447988}
+        outSlope: {x: -0.01530775, y: -0.17271464, z: 0.003416672, w: -0.018447988}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.009853084, y: -0.111204304, z: -0.0032434366, w: 0.9937434}
+        inSlope: {x: -4.023375E-06, y: 4.4708645E-07, z: -3.136974E-05, w: 0}
+        outSlope: {x: -4.023375E-06, y: 4.4708645E-07, z: -3.136974E-05, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.0020107466, y: -0.011350406, z: -0.008917365, w: 0.99989384}
+        inSlope: {x: -0.10151953, y: -0.5804318, z: 0.0012620472, w: -0.011519068}
+        outSlope: {x: -0.10151953, y: -0.5804318, z: 0.0012620472, w: -0.011519068}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: -0.019248327, y: -0.109638095, z: -0.008090011, w: 0.99375224}
+        inSlope: {x: -0.03001268, y: -0.17054094, z: 0.0025992643, w: -0.01835858}
+        outSlope: {x: -0.03001268, y: -0.17054094, z: 0.0025992643, w: -0.01835858}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.019247526, y: -0.10963791, z: -0.00808804, w: 0.9937523}
+        inSlope: {x: 1.2489213E-05, y: 4.470369E-06, z: 2.9630477E-05, w: 8.940833E-07}
+        outSlope: {x: 1.2489213E-05, y: 4.470369E-06, z: 2.9630477E-05, w: 8.940833E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00018874877, y: -0.0019001305, z: -0.05385513, w: 0.99854696}
+        inSlope: {x: -0.008646886, y: -0.10146082, z: -0.00090965256, w: -0.00038533992}
+        outSlope: {x: -0.008646886, y: -0.10146082, z: -0.00090965256, w: -0.00038533992}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.0017601753, y: -0.01911039, z: -0.05415672, w: 0.998348}
+        inSlope: {x: 1.7219838E-05, y: 2.798572E-08, z: 3.2354663E-05, w: 1.7881666E-06}
+        outSlope: {x: 1.7219838E-05, y: 2.798572E-08, z: 3.2354663E-05, w: 1.7881666E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.13531119, y: 0.7478956, z: 0.15246524, w: 0.6317416}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.13531119, y: 0.7478956, z: 0.15246524, w: 0.6317416}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07576733, y: 0.43820298, z: -0.26446402, w: 0.8557431}
+        inSlope: {x: 4.788396, y: 0.02034951, z: -0.19333446, w: 0.16417989}
+        outSlope: {x: 4.788396, y: 0.02034951, z: -0.19333446, w: 0.16417989}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: 0.11776629, y: 0.44405827, z: -0.28710458, w: 0.84054404}
+        inSlope: {x: 5.701167, y: 0.20708254, z: -0.9612211, w: -1.2643559}
+        outSlope: {x: 5.701167, y: 0.20708254, z: -0.9612211, w: -1.2643559}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: 0.30431554, y: 0.45200866, z: -0.3285463, w: 0.7714516}
+        inSlope: {x: 4.5946074, y: 0.24916866, z: -1.220628, w: -2.3009982}
+        outSlope: {x: 4.5946074, y: 0.24916866, z: -1.220628, w: -2.3009982}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: 0.4240741, y: 0.4606695, z: -0.36847973, w: 0.6871445}
+        inSlope: {x: 2.3114357, y: 0.20087838, z: -0.8825053, w: -1.8137145}
+        outSlope: {x: 2.3114357, y: 0.20087838, z: -0.8825053, w: -1.8137145}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 0.45840988, y: 0.4654005, z: -0.38737962, w: 0.6505381}
+        inSlope: {x: 0.37778372, y: 0.024883438, z: -0.36274207, w: -0.46833017}
+        outSlope: {x: 0.37778372, y: 0.024883438, z: -0.36274207, w: -0.46833017}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.4492603, y: 0.4623285, z: -0.3926627, w: 0.65592194}
+        inSlope: {x: -0.2754609, y: -0.09388051, z: -0.1588352, w: 0.15974897}
+        outSlope: {x: -0.2754609, y: -0.09388051, z: -0.1588352, w: 0.15974897}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.017972523, y: -0.013319958, z: -0.44376746, w: 0.8958627}
+        inSlope: {x: -0.70783883, y: -0.7599799, z: 3.6798205, w: 1.7493722}
+        outSlope: {x: -0.70783883, y: -0.7599799, z: 3.6798205, w: 1.7493722}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: -0.04719537, y: -0.05066408, z: -0.31014234, w: 0.9481653}
+        inSlope: {x: -0.6878118, y: -1.153893, z: 3.0492392, w: 1.0271319}
+        outSlope: {x: -0.6878118, y: -1.153893, z: 3.0492392, w: 1.0271319}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.063827254, y: -0.090247184, z: -0.24048212, w: 0.9643391}
+        inSlope: {x: -0.16526416, y: -1.1630347, z: -0.5432284, w: -0.31032985}
+        outSlope: {x: -0.16526416, y: -1.1630347, z: -0.5432284, w: -0.31032985}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -0.05821329, y: -0.12819967, z: -0.34635502, w: 0.9274774}
+        inSlope: {x: 0.10399909, y: -0.96321756, z: -3.0653677, w: -1.2597816}
+        outSlope: {x: 0.10399909, y: -0.96321756, z: -3.0653677, w: -1.2597816}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: -0.05689405, y: -0.15446146, z: -0.44483966, w: 0.88035357}
+        inSlope: {x: 0.016516505, y: -0.36244452, z: -1.3865992, w: -0.65617704}
+        outSlope: {x: 0.016516505, y: -0.36244452, z: -1.3865992, w: -0.65617704}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.05711217, y: -0.15236302, z: -0.43879637, w: 0.8837316}
+        inSlope: {x: -0.006425798, y: 0.062178593, z: 0.1791369, w: 0.09927494}
+        outSlope: {x: -0.006425798, y: 0.062178593, z: 0.1791369, w: 0.09927494}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.743563, y: -0.036169346, z: -0.101207495, w: 0.659972}
+        inSlope: {x: -1.2555289, y: 2.6587515, z: -0.050314218, w: -1.5055088}
+        outSlope: {x: -1.2555289, y: 2.6587515, z: -0.050314218, w: -1.5055088}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: -0.7999114, y: 0.08895218, z: -0.09569593, w: 0.58572316}
+        inSlope: {x: -1.2312472, y: 4.5612636, z: 0.6883743, w: -2.498201}
+        outSlope: {x: -1.2312472, y: 4.5612636, z: 0.6883743, w: -2.498201}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.82564723, y: 0.26791894, z: -0.055315264, w: 0.49342307}
+        inSlope: {x: -0.018257767, y: 5.213105, z: 0.8254925, w: -2.6741471}
+        outSlope: {x: -0.018257767, y: 5.213105, z: 0.8254925, w: -2.6741471}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -0.8011293, y: 0.43649235, z: -0.04066278, w: 0.40744677}
+        inSlope: {x: 0.8046902, y: 3.7298846, z: -0.27464622, w: -1.9569104}
+        outSlope: {x: 0.8046902, y: 3.7298846, z: -0.27464622, w: -1.9569104}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: -0.7720012, y: 0.5165764, z: -0.07362568, w: 0.3629631}
+        inSlope: {x: 0.7693614, y: 1.6482803, z: -0.9936126, w: -0.74964476}
+        outSlope: {x: 0.7693614, y: 1.6482803, z: -0.9936126, w: -0.74964476}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.7498385, y: 0.5463783, z: -0.10690355, w: 0.35746995}
+        inSlope: {x: 0.67947733, y: 0.841415, z: -1.0303283, w: -0.16883488}
+        outSlope: {x: 0.67947733, y: 0.841415, z: -1.0303283, w: -0.16883488}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.084487334, y: -0.008893536, z: 0.48212066, w: 0.8719762}
+        inSlope: {x: 0.0532609, y: -0.109325215, z: -1.2146367, w: 0.6457757}
+        outSlope: {x: 0.0532609, y: -0.109325215, z: -1.2146367, w: 0.6457757}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.08079006, y: -0.020687962, z: 0.35356376, w: 0.9316854}
+        inSlope: {x: 0.021533506, y: -0.18403554, z: -1.9851443, w: 0.7654735}
+        outSlope: {x: 0.021533506, y: -0.18403554, z: -1.9851443, w: 0.7654735}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -0.08075802, y: -0.026375048, z: 0.29228666, w: 0.95254976}
+        inSlope: {x: -0.0040272693, y: -0.12134941, z: -1.3106161, w: 0.42584956}
+        outSlope: {x: -0.0040272693, y: -0.12134941, z: -1.3106161, w: 0.42584956}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.08105854, y: -0.028777808, z: 0.26619035, w: 0.960075}
+        inSlope: {x: 4.4703208E-07, y: 6.426296E-07, z: 5.3645254E-06, w: -8.941089E-07}
+        outSlope: {x: 4.4703208E-07, y: 6.426296E-07, z: 5.3645254E-06, w: -8.941089E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm/Harley_FXDR_biker_rig_LArmDigit11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.5066978E-07, y: 2.163298E-07, z: 0.21532188, w: 0.9765431}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.5066978E-07, y: 2.163298E-07, z: 0.21532188, w: 0.9765431}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm/Harley_FXDR_biker_rig_LArmDigit11/Harley_FXDR_biker_rig_LArmDigit12
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 2.797444E-09, y: 1.8787924E-08, z: 0.049568143, w: 0.9987708}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 2.797444E-09, y: 1.8787924E-08, z: 0.049568143, w: 0.9987708}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_heck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.039354607, y: -0.012246802, z: -0.01182964, w: 0.99908024}
+        inSlope: {x: -2.0745387, y: -0.19957216, z: -4.3773155, w: -0.46681714}
+        outSlope: {x: -2.0745387, y: -0.19957216, z: -4.3773155, w: -0.46681714}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: -0.13830473, y: -0.013305172, z: -0.21752563, w: 0.9661146}
+        inSlope: {x: -3.162865, y: 0.7576354, z: -6.5161557, w: -2.110678}
+        outSlope: {x: -3.162865, y: 0.7576354, z: -6.5161557, w: -2.110678}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.25021508, y: 0.0382629, z: -0.44624582, w: 0.8583665}
+        inSlope: {x: -2.7709403, y: 2.0289304, z: -5.834065, w: -3.7483685}
+        outSlope: {x: -2.7709403, y: 2.0289304, z: -5.834065, w: -3.7483685}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -0.32303447, y: 0.12195627, z: -0.6064639, w: 0.7162241}
+        inSlope: {x: -1.4175084, y: 1.9189311, z: -3.2311769, w: -3.203554}
+        outSlope: {x: -1.4175084, y: 1.9189311, z: -3.2311769, w: -3.203554}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: -0.34471482, y: 0.16619095, z: -0.6616559, w: 0.64479744}
+        inSlope: {x: -0.3251974, y: 0.66349953, z: -0.8278546, w: -1.0713655}
+        outSlope: {x: -0.3251974, y: 0.66349953, z: -0.8278546, w: -1.0713655}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.34471458, y: 0.16619016, z: -0.66165495, w: 0.64479876}
+        inSlope: {x: 4.023362E-06, y: -1.2517147E-05, z: 1.4305333E-05, w: 1.9669833E-05}
+        outSlope: {x: 4.023362E-06, y: -1.2517147E-05, z: 1.4305333E-05, w: 1.9669833E-05}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_heck/Harley_FXDR_biker_rig_head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13531117, y: -0.74789566, z: 0.15246522, w: 0.6317415}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.13531117, y: -0.74789566, z: 0.15246522, w: 0.6317415}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.18388079, y: -0.2521907, z: -0.43925506, w: 0.84240294}
+        inSlope: {x: -3.3113441, y: 4.36871, z: -1.9192318, w: 0.6686307}
+        outSlope: {x: -3.3113441, y: 4.36871, z: -1.9192318, w: 0.6686307}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: 0.04333854, y: -0.060739152, z: -0.5076774, w: 0.8583101}
+        inSlope: {x: -2.0091493, y: 3.469451, z: -2.482296, w: -0.7173562}
+        outSlope: {x: -2.0091493, y: 3.469451, z: -2.482296, w: -0.7173562}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: 0.049935717, y: -0.020890884, z: -0.60474366, w: 0.79457855}
+        inSlope: {x: 0.37812293, y: 2.2288358, z: -2.592216, w: -2.011147}
+        outSlope: {x: 0.37812293, y: 2.2288358, z: -2.592216, w: -2.011147}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: 0.06854654, y: 0.08784878, z: -0.6804919, w: 0.72423387}
+        inSlope: {x: 0.21795316, y: 3.3491879, z: -1.170735, w: -1.4328516}
+        outSlope: {x: 0.21795316, y: 3.3491879, z: -1.170735, w: -1.4328516}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 0.06446559, y: 0.20238817, z: -0.68279153, w: 0.69905585}
+        inSlope: {x: -0.033036307, y: 1.7246293, z: -0.02669008, w: -0.37458596}
+        outSlope: {x: -0.033036307, y: 1.7246293, z: -0.02669008, w: -0.37458596}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.06634404, y: 0.20282559, z: -0.6822713, w: 0.6992611}
+        inSlope: {x: 0.056274924, y: 0.013189103, z: 0.015528219, w: 0.0059849108}
+        outSlope: {x: 0.056274924, y: 0.013189103, z: 0.015528219, w: 0.0059849108}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 6.2939107E-06, y: -1.3456444E-06, z: -0.4126892, w: 0.9108719}
+        inSlope: {x: 0.0012318968, y: 0.0023040308, z: 1.8619473, w: 0.8787105}
+        outSlope: {x: 0.0012318968, y: 0.0023040308, z: 1.8619473, w: 0.8787105}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: 5.950618E-06, y: -8.239804E-08, z: -0.3637197, w: 0.9315084}
+        inSlope: {x: 0.0007253301, y: 0.0017521207, z: 0.31598592, w: 0.13880424}
+        outSlope: {x: 0.0007253301, y: 0.0017521207, z: 0.31598592, w: 0.13880424}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: 6.2195954E-06, y: -1.5101452E-06, z: -0.4341432, w: 0.90084386}
+        inSlope: {x: -0.00072250416, y: -0.0017584269, z: -0.9919158, w: -0.46567735}
+        outSlope: {x: -0.00072250416, y: -0.0017584269, z: -0.9919158, w: -0.46567735}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 6.4836954E-06, y: -1.7627247E-06, z: -0.4577506, w: 0.88908064}
+        inSlope: {x: 2.7065776E-06, y: -3.70715E-06, z: -0.33102018, w: -0.16458407}
+        outSlope: {x: 2.7065776E-06, y: -3.70715E-06, z: -0.33102018, w: -0.16458407}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 6.4000387E-06, y: -1.757292E-06, z: -0.45621154, w: 0.8898714}
+        inSlope: {x: -5.525738E-07, y: 1.0435227E-06, z: 0.04642148, w: 0.023799263}
+        outSlope: {x: -5.525738E-07, y: 1.0435227E-06, z: 0.04642148, w: 0.023799263}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.6416479, y: -0.055449, z: -0.30828038, w: 0.7001262}
+        inSlope: {x: -3.2123225, y: -1.4686868, z: -9.771664, w: -5.0628467}
+        outSlope: {x: -3.2123225, y: -1.4686868, z: -9.771664, w: -5.0628467}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: 0.408835, y: -0.13887797, z: -0.79245263, w: 0.43079656}
+        inSlope: {x: -2.2316399, y: 0.11816931, z: -5.8844633, w: -2.7947226}
+        outSlope: {x: -2.2316399, y: 0.11816931, z: -5.8844633, w: -2.7947226}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: 0.49286988, y: -0.047570948, z: -0.70058316, w: 0.51380885}
+        inSlope: {x: 3.1521764, y: 5.9965067, z: 5.1097617, w: 2.34442}
+        outSlope: {x: 3.1521764, y: 5.9965067, z: 5.1097617, w: 2.34442}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: 0.6189793, y: 0.26088566, z: -0.45180443, w: 0.5870912}
+        inSlope: {x: 1.8947533, y: 8.264553, z: 6.4336147, w: 0.36217582}
+        outSlope: {x: 1.8947533, y: 8.264553, z: 6.4336147, w: 0.36217582}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.13333416
+        value: {x: 0.61918485, y: 0.50339776, z: -0.2716769, w: 0.5379521}
+        inSlope: {x: 0.10160801, y: 3.5684721, z: 2.9220629, w: -0.678674}
+        outSlope: {x: 0.10160801, y: 3.5684721, z: 2.9220629, w: -0.678674}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.62575305, y: 0.4987871, z: -0.25699806, w: 0.54184556}
+        inSlope: {x: 0.19428872, y: -0.14465293, z: 0.4339086, w: 0.114749506}
+        outSlope: {x: 0.19428872, y: -0.14465293, z: 0.4339086, w: 0.114749506}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.08119427, y: 0.028390218, z: 0.27078095, w: 0.9587905}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.08119427, y: 0.028390218, z: 0.27078095, w: 0.9587905}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm/Harley_FXDR_biker_rig_RArmDigit11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -1.7586753E-07, y: -3.6521794E-07, z: 0.1790489, w: 0.98384017}
+        inSlope: {x: -8.446479E-07, y: 1.029639E-06, z: -0.9157808, w: 0.1722827}
+        outSlope: {x: -8.446479E-07, y: 1.029639E-06, z: -0.9157808, w: 0.1722827}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -2.3615468E-07, y: -3.783276E-07, z: 0.12939093, w: 0.99159366}
+        inSlope: {x: -1.8294843E-06, y: 2.0065711E-07, z: -6.705113E-07, w: 0}
+        outSlope: {x: -1.8294843E-06, y: 2.0065711E-07, z: -6.705113E-07, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm/Harley_FXDR_biker_rig_RArmDigit11/Harley_FXDR_biker_rig_RArmDigit12
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -2.2351738E-08, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0, y: -0, z: -2.2351738E-08, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/jetpack_odrzut1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/jetpack_odrzut2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0, y: -0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: -0.6755903, z: -0, w: 0.73727727}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0, y: -0.6755903, z: -0, w: 0.73727727}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001/jetpack_skrzydlo2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0.6755903, z: -0, w: 0.73727727}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0, y: 0.6755903, z: -0, w: 0.73727727}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001/jetpack_skrzydlo1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.6604288, y: 0.18922208, z: -0.6806108, w: 0.25455433}
+        inSlope: {x: -1.1756213, y: -0.52056247, z: 1.9906716, w: 2.4247608}
+        outSlope: {x: -1.1756213, y: -0.52056247, z: 1.9906716, w: 2.4247608}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.03333378
+        value: {x: -0.69131434, y: 0.18691266, z: -0.6004048, w: 0.35589632}
+        inSlope: {x: -0.36951315, y: 0.49614057, z: 2.3065162, w: 2.9517846}
+        outSlope: {x: -0.36951315, y: 0.49614057, z: 2.3065162, w: 2.9517846}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.68506336, y: 0.22229856, z: -0.526841, w: 0.4513426}
+        inSlope: {x: 0.48764825, y: 1.2353477, z: 1.7435229, w: 2.2960968}
+        outSlope: {x: 0.48764825, y: 1.2353477, z: 1.7435229, w: 2.2960968}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -0.6588048, y: 0.26926893, z: -0.4841696, w: 0.50896984}
+        inSlope: {x: 0.61234784, y: 1.0381978, z: 0.8255483, w: 1.1298397}
+        outSlope: {x: 0.61234784, y: 1.0381978, z: 0.8255483, w: 1.1298397}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.6442404, y: 0.29151133, z: -0.47180492, w: 0.5266646}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_LLegPlatform
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.684236, y: 0.19538718, z: -0.6627073, w: 0.23337515}
+        inSlope: {x: -0.69916856, y: -1.5524627, z: 0.4587286, w: 0.43007454}
+        outSlope: {x: -0.69916856, y: -1.5524627, z: 0.4587286, w: 0.43007454}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.06666756
+        value: {x: -0.7326907, y: 0.08560877, z: -0.5893739, w: 0.329354}
+        inSlope: {x: -0.43357578, y: -1.2291774, z: 1.3214617, w: 1.7768271}
+        outSlope: {x: -0.43357578, y: -1.2291774, z: 1.3214617, w: 1.7768271}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.10000038
+        value: {x: -0.7405392, y: 0.054858718, z: -0.5463428, w: 0.38742968}
+        inSlope: {x: -0.124423124, y: -0.6048869, z: 0.92810583, w: 1.2558627}
+        outSlope: {x: -0.124423124, y: -0.6048869, z: 0.92810583, w: 1.2558627}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.74098545, y: 0.045283325, z: -0.52750057, w: 0.41307762}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_RLegPlatform
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.16760561, y: 0.77092326, z: 0.14968568, w: 0.5959697}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: -0.16760561, y: 0.77092326, z: 0.14968568, w: 0.5959697}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_RArmIKTarget
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.060451075, y: 0.5878337, z: 0.043270785, w: 0.80555874}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.060451075, y: 0.5878337, z: 0.043270785, w: 0.80555874}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_LArmIKTarget
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -5.073744E-11, y: 1.7818031, z: 0.9335709}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -5.073744E-11, y: 1.7818031, z: 0.9335709}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: 0.18268082}
+        inSlope: {x: 1.669037E-09, y: -2.2880552E-06, z: -2.5376188E-15}
+        outSlope: {x: -2.5397635E-09, y: -2.2908991E-06, z: -1.4714058E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -1.5258789E-07, y: -1.5258789E-07, z: 0.18268083}
+        inSlope: {x: -2.2907875E-06, y: -2.4664348E-09, z: -1.4714058E-06}
+        outSlope: {x: -2.2880677E-06, y: 1.6142114E-09, z: -1.4713638E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -1.5258789E-07, y: 0, z: 0.18268085}
+        inSlope: {x: 1.4090161E-10, y: 2.2897807E-06, z: -1.4713638E-06}
+        outSlope: {x: -2.2860826E-10, y: 2.288112E-06, z: 2.9428115E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -1.5258789E-07, y: 0, z: 0.18268082}
+        inSlope: {x: 2.2881104E-06, y: -2.278571E-10, z: 2.9428115E-06}
+        outSlope: {x: 2.2896395E-06, y: -0, z: -1.4713638E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0, y: 0, z: 0.18268083}
+        inSlope: {x: 2.289692E-06, y: -0, z: -1.4713638E-06}
+        outSlope: {x: 2.288104E-06, y: -0, z: 3.33072E-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0, y: 0, z: 0.18268083}
+        inSlope: {x: -2.41317E-10, y: -0, z: 1.4274515E-15}
+        outSlope: {x: -0, y: -1.2531048E-10, z: -1.4713638E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.8620303, y: -1.14440915E-07, z: 0}
+        inSlope: {x: 5.8854553E-06, y: 1.7163812E-06, z: 1.1440276E-06}
+        outSlope: {x: -1.1771246E-05, y: 1.7175387E-06, z: 1.1452693E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.86203015, y: -3.8146972E-08, z: 7.6293944E-08}
+        inSlope: {x: -1.1771246E-05, y: -5.708478E-07, z: 1.7173113E-06}
+        outSlope: {x: 9.482122E-06, y: -5.7307716E-07, z: 1.7164576E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.8620304, y: -1.5258789E-07, z: 1.14440915E-07}
+        inSlope: {x: -1.4168671E-06, y: -4.005364E-06, z: 5.7234155E-07}
+        outSlope: {x: -1.1771246E-05, y: -4.006695E-06, z: 5.7208706E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.86203027, y: -3.0517577E-07, z: 1.14440915E-07}
+        inSlope: {x: -1.1771246E-05, y: -2.2904444E-06, z: -5.720838E-07}
+        outSlope: {x: -0, y: -2.2881982E-06, z: -5.724097E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.86203027, y: -3.0517577E-07, z: 7.6293944E-08}
+        inSlope: {x: -0, y: 2.2882243E-06, z: -5.724227E-07}
+        outSlope: {x: -0, y: 2.2905665E-06, z: -5.7191966E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.86203027, y: -1.5258789E-07, z: 7.6293944E-08}
+        inSlope: {x: -0, y: 2.290668E-06, z: -1.1439998E-06}
+        outSlope: {x: -7.302322E-06, y: 2.2880558E-06, z: -1.1448601E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1/Harley_FXDR_biker_rig_LLeg2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.90667266, y: -7.6293944E-08, z: 0}
+        inSlope: {x: -5.8854553E-06, y: -7.7105117E-10, z: -0}
+        outSlope: {x: 1.1771246E-05, y: 1.1491219E-09, z: 5.9948595E-11}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.9066728, y: 0, z: 0}
+        inSlope: {x: 1.1771246E-05, y: 2.2894453E-06, z: -5.720263E-07}
+        outSlope: {x: -1.17709105E-05, y: 2.2889528E-06, z: -5.7249645E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.90667266, y: 7.6293944E-08, z: -3.8146972E-08}
+        inSlope: {x: -1.17709105E-05, y: 7.192773E-10, z: 5.7162134E-07}
+        outSlope: {x: -9.591384E-06, y: -1.3628694E-09, z: 5.7322086E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.9066729, y: 0, z: 3.8146972E-08}
+        inSlope: {x: -9.591384E-06, y: -1.3651431E-09, z: 1.7173929E-06}
+        outSlope: {x: 1.3187777E-05, y: 7.891596E-10, z: 1.7165096E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.9066728, y: 7.6293944E-08, z: 7.6293944E-08}
+        inSlope: {x: 2.2887878E-06, y: 1.1449221E-06, z: -5.7169007E-07}
+        outSlope: {x: -1.1771246E-05, y: 1.1441588E-06, z: -5.7325633E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.90667266, y: 7.6293944E-08, z: 0}
+        inSlope: {x: -1.1771246E-05, y: -1.1441815E-06, z: -1.1453928E-06}
+        outSlope: {x: -9.591109E-06, y: -1.1447975E-06, z: -1.1440274E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1/Harley_FXDR_biker_rig_LLeg2/Harley_FXDR_biker_rig_LLegAnkle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: -0.18268083}
+        inSlope: {x: -1.2642702E-10, y: -2.2881818E-06, z: -1.4274107E-15}
+        outSlope: {x: -0, y: -2.2908991E-06, z: -3.33072E-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0, y: -1.5258789E-07, z: -0.18268083}
+        inSlope: {x: -0, y: -2.4664348E-09, z: -1.4274515E-15}
+        outSlope: {x: -0, y: 1.6142114E-09, z: -3.3306246E-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0, y: 0, z: -0.18268083}
+        inSlope: {x: -0, y: 2.2897807E-06, z: -1.4274107E-15}
+        outSlope: {x: -0, y: 2.288112E-06, z: -3.33072E-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0, y: 0, z: -0.18268082}
+        inSlope: {x: -4.5761417E-06, y: -0, z: -1.4713638E-06}
+        outSlope: {x: -4.581344E-06, y: -0, z: 1.4714058E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -3.0517577E-07, y: 0, z: -0.18268083}
+        inSlope: {x: -2.2932104E-06, y: -0, z: 1.4714058E-06}
+        outSlope: {x: -2.2865174E-06, y: -1.2531048E-10, z: -1.4713638E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.86203015, y: -5.7220458E-08, z: 0}
+        inSlope: {x: 1.17709105E-05, y: -5.71758E-07, z: 7.083554E-10}
+        outSlope: {x: 5.885623E-06, y: -5.7316237E-07, z: -1.2996354E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.86203027, y: -1.14440915E-07, z: -7.6293944E-08}
+        inSlope: {x: 5.885623E-06, y: 8.570872E-07, z: -8.5938E-07}
+        outSlope: {x: -5.8854553E-06, y: 8.5938734E-07, z: -8.578058E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.86203015, y: 0, z: -5.7220458E-08}
+        inSlope: {x: -5.8854553E-06, y: -5.7078046E-07, z: 2.6692867E-10}
+        outSlope: {x: -8.88192E-15, y: -5.7452587E-07, z: -3.6976033E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.86203015, y: -1.5258789E-07, z: -7.6293944E-08}
+        inSlope: {x: -3.8065373E-15, y: -2.290784E-06, z: 2.8567197E-07}
+        outSlope: {x: -5.8854553E-06, y: -2.2882027E-06, z: 2.864028E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.8620301, y: -1.5258789E-07, z: -3.8146972E-08}
+        inSlope: {x: -5.8854553E-06, y: 2.2882223E-06, z: 5.7244284E-07}
+        outSlope: {x: -7.302531E-06, y: 2.2909915E-06, z: 5.720262E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.86203027, y: 0, z: -3.8146972E-08}
+        inSlope: {x: 3.59677E-06, y: -2.2855763E-06, z: -6.0562715E-11}
+        outSlope: {x: -5.8854553E-06, y: -2.2912593E-06, z: 3.132762E-11}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1/Harley_FXDR_biker_rig_RLeg2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.9066729, y: 7.6293944E-08, z: 7.6293944E-08}
+        inSlope: {x: 5.8854553E-06, y: 7.7105117E-10, z: 1.1455706E-06}
+        outSlope: {x: 1.3188153E-05, y: -1.2691105E-09, z: 1.1428048E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.9066728, y: 0, z: 0}
+        inSlope: {x: 2.2888532E-06, y: -1.1453925E-06, z: -1.2885074E-06}
+        outSlope: {x: -8.881666E-15, y: -1.1439595E-06, z: -1.2871121E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.9066728, y: 0, z: -9.536743E-09}
+        inSlope: {x: -3.8064284E-15, y: -1.143962E-06, z: -5.7204477E-07}
+        outSlope: {x: 5.885623E-06, y: -1.1454189E-06, z: -5.726098E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.9066729, y: -7.6293944E-08, z: -3.8146972E-08}
+        inSlope: {x: 5.885623E-06, y: -1.2516511E-09, z: 7.1458027E-07}
+        outSlope: {x: -8.881666E-15, y: 7.894032E-10, z: 7.158093E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.9066729, y: 0, z: 3.8146972E-08}
+        inSlope: {x: -3.8064284E-15, y: 1.1449226E-06, z: 1.144875E-06}
+        outSlope: {x: -8.88192E-15, y: 1.144052E-06, z: 1.1441056E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.9066729, y: 0, z: 3.8146972E-08}
+        inSlope: {x: -3.8065373E-15, y: -1.206585E-10, z: -5.7215135E-07}
+        outSlope: {x: -5.8854553E-06, y: -0, z: -5.7239873E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1/Harley_FXDR_biker_rig_RLeg2/Harley_FXDR_biker_rig_RLegAnkle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.28797743, y: 0, z: -9.536743E-09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.28797743, y: 0, z: -9.536743E-09}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.28696212, y: 0, z: 0}
+        inSlope: {x: 2.9154805E-06, y: 1.2642702E-10, z: -1.431157E-07}
+        outSlope: {x: -2.9155638E-06, y: -0, z: -1.4300748E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.28696197, y: 0, z: 3.8146972E-08}
+        inSlope: {x: -2.854903E-15, y: -2.2881127E-06, z: -5.714025E-07}
+        outSlope: {x: -6.661249E-15, y: -2.2897789E-06, z: -5.7283955E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.28696197, y: -1.5258789E-07, z: -3.8146972E-08}
+        inSlope: {x: -2.8548214E-15, y: -1.62087E-09, z: -5.7286684E-07}
+        outSlope: {x: -4.959183E-06, y: 2.2469215E-09, z: -5.7141074E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.28696182, y: 0, z: 0}
+        inSlope: {x: -4.959183E-06, y: 4.579026E-06, z: 5.727869E-07}
+        outSlope: {x: -1.8528274E-06, y: 4.5777742E-06, z: 5.720137E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.28727692, y: 1.5258789E-07, z: -1.9073486E-08}
+        inSlope: {x: -0, y: 1.5421023E-09, z: -2.0093983E-10}
+        outSlope: {x: -0, y: -2.538221E-09, z: 2.5750665E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.28727692, y: 0, z: 0}
+        inSlope: {x: -0, y: -2.290785E-06, z: 8.583745E-07}
+        outSlope: {x: -0, y: -2.2882211E-06, z: 8.5846744E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.28727692, y: 0, z: 3.8146972E-08}
+        inSlope: {x: -0, y: 2.288202E-06, z: 3.770077E-10}
+        outSlope: {x: -0, y: 2.2908378E-06, z: -6.2452626E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.28727692, y: 1.5258789E-07, z: 0}
+        inSlope: {x: -0, y: 2.5033022E-09, z: -5.7271075E-07}
+        outSlope: {x: 2.9154805E-06, y: -1.5788064E-09, z: -5.720156E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.28727707, y: 0, z: 0}
+        inSlope: {x: 1.9073322E-07, y: -2.2898453E-06, z: 3.8128438E-11}
+        outSlope: {x: -4.44096E-15, y: -2.288104E-06, z: 1.067824E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.28727707, y: 0, z: 0}
+        inSlope: {x: -1.9032686E-15, y: 2.41317E-10, z: -1.1440602E-06}
+        outSlope: {x: -4.440833E-15, y: -0, z: -1.1448598E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07878311, y: 0.14091186, z: 0.0003142929}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.07878311, y: 0.14091186, z: 0.0003142929}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.36158314, y: 0, z: 0}
+        inSlope: {x: 2.9427276E-06, y: 2.2895983E-06, z: 1.543158E-09}
+        outSlope: {x: 2.9428115E-06, y: 2.2881197E-06, z: -3.0187435E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.36158317, y: 0, z: -1.5258789E-07}
+        inSlope: {x: 2.9428115E-06, y: -2.1512804E-10, z: 2.285426E-06}
+        outSlope: {x: -5.8854553E-06, y: 1.5097087E-10, z: 2.2916006E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.36158308, y: 0, z: 1.5258789E-07}
+        inSlope: {x: -5.8854553E-06, y: -2.2880631E-06, z: 3.2964032E-09}
+        outSlope: {x: 5.885623E-06, y: -2.2910644E-06, z: -5.2233564E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.36158317, y: -1.5258789E-07, z: -1.5258789E-07}
+        inSlope: {x: 5.885623E-06, y: 2.28561E-06, z: -2.2935722E-06}
+        outSlope: {x: -5.8854553E-06, y: 2.2913582E-06, z: -2.286622E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.36158308, y: 1.5258789E-07, z: 0}
+        inSlope: {x: -5.8854553E-06, y: 2.2914674E-06, z: 4.5780675E-06}
+        outSlope: {x: -6.66144E-15, y: 2.285643E-06, z: 4.5793104E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.36158308, y: 0, z: 1.5258789E-07}
+        inSlope: {x: -2.854903E-15, y: -2.2911477E-06, z: -4.573939E-06}
+        outSlope: {x: -6.661249E-15, y: -2.2880547E-06, z: -4.580976E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.49463326, y: 0, z: -1.5258789E-07}
+        inSlope: {x: -1.7983335E-06, y: 2.8604868E-06, z: -1.5421023E-09}
+        outSlope: {x: -3.6512654E-06, y: 2.8629293E-06, z: 2.538221E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.49463332, y: 1.5258789E-07, z: 0}
+        inSlope: {x: 1.798385E-06, y: 2.4131803E-09, z: 2.290785E-06}
+        outSlope: {x: 3.651161E-06, y: -1.6142114E-09, z: 2.2880324E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.49463326, y: 0, z: 0}
+        inSlope: {x: -1.7983335E-06, y: -2.2897807E-06, z: 5.718766E-07}
+        outSlope: {x: -3.6512654E-06, y: -2.288112E-06, z: 5.7270944E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.49463332, y: 0, z: -3.8146972E-08}
+        inSlope: {x: -0, y: -0, z: -5.754948E-10}
+        outSlope: {x: -0, y: -0, z: 3.8422632E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.5980364, y: -7.6293944E-08, z: -1.5258789E-07}
+        inSlope: {x: 1.7983335E-06, y: 5.719507E-07, z: 4.5762367E-06}
+        outSlope: {x: -3.6512654E-06, y: 5.728456E-07, z: 4.5816782E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.59803647, y: -3.8146972E-08, z: 1.5258789E-07}
+        inSlope: {x: 1.798385E-06, y: -1.1434354E-06, z: 1.1489839E-06}
+        outSlope: {x: 1.8528274E-06, y: -1.1453235E-06, z: 1.1415758E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.59803635, y: -1.5258789E-07, z: -7.6293944E-08}
+        inSlope: {x: 1.8528274E-06, y: -5.732369E-07, z: -2.8627258E-06}
+        outSlope: {x: -2.2343577E-06, y: -5.7089085E-07, z: -2.8595746E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.59803617, y: -7.6293944E-08, z: -3.8146972E-08}
+        inSlope: {x: -7.684008E-06, y: 2.2895342E-06, z: 1.1450227E-06}
+        outSlope: {x: -3.7056548E-06, y: 2.2888185E-06, z: 1.1444436E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.59803635, y: 3.8146972E-08, z: -1.9073486E-08}
+        inSlope: {x: 7.302531E-06, y: 5.725456E-07, z: -3.7849E-10}
+        outSlope: {x: 1.17709105E-05, y: 5.7207603E-07, z: 1.6113066E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.17484413, y: 0.010187988, z: -0.00040145873}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.17484413, y: 0.010187988, z: -0.00040145873}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm/Harley_FXDR_biker_rig_LArmDigit11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07417969, y: 7.6293944E-08, z: 0}
+        inSlope: {x: -2.2887873E-06, y: 7.7105117E-10, z: 5.721404E-07}
+        outSlope: {x: -2.2139207E-06, y: -1.3892207E-09, z: 5.7260485E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.07417969, y: 0, z: 3.8146972E-08}
+        inSlope: {x: -2.895127E-06, y: -1.3400098E-09, z: 1.144669E-06}
+        outSlope: {x: -8.3104715E-07, y: 8.826317E-10, z: 1.1445145E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.074179836, y: 7.6293944E-08, z: 7.6293944E-08}
+        inSlope: {x: 5.313265E-07, y: 8.590826E-10, z: -5.716556E-07}
+        outSlope: {x: 6.6076933E-07, y: -1.2490525E-09, z: -5.733336E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.07417969, y: 0, z: 0}
+        inSlope: {x: 1.3419757E-06, y: -1.1454215E-06, z: -5.733362E-07}
+        outSlope: {x: 2.0912437E-06, y: -1.1440312E-06, z: -5.7158644E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.074179746, y: 0, z: 0}
+        inSlope: {x: 4.4959626E-07, y: -0, z: 5.7133366E-07}
+        outSlope: {x: 9.672852E-07, y: -0, z: 5.729091E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm/Harley_FXDR_biker_rig_LArmDigit11/Harley_FXDR_biker_rig_LArmDigit12
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07080322, y: -0.0012712097, z: 0}
+        inSlope: {x: 1.0013438E-06, y: -6.172368E-09, z: -1.5803378E-11}
+        outSlope: {x: 1.7030156E-06, y: 1.1494606E-08, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.07080352, y: -0.0012710571, z: 0}
+        inSlope: {x: 1.4032464E-06, y: -2.314971E-06, z: -2.2880631E-06}
+        outSlope: {x: 3.685324E-06, y: -2.2786344E-06, z: -2.2906104E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.07080307, y: -0.0012712097, z: -1.5258789E-07}
+        inSlope: {x: 5.7289426E-06, y: -2.2786344E-06, z: -2.2906142E-06}
+        outSlope: {x: 4.9590412E-06, y: -2.2990055E-06, z: -2.288062E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.07080322, y: -0.0012712097, z: -1.5258789E-07}
+        inSlope: {x: -1.8528273E-06, y: 2.2990055E-06, z: 1.5454384E-10}
+        outSlope: {x: -1.8733174E-06, y: 2.2892782E-06, z: -2.1301667E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.07080322, y: -0.0012710571, z: -1.5258789E-07}
+        inSlope: {x: 1.7030153E-07, y: -2.3088644E-06, z: 2.2881209E-06}
+        outSlope: {x: -0, y: -2.321994E-06, z: 2.289595E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_heck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.21067458, y: 0.05473526, z: 1.335144E-07}
+        inSlope: {x: 7.9017434E-07, y: -2.0436364E-08, z: -1.85276E-10}
+        outSlope: {x: -7.9019696E-07, y: -1.4986458E-07, z: 4.3730675E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.21067505, y: 0.054735105, z: 1.5258789E-07}
+        inSlope: {x: -3.5150224E-06, y: -1.4986458E-07, z: -8.5770347E-07}
+        outSlope: {x: -7.683789E-06, y: -2.0436364E-08, z: -8.5890895E-07}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.2106749, y: 0.05473526, z: 7.6293944E-08}
+        inSlope: {x: -2.2342938E-06, y: 2.0231241E-06, z: -8.057167E-10}
+        outSlope: {x: -1.8528805E-06, y: 1.5327142E-06, z: 1.4767676E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.21067505, y: 0.05473526, z: 1.5258789E-07}
+        inSlope: {x: -1.8528805E-06, y: -3.23573E-06, z: -1.1426889E-06}
+        outSlope: {x: -4.440833E-15, y: -2.1934209E-06, z: -1.1456802E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.21067505, y: 0.054735105, z: 0}
+        inSlope: {x: -1.9032142E-15, y: -4.918168E-06, z: -1.1457341E-06}
+        outSlope: {x: 1.8528805E-06, y: -5.08861E-06, z: -1.1429282E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.2106749, y: 0.054734953, z: 7.6293944E-08}
+        inSlope: {x: 1.8528805E-06, y: -3.2016632E-07, z: 2.2896345E-06}
+        outSlope: {x: -3.8064284E-15, y: -2.0436362E-08, z: 2.288825E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_heck/Harley_FXDR_biker_rig_head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07878296, y: 0.14091186, z: -0.0003142929}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.07878296, y: 0.14091186, z: -0.0003142929}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.36158314, y: 0, z: -1.5258789E-07}
+        inSlope: {x: 2.9427276E-06, y: -2.2881818E-06, z: -2.2912684E-06}
+        outSlope: {x: -5.885623E-06, y: -2.291139E-06, z: -2.2855816E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.36158305, y: -1.5258789E-07, z: 0}
+        inSlope: {x: -5.885623E-06, y: 2.285639E-06, z: 2.2910003E-06}
+        outSlope: {x: -8.881666E-15, y: 2.2914494E-06, z: 2.2880702E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.36158305, y: 1.5258789E-07, z: 0}
+        inSlope: {x: -3.8064284E-15, y: 2.2913598E-06, z: -1.3905421E-10}
+        outSlope: {x: -4.795692E-06, y: 2.2858405E-06, z: 2.2659839E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.36158317, y: 0, z: 0}
+        inSlope: {x: -4.795692E-06, y: -4.579183E-06, z: -2.2881127E-06}
+        outSlope: {x: -5.8854553E-06, y: -4.5778406E-06, z: -2.2897789E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.36158308, y: -1.5258789E-07, z: -1.5258789E-07}
+        inSlope: {x: -5.8854553E-06, y: -1.4681127E-09, z: -1.62087E-09}
+        outSlope: {x: -6.66144E-15, y: 2.459938E-09, z: 2.2469215E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.36158308, y: 0, z: 0}
+        inSlope: {x: -2.854903E-15, y: 2.2909055E-06, z: 4.579026E-06}
+        outSlope: {x: -6.661249E-15, y: 2.2880547E-06, z: 4.5777742E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.49463332, y: -1.9073486E-08, z: -1.5258789E-07}
+        inSlope: {x: -1.8528274E-06, y: 1.144669E-06, z: -1.6701739E-09}
+        outSlope: {x: 3.6512654E-06, y: 1.144377E-06, z: 2.538221E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.49463326, y: 0, z: 0}
+        inSlope: {x: -1.798385E-06, y: 2.8624063E-07, z: 2.290785E-06}
+        outSlope: {x: -4.440833E-15, y: 2.860843E-07, z: 2.2880702E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.49463326, y: 0, z: 0}
+        inSlope: {x: -1.9032142E-15, y: -1.1440488E-06, z: -1.3905421E-10}
+        outSlope: {x: -3.6512654E-06, y: -1.1454189E-06, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.49463332, y: -7.6293944E-08, z: 0}
+        inSlope: {x: 1.798385E-06, y: -1.2516511E-09, z: -0}
+        outSlope: {x: 1.8528274E-06, y: 7.894032E-10, z: -1.3822188E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.49463317, y: 0, z: 0}
+        inSlope: {x: 1.8528274E-06, y: 1.1449226E-06, z: 2.2880708E-06}
+        outSlope: {x: -4.44096E-15, y: 1.144052E-06, z: 2.2909926E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.49463317, y: 0, z: 1.5258789E-07}
+        inSlope: {x: -1.9032686E-15, y: -1.206585E-10, z: -2.2855756E-06}
+        outSlope: {x: -3.651161E-06, y: 6.265524E-11, z: -2.2912593E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.5980364, y: 0, z: 0}
+        inSlope: {x: -3.8064284E-15, y: 1.7168762E-06, z: 2.2897248E-06}
+        outSlope: {x: -5.885623E-06, y: 1.7169043E-06, z: 2.2881197E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.59803635, y: -7.6293944E-08, z: 0}
+        inSlope: {x: -3.8064284E-15, y: -1.1452497E-06, z: -0}
+        outSlope: {x: 2.9428115E-06, y: -1.1433751E-06, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.59803635, y: -3.8146972E-08, z: 0}
+        inSlope: {x: 2.9428115E-06, y: 7.969975E-10, z: -0}
+        outSlope: {x: 2.9427276E-06, y: -4.2899317E-10, z: -1.3822188E-10}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.5980364, y: -7.6293944E-08, z: 0}
+        inSlope: {x: 2.9427276E-06, y: -4.4328505E-10, z: 2.2880708E-06}
+        outSlope: {x: -3.6512654E-06, y: 5.084762E-10, z: 2.2907786E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.59803647, y: -3.8146972E-08, z: 1.5258789E-07}
+        inSlope: {x: 1.798385E-06, y: 1.7167868E-06, z: 2.5447173E-09}
+        outSlope: {x: -5.8854553E-06, y: 1.7168422E-06, z: -1.5369053E-09}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.1748458, y: 0.010187988, z: 0.00040161132}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.1748458, y: 0.010187988, z: 0.00040161132}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm/Harley_FXDR_biker_rig_RArmDigit11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.07417976, y: -1.5258789E-07, z: 7.6293944E-08}
+        inSlope: {x: -1.6552838E-06, y: 2.2881832E-06, z: 1.145697E-06}
+        outSlope: {x: -1.1444264E-06, y: 2.2906609E-06, z: 1.1427908E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.0741798, y: 0, z: 0}
+        inSlope: {x: 2.179862E-07, y: 2.2905717E-06, z: -1.1455002E-06}
+        outSlope: {x: 4.6320685E-07, y: 2.2880702E-06, z: -1.1440351E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: -0.074179836, y: 0, z: 0}
+        inSlope: {x: -9.2644024E-07, y: -2.2881127E-06, z: -2.2881127E-06}
+        outSlope: {x: -1.6280369E-06, y: -2.2897789E-06, z: -2.289641E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: -0.07417976, y: -1.5258789E-07, z: -1.5258789E-07}
+        inSlope: {x: 1.7778972E-06, y: -1.62087E-09, z: -2.2896936E-06}
+        outSlope: {x: 1.6076465E-06, y: 2.459938E-09, z: -2.2884262E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.07417969, y: 0, z: -1.5258789E-07}
+        inSlope: {x: 2.452339E-07, y: 2.2909055E-06, z: 3.432419E-06}
+        outSlope: {x: -4.1552357E-07, y: 2.2881795E-06, z: 3.434454E-06}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm/Harley_FXDR_biker_rig_RArmDigit11/Harley_FXDR_biker_rig_RArmDigit12
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.107519455, y: -0.032340087, z: -0.5347664}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: 0.107519455, y: -0.032340087, z: -0.5347664}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/jetpack_odrzut1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.107530564, y: -0.0323439, z: -0.5347641}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.107530564, y: -0.0323439, z: -0.5347641}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/jetpack_odrzut2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -3.3608865E-06, y: 0.08331831, z: -0.20878938}
+        inSlope: {x: -0, y: 0.0042319684, z: -0.055551164}
+        outSlope: {x: -0, y: 0.004331941, z: -0.056865413}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -3.3608865E-06, y: 0.08407071, z: -0.21866609}
+        inSlope: {x: -0, y: 0.0046884296, z: -0.061542686}
+        outSlope: {x: -0, y: 0.0047664004, z: -0.06256802}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.14743304, y: -0.009007873, z: 0.26147658}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.14743304, y: -0.009007873, z: 0.26147658}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001/jetpack_skrzydlo2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.14836366, y: -0.009001769, z: 0.25083426}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: 0.14836366, y: -0.009001769, z: 0.25083426}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001/jetpack_skrzydlo1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.23744449, y: 0.15314102, z: 1.5378189}
+        inSlope: {x: 1.5770681, y: 6.5757303, z: -6.1998386}
+        outSlope: {x: 1.5775874, y: 6.5790153, z: -6.202932}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: 0.29739955, y: 0.46203458, z: 1.2465824}
+        inSlope: {x: 1.8067153, y: 10.16522, z: -9.584146}
+        outSlope: {x: 1.8063742, y: 10.163849, z: -9.582854}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: 0.3578692, y: 0.83071274, z: 0.8989789}
+        inSlope: {x: 1.6080807, y: 10.163756, z: -9.5827675}
+        outSlope: {x: 1.6082726, y: 10.165309, z: -9.5842495}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: 0.40460226, y: 1.1396064, z: 0.60774237}
+        inSlope: {x: 0.9825437, y: 6.578948, z: -6.2028832}
+        outSlope: {x: 0.9820441, y: 6.5756125, z: -6.1997476}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: 0.42334715, y: 1.2691435, z: 0.4856098}
+        inSlope: {x: 0.2812337, y: 1.9434768, z: -1.8323975}
+        outSlope: {x: 0.28108072, y: 1.9424707, z: -1.8314178}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: 0.42334715, y: 1.2691435, z: 0.4856098}
+        inSlope: {x: -2.860229E-05, y: -0.00018795505, z: 0.00019885767}
+        outSlope: {x: 1.3322498E-14, y: 8.881666E-15, z: 8.881666E-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_LLegPlatform
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.22095463, y: 0.16833496, z: 1.5446494}
+        inSlope: {x: 2.0990088, y: 6.264155, z: -6.1998386}
+        outSlope: {x: 2.100085, y: 6.267279, z: -6.202916}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.033332825
+        value: {x: -0.12235278, y: 0.46259192, z: 1.2534128}
+        inSlope: {x: 3.2448359, y: 9.683551, z: -9.584108}
+        outSlope: {x: 3.244399, y: 9.682245, z: -9.582854}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.0666666
+        value: {x: -0.0046671275, y: 0.8138006, z: 0.9058093}
+        inSlope: {x: 3.2443688, y: 9.682153, z: -9.5827675}
+        outSlope: {x: 3.2448647, y: 9.683637, z: -9.5842495}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.09999943
+        value: {x: 0.09393472, y: 1.1080575, z: 0.6145728}
+        inSlope: {x: 2.100066, y: 6.2672067, z: -6.2028832}
+        outSlope: {x: 2.0990062, y: 6.2640467, z: -6.1997476}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.1333332
+        value: {x: 0.13528427, y: 1.2314568, z: 0.49244025}
+        inSlope: {x: 0.6203812, y: 1.8514057, z: -1.8323975}
+        outSlope: {x: 0.62004864, y: 1.8504126, z: -1.8314178}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: 0.13528427, y: 1.2314568, z: 0.49244025}
+        inSlope: {x: -6.571793E-05, y: -0.00020158192, z: 0.00019885767}
+        outSlope: {x: -0, y: 1.7763331E-14, z: 8.881666E-15}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_RLegPlatform
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.7603617, y: 2.1754277, z: -0.54588264}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: -0.7603617, y: 2.1754277, z: -0.54588264}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_RArmIKTarget
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.78987366, y: 2.1959245, z: -0.50545484}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666603
+        value: {x: 0.78987366, y: 2.1959245, z: -0.50545484}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_LArmIKTarget
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1, y: 0.99999994, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000001, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000001, y: 1, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999944, y: 1.0000058, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999944, y: 1.0000058, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1/Harley_FXDR_biker_rig_LLeg2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999935, y: 1.0000066, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999935, y: 1.0000066, z: 0.99999964}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_LLeg1/Harley_FXDR_biker_rig_LLeg2/Harley_FXDR_biker_rig_LLegAnkle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000021, y: 0.9999977, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000021, y: 0.9999977, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000013, y: 0.9999985, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000013, y: 0.9999985, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1/Harley_FXDR_biker_rig_RLeg2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000005, y: 0.9999997, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000005, y: 0.9999997, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_RLeg1/Harley_FXDR_biker_rig_RLeg2/Harley_FXDR_biker_rig_RLegAnkle
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999999, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999999, y: 0.9999999, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999994, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.99999994, y: 1, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1, y: 0.9999999, z: 0.99999994}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999946, y: 1, z: 1.0000007}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.99999946, y: 1, z: 1.0000007}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000011, y: 1.0000002, z: 0.99999833}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000011, y: 1.0000002, z: 0.99999833}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999955, y: 1.0000062, z: 0.9999981}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999955, y: 1.0000062, z: 0.9999981}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999905, y: 1.0000021, z: 0.9999985}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.99999905, y: 1.0000021, z: 0.9999985}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm/Harley_FXDR_biker_rig_LArmDigit11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.000006, y: 0.999995, z: 0.9999987}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.000006, y: 0.999995, z: 0.9999987}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_LArmCollarbone/Harley_FXDR_biker_rig_LArm1/Harley_FXDR_biker_rig_LArm2/Harley_FXDR_biker_rig_LArmPalm/Harley_FXDR_biker_rig_LArmDigit11/Harley_FXDR_biker_rig_LArmDigit12
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_heck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999998, y: 0.9999999, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_heck/Harley_FXDR_biker_rig_head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.99999976, y: 0.9999999, z: 1.0000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000007, y: 0.9999998, z: 0.9999993}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000007, y: 0.9999998, z: 0.9999993}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999905, y: 0.9999995, z: 1.0000019}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.99999905, y: 0.9999995, z: 1.0000019}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000048, y: 0.99999344, z: 1.0000025}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000048, y: 0.99999344, z: 1.0000025}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999971, y: 1.0000025, z: 1.0000011}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999971, y: 1.0000025, z: 1.0000011}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm/Harley_FXDR_biker_rig_RArmDigit11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999404, y: 1.0000052, z: 1.000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.99999404, y: 1.0000052, z: 1.000001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Harley_FXDR_biker_rig_Hub004/Harley_FXDR_biker_rig_RArmCollarbone/Harley_FXDR_biker_rig_RArm1/Harley_FXDR_biker_rig_RArm2/Harley_FXDR_biker_rig_RArmPalm/Harley_FXDR_biker_rig_RArmDigit11/Harley_FXDR_biker_rig_RArmDigit12
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.010000001, y: 0.009999999, z: 0.01}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.010000001, y: 0.009999999, z: 0.01}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/jetpack_odrzut1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.009999999, y: 0.010000001, z: 0.01}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.009999999, y: 0.010000001, z: 0.01}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/jetpack_odrzut2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 1.0000004, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999998, y: 1.0000004, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001/jetpack_skrzydlo2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.9999998, y: 1.0000004, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.9999998, y: 1.0000004, z: 0.9999999}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_Hub003/Harley_FXDR_biker_rig_Spine1/Harley_FXDR_biker_rig_Spine2/Harley_FXDR_biker_rig_Spine3/Point001/jetpack_silniki/asda001/jetpack_skrzydlo1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_LLegPlatform
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_RLegPlatform
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 1.0000043, y: 0.99999464, z: 1.000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 1.0000043, y: 0.99999464, z: 1.000002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_RArmIKTarget
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.99999654, y: 1.0000055, z: 0.99999756}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.16666698
+        value: {x: 0.99999654, y: 1.0000055, z: 0.99999756}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Harley_FXDR_biker_rig_LArmIKTarget
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0.06326258, y: 1.5081421, z: 0.51561666}
+    m_Extent: {x: 0.9648094, y: 1.6433395, z: 1.115025}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []

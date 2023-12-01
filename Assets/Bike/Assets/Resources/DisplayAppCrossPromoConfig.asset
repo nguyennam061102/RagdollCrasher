@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f69521e849b5606822250365819f552, type: 3}
+  m_Name: DisplayAppCrossPromoConfig
+  m_EditorClassIdentifier:
+  currentAppID: NONE
+  crossPromoSettings:
+  - AdsetName: RCJ
+    AppTypeID: RCJ_RampCarJumping
+    AppID_GP: com.boomhits.rampcarjumping
+    AppID_iOS: id1491729217
+    AppName: Ramp Car Jumping
+    AppIcon: {fileID: 21300000, guid: 52c42f814d8891d40961e50f8cab7857, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: STJ
+    AppTypeID: STJ_StuntTruckJumping
+    AppID_GP: com.boomhits.truckjump
+    AppID_iOS: id1455335854
+    AppName: Stunt Truck Jumping
+    AppIcon: {fileID: 21300000, guid: 9664731d6c422c8449a1083aba3cd784, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: CC
+    AppTypeID: CC_CarCrusher
+    AppID_GP: com.car.crusher
+    AppID_iOS: id1511955517
+    AppName: Car Crusher
+    AppIcon: {fileID: 21300000, guid: 07275fa7004601b4cab814334d95ebe8, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: BJ
+    AppTypeID: BJ_BikeJumping
+    AppID_GP: com.bike.jump
+    AppID_iOS: id1519402403
+    AppName: Bike Jumping
+    AppIcon: {fileID: 21300000, guid: b449c960bde7f1f4e970f686c8d375b7, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: MRCJ
+    AppTypeID: MRCJ_MegaRampCarJumping
+    AppID_GP: com.meg.car.jumping
+    AppID_iOS: id1529890250
+    AppName: Mega Ramp Car Jumping
+    AppIcon: {fileID: 21300000, guid: aa176ea901a78e045a3161aa9aa35c92, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: DRJ
+    AppTypeID: DRJ_DrawRampJumping
+    AppID_GP: com.draw.ramp.stunt.jumping
+    AppID_iOS: id1606906448
+    AppName: Draw Ramp Jumping
+    AppIcon: {fileID: 21300000, guid: 5c97f1d30f593f841b99613a66c2451e, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: BJWG
+    AppTypeID: BJWG_BaseJumpWingsuitGliding
+    AppID_GP: com.base.jump.gliding
+    AppID_iOS: id1545112621
+    AppName: Base Jump Wing Suit Flying
+    AppIcon: {fileID: 21300000, guid: 0f090719a9457f24ba42ed254d95c510, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: JTC
+    AppTypeID: JTC_JumpTheCar
+    AppID_GP: com.jump.the.car
+    AppID_iOS: id1536540315
+    AppName: Jump The Car
+    AppIcon: {fileID: 21300000, guid: 45dc5077f46f4214d99d5831361e9999, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: RBJ
+    AppTypeID: RBJ_RampBikeJumping
+    AppID_GP: com.ramp.bike.jumping
+    AppID_iOS: id1561747530
+    AppName: Ramp Bike Jumping
+    AppIcon: {fileID: 21300000, guid: 0349109d8e37b084183de46214040a17, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: MRMTC
+    AppTypeID: MRMTC_MatchTheCar
+    AppID_GP: com.multi.race.match.the.car
+    AppID_iOS: id1561772342
+    AppName: 'Multi Race: Match The Car'
+    AppIcon: {fileID: 21300000, guid: e7f2443a16a331e4186508847523a8f5, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: SHFS
+    AppTypeID: SHFS_SuperHeroFlyingSchool
+    AppID_GP: com.superhero.flying.school
+    AppID_iOS: id1575516784
+    AppName: Super Hero Flying School
+    AppIcon: {fileID: 21300000, guid: 7ca643c079b39d7438c901861cb667f6, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: CPL
+    AppTypeID: CPL_CrazyPlaneLanding
+    AppID_GP: com.crazy.plane.landing
+    AppID_iOS: id1577343721
+    AppName: Crazy Plane Landing
+    AppIcon: {fileID: 21300000, guid: d12849b81c53cd74bae9a8bb3a0fb5e3, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: JITP
+    AppTypeID: JITP_JumpIntoThePlane
+    AppID_GP: com.jump.into.plane.stunt
+    AppID_iOS: id1587321298
+    AppName: Jump Into The Plane
+    AppIcon: {fileID: 21300000, guid: 982ea73f715539e44bfb18cd895a8dc2, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: CRJ
+    AppTypeID: CRJ_ConstructionRampJumping
+    AppID_GP: com.construction.ramp.jumping
+    AppID_iOS: id1580396956
+    AppName: Construction Ramp Jumping
+    AppIcon: {fileID: 21300000, guid: ad1e1e32138ea0e478552dd9572081ba, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: SHC
+    AppTypeID: SHC_SuperHeroCars
+    AppID_GP: com.superhero.driving.school
+    AppID_iOS: id1592481371
+    AppName: Super Hero Driving School
+    AppIcon: {fileID: 21300000, guid: 6ce15741b78318943b49ae213af9c8d1, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: TRJ
+    AppTypeID: TRJ_TrainRampJumping
+    AppID_GP: com.train.ramp.jumping
+    AppID_iOS: id1609247127
+    AppName: Train Ramp Jumping
+    AppIcon: {fileID: 21300000, guid: e8cbe5c0ae0dda048aaa5775479e97f2, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: PCF
+    AppTypeID: PRJ_PeopleRunJumping
+    AppID_GP: com.people.can.fly
+    AppID_iOS: id1609264368
+    AppName: Try to Fly
+    AppIcon: {fileID: 21300000, guid: ccadd5dfb004f1f43ac06affd3e0844a, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: PEL
+    AppTypeID: PEL_PlaneEmergencyLanding
+    AppID_GP: com.plane.emergency.landing
+    AppID_iOS: id1620163177
+    AppName: Plane Emergency Landing
+    AppIcon: {fileID: 21300000, guid: fe5b2457a8eeeed47b9e13b04d99cb3d, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: CDM
+    AppTypeID: CDM_CarDestructionMaster
+    AppID_GP: com.car.destruction.master
+    AppID_iOS: id1620309856
+    AppName: Car Destruction Master
+    AppIcon: {fileID: 0}
+    popupErrorShowed: 1
+  - AdsetName: FARS
+    AppTypeID: FARS_FallingArtRagdollSimulator
+    AppID_GP: com.falling.art.ragdoll.simulator
+    AppID_iOS: id1620339095
+    AppName: Falling Art Ragdoll Simulator
+    AppIcon: {fileID: 21300000, guid: 9709491572726974e9677d8dec46217d, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: SRAKA
+    AppTypeID: SRAKA_StuntmanRagdollActionKinematicArt
+    AppID_GP: com.stuntman.ragdoll.action.movie
+    AppID_iOS: id1638920206
+    AppName: Stuntman Ragdoll Action Movie
+    AppIcon: {fileID: 21300000, guid: b4059bf5e3b034f4bb7e3130ca99ec39, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: SRJ
+    AppTypeID: SRJ_ShipRampJumping
+    AppID_GP: com.ship.ramp.jumping
+    AppID_iOS: id6444007597
+    AppName: Ship Ramp Jumping
+    AppIcon: {fileID: 21300000, guid: e8e7c5df5b6ae524694104a74ededbce, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: PRANK
+    AppTypeID: PRANK_ItsPrankBro
+    AppID_GP: com.its.a.prank.bro
+    AppID_iOS: id6444008206
+    AppName: It's a Prank Bro!
+    AppIcon: {fileID: 0}
+    popupErrorShowed: 1
+  - AdsetName: FM
+    AppTypeID: FM_FightMaster
+    AppID_GP: com.fight.master
+    AppID_iOS: id6444009386
+    AppName: Fight Master
+    AppIcon: {fileID: 21300000, guid: e61e0d9d3c0306145bce27b8911df9d9, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: DRCS
+    AppTypeID: DRCS_DocRagdollClinicSimulator
+    AppID_GP: com.doctor.ragdoll.clinic.simulator
+    AppID_iOS: id1664789385
+    AppName: Doc Ragdoll Clinic Simulator
+    AppIcon: {fileID: 21300000, guid: 01594f2a34f4c254d959c4d8769ad3d9, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: RTJ
+    AppTypeID: RTJ_RampTankJumping
+    AppID_GP: com.ramp.tank.jumping
+    AppID_iOS: id6447186744
+    AppName: Ramp Tank Jumping
+    AppIcon: {fileID: 21300000, guid: 01594f2a34f4c254d959c4d8769ad3d9, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: RG
+    AppTypeID: RG_RagdollShooter
+    AppID_GP: com.ragdoll.shooter
+    AppID_iOS: id1111111111
+    AppName: Ragdoll Shooter
+    AppIcon: {fileID: 0}
+    popupErrorShowed: 1
+  - AdsetName: SM
+    AppTypeID: SM_SlapMaster
+    AppID_GP: com.slap.master.simulator
+    AppID_iOS: id6447236444
+    AppName: Slap Master
+    AppIcon: {fileID: 21300000, guid: e2d620151dffd33468a85aa45d0cfc5c, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: SC
+    AppTypeID: SC_ScoringChampion
+    AppID_GP: com.scoring.champion
+    AppID_iOS: id6449462478
+    AppName: Scoring Champion
+    AppIcon: {fileID: 21300000, guid: a75a486dfb7cec847b902afa4cb11f51, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: GSF
+    AppTypeID: GSF_GrandStreetFight
+    AppID_GP: com.grand.street.fight
+    AppID_iOS: id6449464080
+    AppName: Grand Street Fight
+    AppIcon: {fileID: 21300000, guid: ce3b6b258dce251469feef8c61200dc8, type: 2}
+    popupErrorShowed: 0
+  - AdsetName: PC
+    AppTypeID: PC_PlaneChase
+    AppID_GP: com.plane.chase
+    AppID_iOS: id6466814341
+    AppName: Plane Chase
+    AppIcon: {fileID: 21300000, guid: 85ef527760d2ed847a2cf9b74d1b17db, type: 2}
+    popupErrorShowed: 0
+  editor_campaignName: character_unlock
+  editor_generateFromAps:
+  - RCJ_RampCarJumping
+  - STJ_StuntTruckJumping
+  - CC_CarCrusher
+  - BJ_BikeJumping
+  - MRCJ_MegaRampCarJumping
+  - DRJ_DrawRampJumping
+  - BJWG_BaseJumpWingsuitGliding
+  - JTC_JumpTheCar
+  - RBJ_RampBikeJumping
+  - MRMTC_MatchTheCar
+  - SHFS_SuperHeroFlyingSchool
+  - CPL_CrazyPlaneLanding
+  - JITP_JumpIntoThePlane
+  - CRJ_ConstructionRampJumping
+  - SHC_SuperHeroCars
+  - TRJ_TrainRampJumping
+  - PRJ_PeopleRunJumping
+  - PEL_PlaneEmergencyLanding
+  - CDM_CarDestructionMaster
+  - FARS_FallingArtRagdollSimulator
+  - SRAKA_StuntmanRagdollActionKinematicArt
+  editor_generateTargetAps:
+  - RCJ_RampCarJumping
+  - STJ_StuntTruckJumping
+  - CC_CarCrusher
+  - BJ_BikeJumping
+  - MRCJ_MegaRampCarJumping
+  - DRJ_DrawRampJumping
+  - BJWG_BaseJumpWingsuitGliding
+  - JTC_JumpTheCar
+  - RBJ_RampBikeJumping
+  - MRMTC_MatchTheCar
+  - SHFS_SuperHeroFlyingSchool
+  - CPL_CrazyPlaneLanding
+  - JITP_JumpIntoThePlane
+  - CRJ_ConstructionRampJumping
+  - SHC_SuperHeroCars
+  - TRJ_TrainRampJumping
+  - PRJ_PeopleRunJumping
+  - PEL_PlaneEmergencyLanding
+  - CDM_CarDestructionMaster
+  - FARS_FallingArtRagdollSimulator
+  - SRAKA_StuntmanRagdollActionKinematicArt

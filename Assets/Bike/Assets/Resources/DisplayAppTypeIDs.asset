@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72f5dec7cec904018ff3a59039630b8, type: 3}
+  m_Name: DisplayAppTypeIDs
+  m_EditorClassIdentifier:
+  appTypeIDs:
+  - NONE
+  - RCJ_RampCarJumping
+  - STJ_StuntTruckJumping
+  - CC_CarCrusher
+  - BJ_BikeJumping
+  - MRCJ_MegaRampCarJumping
+  - DRJ_DrawRampJumping
+  - BJWG_BaseJumpWingsuitGliding
+  - JTC_JumpTheCar
+  - STC_SlingTheCar
+  - RBJ_RampBikeJumping
+  - MRMTC_MatchTheCar
+  - SHFS_SuperHeroFlyingSchool
+  - CPL_CrazyPlaneLanding
+  - JITP_JumpIntoThePlane
+  - CRJ_ConstructionRampJumping
+  - SHC_SuperHeroCars
+  - TRJ_TrainRampJumping
+  - PRJ_PeopleRunJumping
+  - PEL_PlaneEmergencyLanding
+  - CDM_CarDestructionMaster
+  - FARS_FallingArtRagdollSimulator
+  - SRAKA_StuntmanRagdollActionKinematicArt
+  - SRJ_ShipRampJumping
+  - PRANK_ItsPrankBro
+  - FM_FightMaster
+  - DRCS_DocRagdollClinicSimulator
+  - RTJ_RampTankJumping
+  - RG_RagdollShooter
+  - SM_SlapMaster
+  - SC_ScoringChampion
+  - GSF_GrandStreetFight
+  - PC_PlaneChase
