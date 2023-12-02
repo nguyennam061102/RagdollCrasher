@@ -45,6 +45,12 @@ public class RagdollController : Singleton<RagdollController>
         this.timeNitro = timeNitro;
         rb.velocity = dir * velocity;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
+        StartCoroutine(JetpackAnim());
+    }
+    IEnumerator JetpackAnim()
+    {
+        yield return new WaitForSeconds(0.15f);
+        ChaneAnim(Constants.JETPACKLOOP);
     }
     public void ChaneAnim(string name)
     {

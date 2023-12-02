@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using Dreamteck.Splines;
 using Sirenix.OdinInspector;
+using System.Collections;
 
 public class BikeController : Singleton<BikeController>
 {
@@ -22,6 +23,7 @@ public class BikeController : Singleton<BikeController>
     [SerializeField] bool isAirborne = false;
     [SerializeField] bool isMovePlayer = false;
     [SerializeField] bool isMoving;
+    [SerializeField] bool isStart;
     Vector3 dir;
     void Start()
     {
@@ -34,6 +36,15 @@ public class BikeController : Singleton<BikeController>
         {
             SetAirBorne();
         });
+        spline.AddTrigger(0, 0.06, SplineTrigger.Type.Forward).AddListener(() =>
+        {
+            CameraManager.Ins.ChangeCam(Constants.CAM_FAR);
+            RagdollController.Ins.ChaneAnim(Constants.UPANDDOWN_0);
+        });
+        spline.AddTrigger(0, 0.8, SplineTrigger.Type.Forward).AddListener(() =>
+        {
+            CameraManager.Ins.ChangeCam(Constants.CAM_NEAR);
+        });
     }
     private void Update()
     {
@@ -42,6 +53,14 @@ public class BikeController : Singleton<BikeController>
             if(Input.GetMouseButtonDown(0) && !isMovePlayer)
             {
                 MovePlayer();
+            }
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0) && !isStart)
+            {
+                isStart = true;
+                RagdollController.Ins.ChaneAnim(Constants.START);
             }
         }
     }
@@ -87,6 +106,7 @@ public class BikeController : Singleton<BikeController>
         isMoving = false;
         RagdollController.Ins.transform.SetParent(null);
         RagdollController.Ins.OnInit(velocity, timeNitro);
+        RagdollController.Ins.ChaneAnim(Constants.JETPACKSTART);
         //rb.velocity = dir * velocity;
     }
     void StopAlongSpline()
@@ -144,6 +164,16 @@ public class BikeController : Singleton<BikeController>
         Vector3 dir = transform.forward;
         rb.velocity = dir * splineFollower.followSpeed;
         isAirborne = true;
+        StartCoroutine(ChangeCam());
+    }
+    IEnumerator ChangeCam()
+    {
+        yield return new WaitForSeconds(3f);
+        CameraManager.Ins.ChangeCam(Constants.CAM_RIGHT);
+        yield return new WaitForSeconds(3f);
+        //CameraManager.Ins.ChangeCam(Constants.CAM_LEFT);
+        //yield return new WaitForSeconds(2f);
+        CameraManager.Ins.ChangeCam(Constants.CAM_NEAR);
     }
     public void SetAirBorne()
     {
