@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,8 @@ public class RagdollController : Singleton<RagdollController>
     [SerializeField] Animation anim;
     [SerializeField] Animation animRagdoll;
     [SerializeField] Rigidbody[] ragdollRigidbodies;
+    [SerializeField] Collider col;
+    [SerializeField] Rigidbody rbRagdoll;
     [SerializeField] string currenAnim;
     [SerializeField] bool isMoving;
     [SerializeField] float speed;
@@ -36,14 +39,14 @@ public class RagdollController : Singleton<RagdollController>
             }
         }
     }
-    public void OnInit(float velocity, float timeNitro)
+    public void OnInit(float velocity, float timeNitro, Vector3 direction)
     {
         isMoving = true;
         rb.useGravity = true;
         rb.isKinematic = false;
         this.velocity = velocity;
         this.timeNitro = timeNitro;
-        rb.velocity = dir * velocity;
+        rb.velocity = direction * velocity;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         StartCoroutine(JetpackAnim());
     }
@@ -65,6 +68,7 @@ public class RagdollController : Singleton<RagdollController>
         charAnim.SetActive(false);
         charRagdoll.SetActive(true);
     }
+    [Button]
     public void SetStateRagdoll(bool state)
     {
         foreach (var rigidbody in ragdollRigidbodies)
@@ -72,5 +76,17 @@ public class RagdollController : Singleton<RagdollController>
             rigidbody.isKinematic = state;
         }
         anim.enabled = state;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (isMoving)
+        {
+            SetRagdoll();
+            //rb.velocity = Vector3.zero;
+            rbRagdoll.velocity = dir * velocity * 2;
+            rb.isKinematic = true;
+            //col.isTrigger = false;
+
+        }
     }
 }

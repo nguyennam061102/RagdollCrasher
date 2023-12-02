@@ -2,6 +2,7 @@
 using Dreamteck.Splines;
 using Sirenix.OdinInspector;
 using System.Collections;
+using DG.Tweening;
 
 public class BikeController : Singleton<BikeController>
 {
@@ -24,6 +25,8 @@ public class BikeController : Singleton<BikeController>
     [SerializeField] bool isMovePlayer = false;
     [SerializeField] bool isMoving;
     [SerializeField] bool isStart;
+    [SerializeField] bool isRunRb;
+    [SerializeField] bool isPress;
     Vector3 dir;
     void Start()
     {
@@ -60,7 +63,19 @@ public class BikeController : Singleton<BikeController>
             if (Input.GetMouseButtonDown(0) && !isStart)
             {
                 isStart = true;
+                isPress = true;
                 RagdollController.Ins.ChaneAnim(Constants.START);
+            }
+            if (Input.GetMouseButtonUp(0))
+            {
+                isPress = false;
+            }
+            if (!isPress && splineFollower.followSpeed < 10)
+            {
+                if(splineFollower.followSpeed > 0)
+                {
+                    splineFollower.followSpeed -= Time.deltaTime * speed;
+                }
             }
         }
     }
@@ -105,9 +120,9 @@ public class BikeController : Singleton<BikeController>
         isMovePlayer = true;
         isMoving = false;
         RagdollController.Ins.transform.SetParent(null);
-        RagdollController.Ins.OnInit(velocity, timeNitro);
+        RagdollController.Ins.OnInit(velocity, timeNitro, dir);
         RagdollController.Ins.ChaneAnim(Constants.JETPACKSTART);
-        //rb.velocity = dir * velocity;
+        rb.velocity = dir * velocity * 0.8f;
     }
     void StopAlongSpline()
     {
@@ -146,16 +161,6 @@ public class BikeController : Singleton<BikeController>
         transform.rotation = rotation;
         transform.position = position;
     }
-    void LiftOff()
-    {
-        isAirborne = true;
-    }
-
-    void HandleAirborne()
-    {
-
-    }
-    public bool isRunRb;
 
     public void AddForce()
     {
@@ -168,7 +173,7 @@ public class BikeController : Singleton<BikeController>
     }
     IEnumerator ChangeCam()
     {
-        yield return new WaitForSeconds(3f);
+        //yield return new WaitForSeconds(3f);
         CameraManager.Ins.ChangeCam(Constants.CAM_RIGHT);
         yield return new WaitForSeconds(3f);
         //CameraManager.Ins.ChangeCam(Constants.CAM_LEFT);
