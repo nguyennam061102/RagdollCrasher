@@ -85,8 +85,7 @@ public class RagdollController : Singleton<RagdollController>
             //rb.velocity = Vector3.zero;
             rbRagdoll.velocity = dir * velocity * 2;
             rb.isKinematic = true;
-            //col.isTrigger = false;
-
+            CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
         }
     }
 }
