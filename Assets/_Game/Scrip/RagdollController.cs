@@ -25,7 +25,7 @@ public class RagdollController : Singleton<RagdollController>
     }
     private void Update()
     {
-        dir = transform.forward;  
+        //dir = transform.forward;  
     }
     private void FixedUpdate()
     {
@@ -34,19 +34,23 @@ public class RagdollController : Singleton<RagdollController>
             timeNitro -= Time.deltaTime;
             if (timeNitro > 0)
             {
-                velocity += speed * Time.fixedDeltaTime;
                 rb.velocity = dir * velocity;
+                velocity += speed * Time.fixedDeltaTime * 0.2f;
             }
         }
     }
     public void OnInit(float velocity, float timeNitro, Vector3 direction)
     {
+        ChaneAnim(Constants.JETPACKSTART);
+        transform.SetParent(null);
+        transform.rotation = Quaternion.Euler(-15, 0, 0);
         isMoving = true;
         rb.useGravity = true;
         rb.isKinematic = false;
         this.velocity = velocity;
         this.timeNitro = timeNitro;
-        rb.velocity = direction * velocity;
+        dir = direction;
+        rb.velocity = dir * velocity;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         StartCoroutine(JetpackAnim());
     }
@@ -54,6 +58,8 @@ public class RagdollController : Singleton<RagdollController>
     {
         yield return new WaitForSeconds(0.15f);
         ChaneAnim(Constants.JETPACKLOOP);
+        Time.timeScale = 1f;
+
     }
     public void ChaneAnim(string name)
     {

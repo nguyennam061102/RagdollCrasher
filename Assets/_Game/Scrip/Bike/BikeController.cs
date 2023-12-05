@@ -3,6 +3,7 @@ using Dreamteck.Splines;
 using Sirenix.OdinInspector;
 using System.Collections;
 using DG.Tweening;
+using UnityEngine.EventSystems;
 
 public class BikeController : Singleton<BikeController>
 {
@@ -25,7 +26,6 @@ public class BikeController : Singleton<BikeController>
     [SerializeField] bool isMovePlayer = false;
     [SerializeField] bool isMoving;
     [SerializeField] bool isStart;
-    [SerializeField] bool isRunRb;
     [SerializeField] bool isPress;
     Vector3 dir;
     void Start()
@@ -34,48 +34,34 @@ public class BikeController : Singleton<BikeController>
         spline.AddTrigger(0, 1, SplineTrigger.Type.Forward).AddListener(() =>
         {
             AddForce();
-        });
-        spline.AddTrigger(0, 1, SplineTrigger.Type.Forward).AddListener(() =>
-        {
             SetAirBorne();
-        });
-        spline.AddTrigger(0, 0.06, SplineTrigger.Type.Forward).AddListener(() =>
-        {
-            CameraManager.Ins.ChangeCam(Constants.CAM_FAR);
-            RagdollController.Ins.ChaneAnim(Constants.UPANDDOWN_0);
         });
         spline.AddTrigger(0, 0.8, SplineTrigger.Type.Forward).AddListener(() =>
         {
-            CameraManager.Ins.ChangeCam(Constants.CAM_NEAR);
+            StartCoroutine(ChangeCam());
         });
+        spline.AddTrigger(0, 0.1, SplineTrigger.Type.Forward).AddListener(() =>
+        {
+            CameraManager.Ins.ChangeCam(Constants.CAM_FAR);
+            RagdollController.Ins.ChaneAnim(Constants.UPANDDOWN_0);
+            //Time.timeScale = 1.5f;
+        });
+        spline.AddTrigger(0, 0.7, SplineTrigger.Type.Forward).AddListener(() =>
+        {
+            CameraManager.Ins.ChangeCam(Constants.CAM_NEAR);
+            Time.timeScale = 1;
+            
+        });
+        GetInput();
     }
     private void Update()
     {
-        if (isAirborne)
+        //dir = transform.forward;
+        if (!isPress && splineFollower.followSpeed < 10)
         {
-            if(Input.GetMouseButtonDown(0) && !isMovePlayer)
+            if(splineFollower.followSpeed > 0)
             {
-                MovePlayer();
-            }
-        }
-        else
-        {
-            if (Input.GetMouseButtonDown(0) && !isStart)
-            {
-                isStart = true;
-                isPress = true;
-                RagdollController.Ins.ChaneAnim(Constants.START);
-            }
-            if (Input.GetMouseButtonUp(0))
-            {
-                isPress = false;
-            }
-            if (!isPress && splineFollower.followSpeed < 10)
-            {
-                if(splineFollower.followSpeed > 0)
-                {
-                    splineFollower.followSpeed -= Time.deltaTime * speed;
-                }
+                splineFollower.followSpeed -= Time.deltaTime * speed;
             }
         }
     }
@@ -84,17 +70,57 @@ public class BikeController : Singleton<BikeController>
         MoveAlongSpline();
     }
 
+    void GetInput()
+    {
+        EventTrigger.Entry entryDown = new EventTrigger.Entry();
+        entryDown.eventID = EventTriggerType.PointerDown;
+        entryDown.callback.AddListener((data) => {
+            CheckPointDown();
+        });
+        HandleInput.Ins.EventTrigger.triggers.Add(entryDown);
+
+        EventTrigger.Entry entryUp = new EventTrigger.Entry();
+        entryUp.eventID = EventTriggerType.PointerUp;
+        entryUp.callback.AddListener((data) => {
+            CheckPointUp();
+        });
+        HandleInput.Ins.EventTrigger.triggers.Add(entryUp);
+    }
+    void CheckPointDown()
+    {
+        if (isAirborne)
+        {
+            if (!isMovePlayer)
+            {
+                MovePlayer();
+            }
+        }
+        else
+        {
+            if (!isStart)
+            {
+                RagdollController.Ins.ChaneAnim(Constants.START);
+                isStart = true;
+            }
+            isPress = true;
+        }
+    }
+    void CheckPointUp()
+    {
+        isPress = false;
+    }
     void MoveAlongSpline()
     {
-        dir = transform.forward;
-        if (!isMoving) return;
-        if (Input.GetMouseButton(0))
+        if (isPress && isMoving)
         {
             if (isAirborne)
             {
                 timeNitro -= Time.deltaTime;
                 if (timeNitro > 0)
                 {
+                    //rb.AddForce(dir * splineFollower.followSpeed * 100);
+                    dir = rb.velocity.normalized;
+                    dir.x = 0;
                     rb.velocity = dir * velocity;
                     velocity += speed * Time.fixedDeltaTime;
                     splineFollower.followSpeed = velocity;
@@ -106,12 +132,12 @@ public class BikeController : Singleton<BikeController>
             }
             else
             {
-                rb.velocity = dir * velocity;
+                rb.velocity = transform.forward * velocity;
                 velocity += speed * Time.fixedDeltaTime;
                 splineFollower.followSpeed = velocity;
             }
         }
-        
+
         RotateWheel(_colliderF, _transformF);
         RotateWheel(_colliderB, _transformB);
     }
@@ -119,36 +145,9 @@ public class BikeController : Singleton<BikeController>
     {
         isMovePlayer = true;
         isMoving = false;
-        RagdollController.Ins.transform.SetParent(null);
+
+        rb.velocity = dir * velocity;
         RagdollController.Ins.OnInit(velocity, timeNitro, dir);
-        RagdollController.Ins.ChaneAnim(Constants.JETPACKSTART);
-        rb.velocity = dir * velocity * 0.8f;
-    }
-    void StopAlongSpline()
-    {
-        if(Input.GetMouseButtonUp(0))
-        {
-            if (isAirborne)
-            {
-                timeNitro -= Time.deltaTime;
-                if (timeNitro > 0)
-                {
-                    //Vector3 dir = transform.forward;
-                    //rb.velocity = dir * splineFollower.followSpeed;
-                    splineFollower.followSpeed += Time.fixedDeltaTime;
-                    RotateWheel(_colliderF, _transformF);
-                    RotateWheel(_colliderB, _transformB);
-                }
-            }
-            else
-            {
-                //Vector3 dir = transform.forward;
-                //rb.velocity = dir * splineFollower.followSpeed;
-                splineFollower.followSpeed += speed * Time.fixedDeltaTime;
-                RotateWheel(_colliderF, _transformF);
-                RotateWheel(_colliderB, _transformB);
-            }
-        }
     }
 
     private void RotateWheel(WheelCollider coll, Transform transform)
@@ -164,18 +163,17 @@ public class BikeController : Singleton<BikeController>
 
     public void AddForce()
     {
-        isRunRb = true;
         splineFollower.follow = false;
-        Vector3 dir = transform.forward;
+        dir = transform.forward;
         rb.velocity = dir * splineFollower.followSpeed;
         isAirborne = true;
-        StartCoroutine(ChangeCam());
+        Time.timeScale = 0.75f;
     }
     IEnumerator ChangeCam()
     {
         //yield return new WaitForSeconds(3f);
         CameraManager.Ins.ChangeCam(Constants.CAM_RIGHT);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         //CameraManager.Ins.ChangeCam(Constants.CAM_LEFT);
         //yield return new WaitForSeconds(2f);
         CameraManager.Ins.ChangeCam(Constants.CAM_NEAR);

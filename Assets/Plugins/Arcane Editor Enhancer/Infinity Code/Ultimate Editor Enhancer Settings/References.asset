@@ -227,5 +227,7 @@ MonoBehaviour:
     alignWindowToBar: 1
     windowMode: 0
   _sceneHistory:
+  - name: Main
+    path: Assets/Bike/Assets/[[MultiProjectPlugin]]/[ProjectConfigs]/BJ/Scenes/Main.unity
   - name: GamePlay
     path: Assets/_Game/Scenes/GamePlay.unity

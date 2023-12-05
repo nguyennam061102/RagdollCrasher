@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4462924151724900}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   - {fileID: 4734937466156291}
   m_Father: {fileID: 4866143310019248}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -161.99986, y: 30.929766, z: 85.75049}
+  m_LocalEulerAnglesHint: {x: 47.315117, y: -174.18236, z: -17.070936}
 --- !u!1 &1002829473708372
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 54078598577733317}
   - component: {fileID: 65303764916148059}
   - component: {fileID: 144648715559332508}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4184968573735059}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4982166666668946}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 4014926900138211}
   - component: {fileID: 33717329408148620}
   - component: {fileID: 23820555810688866}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: asda001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ Transform:
   - {fileID: 4664675071394591}
   m_Father: {fileID: 4252545553033903}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33717329408148620
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4117002328840261}
   - component: {fileID: 137710801163628276}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 23033439800282450}
   - component: {fileID: 64861357718585662}
   - component: {fileID: 54866783975588899}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_Davidson_bak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 54737855822170245}
   - component: {fileID: 136500759592043644}
   - component: {fileID: 144979265450888899}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -636,7 +636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4454279470063891}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 23026899820456482}
   - component: {fileID: 64125721527924012}
   - component: {fileID: 54259581399537301}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_Davidson_kolor_przod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 4565564987942488}
   - component: {fileID: 33184300839420088}
   - component: {fileID: 23599849779899804}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_skrzydlo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -866,7 +866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4561455862292858}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Point001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -898,7 +898,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4953642260694295}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,7 +931,7 @@ GameObject:
   - component: {fileID: 4776508678767529}
   - component: {fileID: 198663375174774360}
   - component: {fileID: 199149322116545975}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: SpeedLines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +946,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105590792380473}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 1.38, z: -1.02}
+  m_LocalPosition: {x: 0, y: 1.38, z: 1.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3156,7 +3156,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 7597dc5fbf158ff49abdb2d4493a1c53, type: 2}
-  - {fileID: 2100000, guid: 7597dc5fbf158ff49abdb2d4493a1c53, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3216,7 +3215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4010007301396353}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3237,7 +3236,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4126519788551998}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 13.685848, y: -11.540942, z: 15.088837}
+  m_LocalEulerAnglesHint: {x: -0.00010059122, y: -0.000056969773, z: 8.996091}
 --- !u!1 &1115718985854477
 GameObject:
   m_ObjectHideFlags: 0
@@ -3247,7 +3246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4431660532037282}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmIKTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3278,7 +3277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4644743625639982}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_Hub004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3315,7 +3314,7 @@ GameObject:
   - component: {fileID: 54713540035453705}
   - component: {fileID: 136412654850742891}
   - component: {fileID: 144702989506730375}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3423,7 +3422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4926182341029854}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Spine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3456,7 +3455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4066321608007817}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3477,7 +3476,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4248916052056872}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: -0, z: 89.99999}
+  m_LocalEulerAnglesHint: {x: -0.000009696241, y: 90, z: -90}
 --- !u!1 &1160198744860899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3487,7 +3486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4805632634076074}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3523,7 +3522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4387177272727504}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_Hub003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3558,13 +3557,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4982307684242300}
   - component: {fileID: 111452761149977513}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_do_ragdoll_tpose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4982307684242300
 Transform:
   m_ObjectHideFlags: 0
@@ -3572,8 +3571,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220845265919692}
-  m_LocalRotation: {x: -0, y: 0.8660254, z: 0.49999997, w: 0}
-  m_LocalPosition: {x: 0, y: -1.6568689, z: -1.3697813}
+  m_LocalRotation: {x: 0, y: 0.9848078, z: -0.17364816, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3586,7 +3585,7 @@ Transform:
   - {fileID: 4953642260694295}
   m_Father: {fileID: 4227853865128147}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 120, y: -0, z: 180}
+  m_LocalEulerAnglesHint: {x: 20, y: 180, z: 0}
 --- !u!111 &111452761149977513
 Animation:
   m_ObjectHideFlags: 0
@@ -3596,8 +3595,10 @@ Animation:
   m_GameObject: {fileID: 1220845265919692}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
+  m_Animation: {fileID: 7400000, guid: b3f46dc216bf62c4c95b85caeb90fb6a, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b3f46dc216bf62c4c95b85caeb90fb6a, type: 2}
+  - {fileID: 7400000, guid: 8efa814b793159b43816ce4cabe389c1, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -3613,7 +3614,7 @@ GameObject:
   - component: {fileID: 4753029943532205}
   - component: {fileID: 54636043083421955}
   - component: {fileID: 65771825148302554}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Hub003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3676,7 +3677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4601845759284275}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3698,7 +3699,7 @@ Transform:
   - {fileID: 4025722921233466}
   m_Father: {fileID: 4734381008807827}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 111.26792, y: -64.64783, z: -112.69264}
+  m_LocalEulerAnglesHint: {x: -3.2729394, y: 98.949715, z: 23.308386}
 --- !u!1 &1235970896335600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,7 +3709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4334780923689063}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3730,7 +3731,7 @@ Transform:
   - {fileID: 4349797218813622}
   m_Father: {fileID: 4189810336678649}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 9.850685, y: -0.59982437, z: -31.593098}
+  m_LocalEulerAnglesHint: {x: 8.066456, y: 5.7043686, z: 31.943949}
 --- !u!1 &1240435774204504
 GameObject:
   m_ObjectHideFlags: 0
@@ -3740,7 +3741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4866169580316658}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: DamageController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3754,7 +3755,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240435774204504}
-  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.0146999955, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3764,7 +3765,7 @@ Transform:
   - {fileID: 4227853865128147}
   m_Father: {fileID: 4636769324863110}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.000002504478, y: -0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
 --- !u!1 &1244031752673223
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,7 +3775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4400860090831373}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LArmIKTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3808,7 +3809,7 @@ GameObject:
   - component: {fileID: 33431020365092157}
   - component: {fileID: 23371334208723848}
   - component: {fileID: 136120531176958078}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3904,7 +3905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4691734564513993}
   - component: {fileID: 111614599691799918}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_machanie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3959,7 +3960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4126519788551998}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_heck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3981,7 +3982,7 @@ Transform:
   - {fileID: 4010007301396353}
   m_Father: {fileID: 4734381008807827}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.00000010672172, y: 0.000002988208, z: -5.6824102}
+  m_LocalEulerAnglesHint: {x: -0.00000050476723, y: 0.0000008869009, z: 5.68241}
 --- !u!1 &1255482649238680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3991,7 +3992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4797525575496843}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4013,7 +4014,7 @@ Transform:
   - {fileID: 4189810336678649}
   m_Father: {fileID: 4615538901928500}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.00052421686, y: -0.0005553804, z: 33.67168}
+  m_LocalEulerAnglesHint: {x: 0.0030820689, y: 0.0015427892, z: -80.486824}
 --- !u!1 &1263539237308319
 GameObject:
   m_ObjectHideFlags: 0
@@ -4026,7 +4027,7 @@ GameObject:
   - component: {fileID: 54565391912265219}
   - component: {fileID: 135386798353618641}
   - component: {fileID: 144958610900935161}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4132,7 +4133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4961281500399389}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4163,7 +4164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4154773388659636}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4196,7 +4197,7 @@ GameObject:
   - component: {fileID: 4239488242548226}
   - component: {fileID: 33952811172114281}
   - component: {fileID: 23125210418289284}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: jetpack_silniki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4280,7 +4281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4015123042836096}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4312,7 +4313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4636171797366609}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4346,7 +4347,7 @@ GameObject:
   - component: {fileID: 54284986425527913}
   - component: {fileID: 136005086993511402}
   - component: {fileID: 144836151724338509}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4455,7 +4456,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4636769324863110}
   - component: {fileID: 54830720721158944}
-  m_Layer: 11
+  - component: {fileID: 1817640918}
+  - component: {fileID: 1817640920}
+  m_Layer: 6
   m_Name: HarleyFXDR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4501,6 +4504,153 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 98
   m_CollisionDetection: 3
+--- !u!114 &1817640918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312129378488261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdeec3c43dd375249b0ac6b7d939e489, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  needDontDestroy: 0
+  rb: {fileID: 54830720721158944}
+  anim: {fileID: 0}
+  splineFollower: {fileID: 1817640920}
+  spline: {fileID: 0}
+  _transformF: {fileID: 4789631404824881}
+  _transformB: {fileID: 4091733028118362}
+  _colliderF: {fileID: 146377079232304481}
+  _colliderB: {fileID: 146413597516863504}
+  speed: 4
+  velocity: 0
+  timeNitro: 3.5
+  isAirborne: 0
+  isMovePlayer: 0
+  isMoving: 0
+  isStart: 0
+  isRunRb: 0
+  isPress: 0
+--- !u!114 &1817640920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312129378488261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ddc1a2536715a24095c464a2c394d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateMethod: 0
+  _spline: {fileID: 0}
+  _autoUpdate: 1
+  _rotationModifier:
+    blend: 1
+    useClippedPercent: 0
+    keys: []
+  _offsetModifier:
+    blend: 1
+    useClippedPercent: 0
+    keys: []
+  _colorModifier:
+    blend: 1
+    useClippedPercent: 0
+    keys: []
+  _sizeModifier:
+    blend: 1
+    useClippedPercent: 0
+    keys: []
+  _clipFromSample:
+    position: {x: 0, y: 81.23672, z: 9.107346}
+    up: {x: 0, y: 1, z: 0}
+    forward: {x: 0, y: 0.00040017834, z: 0.99999994}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0
+  _clipToSample:
+    position: {x: 0.012205124, y: 29.592978, z: 111.09771}
+    up: {x: 0, y: 1, z: 0}
+    forward: {x: 0.012560387, y: 0.68909204, z: 0.72456497}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 1
+  _loopSamples: 0
+  _clipFrom: 0
+  _clipTo: 1
+  animClipFrom: 0
+  animClipTo: 1
+  multithreaded: 0
+  buildOnAwake: 1
+  buildOnEnable: 0
+  applyDirectionRotation: 0
+  useTriggers: 1
+  triggerGroup: 0
+  _direction: 1
+  _dontLerpDirection: 0
+  _physicsMode: 1
+  _motion:
+    _hasOffset: 0
+    _hasRotationOffset: 0
+    _offset: {x: 0, y: 0}
+    _rotationOffset: {x: 0, y: 0, z: 0}
+    _baseScale: {x: 1, y: 1, z: 1}
+    _2dMode: 0
+    velocityHandleMode: 0
+    applyPositionX: 0
+    applyPositionY: 1
+    applyPositionZ: 1
+    applyPosition2D: 1
+    retainLocalPosition: 0
+    direction: 1
+    applyRotationX: 1
+    applyRotationY: 1
+    applyRotationZ: 1
+    applyRotation2D: 1
+    retainLocalRotation: 0
+    applyScaleX: 0
+    applyScaleY: 0
+    applyScaleZ: 0
+    targetUser: {fileID: 1817640920}
+  targetRigidbody: {fileID: 54830720721158944}
+  targetRigidbody2D: {fileID: 0}
+  targetTransform: {fileID: 4636769324863110}
+  _result:
+    position: {x: 0, y: 81.23672, z: 9.107346}
+    up: {x: 0, y: 1, z: 0}
+    forward: {x: 0, y: 0.00040017834, z: 0.99999994}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0
+  _finalResult:
+    position: {x: 0, y: 81.23672, z: 9.107346}
+    up: {x: 0, y: 1, z: 0}
+    forward: {x: 0, y: 0.00040017834, z: 0.99999994}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0
+  wrapMode: 0
+  followMode: 0
+  autoStartPosition: 0
+  _follow: 1
+  _startPosition: 0
+  preserveUniformSpeedWithOffset: 0
+  _followSpeed: 0
+  _followDuration: 1
+  _speedModifier:
+    blend: 1
+    useClippedPercent: 0
+    keys: []
+  _unityOnEndReached:
+    m_PersistentCalls:
+      m_Calls: []
+  _unityOnBeginningReached:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1321045983578078
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,7 +4660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4526613286117038}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4542,7 +4692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4870703083405897}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4574,7 +4724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4866143310019248}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Hub003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4598,7 +4748,7 @@ Transform:
   - {fileID: 4616292035520521}
   m_Father: {fileID: 4248916052056872}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -91.7237, y: 19.928625, z: 84.95433}
+  m_LocalEulerAnglesHint: {x: -0.47779882, y: 88.68671, z: -109.99086}
 --- !u!1 &1338314384376704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4608,7 +4758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4057610511412395}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4629,7 +4779,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4248916052056872}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -90, y: -0, z: 89.999985}
+  m_LocalEulerAnglesHint: {x: 4.1517687, y: 80.594315, z: -152.18785}
 --- !u!1 &1339859681676290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4639,7 +4789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4711483628139337}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4661,7 +4811,7 @@ Transform:
   - {fileID: 4266157501970730}
   m_Father: {fileID: 4689610843250438}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -8.890519, y: -4.3012404, z: -60.65862}
+  m_LocalEulerAnglesHint: {x: -8.066549, y: -5.704314, z: 61.395687}
 --- !u!1 &1345010841073114
 GameObject:
   m_ObjectHideFlags: 0
@@ -4671,7 +4821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4025722921233466}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4693,7 +4843,7 @@ Transform:
   - {fileID: 4348659620912378}
   m_Father: {fileID: 4601845759284275}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -86.36164, y: -17.19459, z: 86.57093}
+  m_LocalEulerAnglesHint: {x: -5.930586, y: 58.432358, z: -38.98095}
 --- !u!1 &1347368552002928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4704,7 +4854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4059495358135062}
   - component: {fileID: 136498301574624387}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4750,7 +4900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4937655027581265}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4782,7 +4932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4647643270295375}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4815,7 +4965,7 @@ GameObject:
   - component: {fileID: 4177655259239143}
   - component: {fileID: 33453390344017584}
   - component: {fileID: 23873705614158016}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_odrzut1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4896,7 +5046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4689610843250438}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4918,7 +5068,7 @@ Transform:
   - {fileID: 4711483628139337}
   m_Father: {fileID: 4348659620912378}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -9.240721, y: -5.062214, z: 9.16991}
+  m_LocalEulerAnglesHint: {x: -87.537636, y: 165.01546, z: -179.69601}
 --- !u!1 &1396793740065366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4930,7 +5080,7 @@ GameObject:
   - component: {fileID: 4605813498182237}
   - component: {fileID: 33061729607229534}
   - component: {fileID: 23662843568828486}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: jetpack_odrzut2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5011,7 +5161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4172959680244335}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5047,7 +5197,7 @@ GameObject:
   - component: {fileID: 23696200363395259}
   - component: {fileID: 64295868967684911}
   - component: {fileID: 54901036381510634}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_Davidson_blotnik_tyl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5141,7 +5291,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403209072504111}
   serializedVersion: 2
-  m_Mass: 10
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -5158,7 +5308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4410311222578448}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5190,7 +5340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4841727065809292}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5211,7 +5361,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4734937466156291}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -16.414064, y: 34.974186, z: 66.26596}
+  m_LocalEulerAnglesHint: {x: -43.270065, y: 16.301264, z: -51.40085}
 --- !u!1 &1409125109942264
 GameObject:
   m_ObjectHideFlags: 0
@@ -5221,7 +5371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4307205626257727}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5256,7 +5406,7 @@ GameObject:
   - component: {fileID: 23577492163255820}
   - component: {fileID: 64366966349782165}
   - component: {fileID: 54854722638916957}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_Davidson_zawieszenie_przod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5368,7 +5518,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4138106532817006}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5400,7 +5550,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4932125780881285}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5434,7 +5584,7 @@ GameObject:
   - component: {fileID: 4117700601454408}
   - component: {fileID: 33593120358589671}
   - component: {fileID: 23038330886056975}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: asda001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5517,7 +5667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4874991701051063}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5550,7 +5700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4607880205945761}
   - component: {fileID: 137348762150194657}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5660,7 +5810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4283236363488134}
   - component: {fileID: 146413597516863504}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: wheel1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5697,9 +5847,9 @@ WheelCollider:
     spring: 24347.594
     damper: 208.69365
     targetPosition: 0.5
-  m_SuspensionDistance: 0.40040818
+  m_SuspensionDistance: 0.34
   m_ForceAppPointDistance: 0.7740407
-  m_Mass: 20
+  m_Mass: 200
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
     m_ExtremumSlip: 1.4
@@ -5723,7 +5873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4149824072789783}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5745,7 +5895,7 @@ Transform:
   - {fileID: 4615538901928500}
   m_Father: {fileID: 4734381008807827}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -111.267944, y: 64.64783, z: -112.69267}
+  m_LocalEulerAnglesHint: {x: 3.272956, y: -98.94972, z: 23.308382}
 --- !u!1 &1495163141522644
 GameObject:
   m_ObjectHideFlags: 0
@@ -5755,7 +5905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4903849971090437}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5789,7 +5939,7 @@ GameObject:
   - component: {fileID: 4825328856718039}
   - component: {fileID: 198479373201294827}
   - component: {fileID: 199444584377026529}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: CFXM_FlameC (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8076,7 +8226,7 @@ GameObject:
   - component: {fileID: 4664675071394591}
   - component: {fileID: 33268233153774787}
   - component: {fileID: 23715901101207045}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_skrzydlo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8097,7 +8247,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4014926900138211}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 85.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33268233153774787
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8160,7 +8310,7 @@ GameObject:
   - component: {fileID: 54222099607853063}
   - component: {fileID: 136629149493614787}
   - component: {fileID: 144186043950139939}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8268,7 +8418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4291160160253742}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8300,7 +8450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4072458303193032}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Spine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8323,7 +8473,7 @@ Transform:
   - {fileID: 4506926497496732}
   m_Father: {fileID: 4570540279163538}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.18683, y: -5.181532, z: -1.91213}
+  m_LocalEulerAnglesHint: {x: -0.0012247073, y: 0.00975901, z: -0.87030506}
 --- !u!1 &1512109175975937
 GameObject:
   m_ObjectHideFlags: 0
@@ -8333,7 +8483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4291732961081212}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8365,7 +8515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4348659620912378}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8387,7 +8537,7 @@ Transform:
   - {fileID: 4689610843250438}
   m_Father: {fileID: 4025722921233466}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.00034663206, y: 0.0007802579, z: 45.465908}
+  m_LocalEulerAnglesHint: {x: -0.0005056389, y: 0.0004631094, z: -59.380684}
 --- !u!1 &1542632264086527
 GameObject:
   m_ObjectHideFlags: 0
@@ -8397,7 +8547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4445639079288853}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8428,7 +8578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4506926497496732}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Point001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8450,7 +8600,7 @@ Transform:
   - {fileID: 4252545553033903}
   m_Father: {fileID: 4072458303193032}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0.0000025613206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.0000028418192}
 --- !u!1 &1546084253116554
 GameObject:
   m_ObjectHideFlags: 0
@@ -8463,7 +8613,7 @@ GameObject:
   - component: {fileID: 54002685054774915}
   - component: {fileID: 136720797805492440}
   - component: {fileID: 144022475713297955}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8571,7 +8721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4435536805969864}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8602,7 +8752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579925617623036}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Point001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8636,7 +8786,7 @@ GameObject:
   - component: {fileID: 4292231044056987}
   - component: {fileID: 33580640821950750}
   - component: {fileID: 23479317842370433}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: jetpack_skrzydlo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8717,7 +8867,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4189810336678649}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8739,7 +8889,7 @@ Transform:
   - {fileID: 4334780923689063}
   m_Father: {fileID: 4797525575496843}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 49.471718, y: 2.2809043, z: 3.0367792}
+  m_LocalEulerAnglesHint: {x: 73.9856, y: -183.56812, z: 165.23866}
 --- !u!1 &1559939149975162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8751,7 +8901,7 @@ GameObject:
   - component: {fileID: 4906009939673045}
   - component: {fileID: 33153272466629459}
   - component: {fileID: 23508676443373670}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_odrzut2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8772,7 +8922,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4252545553033903}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33153272466629459
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8832,7 +8982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4673767087573266}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: ColliderCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8866,7 +9016,7 @@ GameObject:
   - component: {fileID: 4565622367341730}
   - component: {fileID: 33400330838071748}
   - component: {fileID: 23074014098741591}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8950,7 +9100,7 @@ GameObject:
   - component: {fileID: 54380630092841920}
   - component: {fileID: 136223591313953170}
   - component: {fileID: 144577233571936205}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9062,7 +9212,7 @@ GameObject:
   - component: {fileID: 23564564001302780}
   - component: {fileID: 54790697048797618}
   - component: {fileID: 64417535059374799}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_silniki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9178,7 +9328,7 @@ GameObject:
   - component: {fileID: 4816829671502167}
   - component: {fileID: 33723665876888357}
   - component: {fileID: 23915865359048515}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_skrzydlo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9199,7 +9349,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4014926900138211}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -85.00001, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33723665876888357
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9259,7 +9409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4349797218813622}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9280,7 +9430,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4334780923689063}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.000032443215, y: 0.000032443586, z: -24.868769}
+  m_LocalEulerAnglesHint: {x: -0.00001434525, y: -0.000042086343, z: 24.868769}
 --- !u!1 &1625222484348622
 GameObject:
   m_ObjectHideFlags: 0
@@ -9290,7 +9440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4894736490897899}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Hub004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9327,7 +9477,7 @@ GameObject:
   - component: {fileID: 54919377054226332}
   - component: {fileID: 136825692816634529}
   - component: {fileID: 144204488930978534}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9437,7 +9587,7 @@ GameObject:
   - component: {fileID: 4109463129635046}
   - component: {fileID: 33263445872157557}
   - component: {fileID: 23739364794531045}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_odrzut1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9458,7 +9608,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4252545553033903}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33263445872157557
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9520,7 +9670,8 @@ GameObject:
   - component: {fileID: 4227853865128147}
   - component: {fileID: 54129946700870189}
   - component: {fileID: 136292534060316430}
-  m_Layer: 11
+  - component: {fileID: 708629718}
+  m_Layer: 7
   m_Name: RagdollController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9534,8 +9685,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642153997372609}
-  m_LocalRotation: {x: -0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 2, z: -0.75}
+  m_LocalRotation: {x: 0.13052616, y: 0, z: 0, w: 0.9914449}
+  m_LocalPosition: {x: 0, y: 0.08, z: 0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9543,7 +9694,7 @@ Transform:
   - {fileID: 4982307684242300}
   m_Father: {fileID: 4866169580316658}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -60, y: -0, z: 0}
+  m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
 --- !u!54 &54129946700870189
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9555,9 +9706,9 @@ Rigidbody:
   m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
 --- !u!136 &136292534060316430
@@ -9570,10 +9721,48 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.33
-  m_Height: 2.66
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.46
+  m_Height: 4.19
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.34, z: -0.84}
+--- !u!114 &708629718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642153997372609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f5cdcc859789a43b6ca88ba7f3332f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  needDontDestroy: 0
+  rb: {fileID: 54129946700870189}
+  charRagdoll: {fileID: 1220845265919692}
+  charAnim: {fileID: 1909783710367555}
+  anim: {fileID: 111307609042217466}
+  animRagdoll: {fileID: 111452761149977513}
+  ragdollRigidbodies:
+  - {fileID: 54636043083421955}
+  - {fileID: 54832392984897134}
+  - {fileID: 54380630092841920}
+  - {fileID: 54737855822170245}
+  - {fileID: 54222099607853063}
+  - {fileID: 54078598577733317}
+  - {fileID: 54565391912265219}
+  - {fileID: 54284986425527913}
+  - {fileID: 54919377054226332}
+  - {fileID: 54713540035453705}
+  - {fileID: 54002685054774915}
+  - {fileID: 54790697048797618}
+  col: {fileID: 136292534060316430}
+  rbRagdoll: {fileID: 54636043083421955}
+  currenAnim: 
+  isMoving: 0
+  speed: 10
+  velocity: 0
+  timeNitro: 0
 --- !u!1 &1651547800262136
 GameObject:
   m_ObjectHideFlags: 0
@@ -9583,7 +9772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4631364706276210}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmIKTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9604,7 +9793,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4248916052056872}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 172.77983, y: -75.71262, z: 161.08337}
+  m_LocalEulerAnglesHint: {x: -25.503616, y: 105.7393, z: -5.085572}
 --- !u!1 &1655639380467786
 GameObject:
   m_ObjectHideFlags: 0
@@ -9616,7 +9805,7 @@ GameObject:
   - component: {fileID: 4045286879605823}
   - component: {fileID: 198991536715996978}
   - component: {fileID: 199787810503401849}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11982,7 +12171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4734381008807827}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Hub004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12006,7 +12195,7 @@ Transform:
   - {fileID: 4149824072789783}
   m_Father: {fileID: 4072458303193032}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.8343016, y: -3.5251927, z: 4.8647976}
+  m_LocalEulerAnglesHint: {x: -0.0016732351, y: 0.011383048, z: -6.1409645}
 --- !u!1 &1657306273390765
 GameObject:
   m_ObjectHideFlags: 0
@@ -12016,7 +12205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4154419818389980}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12038,7 +12227,7 @@ Transform:
   - {fileID: 4309338649047545}
   m_Father: {fileID: 4335248522106457}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.009190715, y: -0.014428429, z: -39.07754}
+  m_LocalEulerAnglesHint: {x: -0.012588067, y: 0.0013574408, z: 36.83655}
 --- !u!1 &1665603088504474
 GameObject:
   m_ObjectHideFlags: 0
@@ -12048,7 +12237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4525987270921005}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_Spine3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12081,7 +12270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4984263785789785}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12114,7 +12303,7 @@ GameObject:
   - component: {fileID: 4196837564881395}
   - component: {fileID: 33640548452205577}
   - component: {fileID: 23834379925970960}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_Davidson
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12196,7 +12385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4595426180317716}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12230,7 +12419,7 @@ GameObject:
   - component: {fileID: 4286038592611261}
   - component: {fileID: 33257418211023783}
   - component: {fileID: 23177811474592897}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_skrzydlo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12311,7 +12500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4309338649047545}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12332,7 +12521,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4154419818389980}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.1089187, y: -20.814486, z: 57.57043}
+  m_LocalEulerAnglesHint: {x: 17.396065, y: 4.287815, z: -30.536022}
 --- !u!1 &1705730554824641
 GameObject:
   m_ObjectHideFlags: 0
@@ -12342,7 +12531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4528359488990907}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12374,7 +12563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4409304740228694}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12405,7 +12594,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4266157501970730}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12426,7 +12615,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4711483628139337}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.000028174674, y: -0.000031589432, z: -24.868847}
+  m_LocalEulerAnglesHint: {x: 0.000010254199, y: 0.000027243494, z: 24.868835}
 --- !u!1 &1713559722618503
 GameObject:
   m_ObjectHideFlags: 0
@@ -12436,7 +12625,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4803870317781179}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12468,7 +12657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4428665392008619}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12501,7 +12690,7 @@ GameObject:
   - component: {fileID: 4308962962953514}
   - component: {fileID: 33017850617040916}
   - component: {fileID: 23241847447429092}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: asda001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12584,7 +12773,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4734937466156291}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12606,7 +12795,7 @@ Transform:
   - {fileID: 4841727065809292}
   m_Father: {fileID: 4462924151724900}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.023863444, y: 0.047682337, z: -59.89793}
+  m_LocalEulerAnglesHint: {x: 0.012510931, y: -0.032129522, z: 42.052643}
 --- !u!1 &1752917095735317
 GameObject:
   m_ObjectHideFlags: 0
@@ -12616,7 +12805,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4292258727190784}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12648,7 +12837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4615538901928500}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12670,7 +12859,7 @@ Transform:
   - {fileID: 4797525575496843}
   m_Father: {fileID: 4149824072789783}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 66.83526, y: 9.812293, z: 87.63812}
+  m_LocalEulerAnglesHint: {x: 8.95689, y: -51.017654, z: -20.620474}
 --- !u!1 &1762427545752240
 GameObject:
   m_ObjectHideFlags: 0
@@ -12680,7 +12869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4909042587650868}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12712,7 +12901,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616292035520521}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12734,7 +12923,7 @@ Transform:
   - {fileID: 4570540279163538}
   m_Father: {fileID: 4866143310019248}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0.16784467, y: 2.797304, z: 7.906895}
+  m_LocalEulerAnglesHint: {x: -0.000040958625, y: -0.011505761, z: -7.392882}
 --- !u!1 &1802133563624087
 GameObject:
   m_ObjectHideFlags: 0
@@ -12744,7 +12933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4018458982039853}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12777,7 +12966,7 @@ GameObject:
   - component: {fileID: 4252545553033903}
   - component: {fileID: 33978794023600689}
   - component: {fileID: 23951571735210693}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_silniki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12863,7 +13052,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4060912227827229}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_heck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12899,7 +13088,7 @@ GameObject:
   - component: {fileID: 23162944754241846}
   - component: {fileID: 64591421715348201}
   - component: {fileID: 54966785483986445}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_Davidson_kolor_tyl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13012,7 +13201,7 @@ GameObject:
   - component: {fileID: 4743991248081713}
   - component: {fileID: 198338998701494361}
   - component: {fileID: 199589695259031546}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: CFXM_FlameC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15237,7 +15426,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f31863f37f84575448e1c0bb62e6bd52, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15298,7 +15486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4997950637553010}
   - component: {fileID: 137188304836958867}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15407,7 +15595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4786485145074226}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LArmIKTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15428,7 +15616,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4248916052056872}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 26.17904, y: -70.36248, z: -24.766218}
+  m_LocalEulerAnglesHint: {x: 2.6664612, y: 72.426956, z: 8.102085}
 --- !u!1 &1824671759883108
 GameObject:
   m_ObjectHideFlags: 0
@@ -15438,7 +15626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4041665069484593}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15472,7 +15660,7 @@ GameObject:
   - component: {fileID: 4732848069871642}
   - component: {fileID: 33447086992382892}
   - component: {fileID: 23449739348716168}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: jetpack_odrzut2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15553,7 +15741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4335248522106457}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15575,7 +15763,7 @@ Transform:
   - {fileID: 4154419818389980}
   m_Father: {fileID: 4866143310019248}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 162.26088, y: -14.260558, z: 129.00192}
+  m_LocalEulerAnglesHint: {x: -20.907595, y: 176.9099, z: -15.52375}
 --- !u!1 &1843701197227042
 GameObject:
   m_ObjectHideFlags: 0
@@ -15588,7 +15776,7 @@ GameObject:
   - component: {fileID: 54832392984897134}
   - component: {fileID: 136204505050819990}
   - component: {fileID: 144676819837518681}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15696,7 +15884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4027271612072553}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_LLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15727,7 +15915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4194982408551813}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RArmIKTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15758,7 +15946,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4359595077693657}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_LArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15792,7 +15980,7 @@ GameObject:
   - component: {fileID: 4586146107705537}
   - component: {fileID: 198618600692497640}
   - component: {fileID: 199139194356104041}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: TrainSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18026,7 +18214,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 6e91cae37f9fdb64fba076ac6a45dd44, type: 2}
-  - {fileID: 2100000, guid: 6e91cae37f9fdb64fba076ac6a45dd44, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18088,7 +18275,7 @@ GameObject:
   - component: {fileID: 4908102819487282}
   - component: {fileID: 198447711316600899}
   - component: {fileID: 199678045652671530}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: CFXM_FlameC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20375,7 +20562,7 @@ GameObject:
   - component: {fileID: 4412539375590406}
   - component: {fileID: 33024116280054260}
   - component: {fileID: 23334089945066973}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: jetpack_skrzydlo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20458,7 +20645,7 @@ GameObject:
   - component: {fileID: 4688657559435661}
   - component: {fileID: 198909758588671102}
   - component: {fileID: 199020563833539208}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22764,7 +22951,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 062484a8f38612a4a97918c2fe789b07, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22824,7 +23010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4966287080630654}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_heck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22856,7 +23042,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4364961780049142}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RArmIKTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22887,7 +23073,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4570540279163538}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22909,7 +23095,7 @@ Transform:
   - {fileID: 4072458303193032}
   m_Father: {fileID: 4616292035520521}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.9353831, y: 0.37368274, z: -0.93285656}
+  m_LocalEulerAnglesHint: {x: 0.0011609938, y: -0.009800165, z: -0.3884859}
 --- !u!1 &1909783710367555
 GameObject:
   m_ObjectHideFlags: 0
@@ -22920,7 +23106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4248916052056872}
   - component: {fileID: 111307609042217466}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22934,8 +23120,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909783710367555}
-  m_LocalRotation: {x: -0, y: 0.8660254, z: 0.49999997, w: 0}
-  m_LocalPosition: {x: 0, y: -1.6568689, z: -1.3697813}
+  m_LocalRotation: {x: 0, y: 0.9848078, z: -0.17364816, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22948,7 +23134,7 @@ Transform:
   - {fileID: 4522202844219395}
   m_Father: {fileID: 4227853865128147}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 120, y: -0, z: 180}
+  m_LocalEulerAnglesHint: {x: 20, y: 180, z: 0}
 --- !u!111 &111307609042217466
 Animation:
   m_ObjectHideFlags: 0
@@ -22982,7 +23168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4643242564836141}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_RArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23013,7 +23199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4522202844219395}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Harley_FXDR_biker_rig_RLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23034,7 +23220,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4248916052056872}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -89.99999, y: -35.615063, z: 89.99997}
+  m_LocalEulerAnglesHint: {x: 0.00003555573, y: 89.99998, z: -141.4836}
 --- !u!1 &1949509663130507
 GameObject:
   m_ObjectHideFlags: 0
@@ -23046,7 +23232,7 @@ GameObject:
   - component: {fileID: 4020715606168241}
   - component: {fileID: 33436396976089391}
   - component: {fileID: 23259221544617423}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: jetpack_odrzut1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23130,7 +23316,7 @@ GameObject:
   - component: {fileID: 33825993901492870}
   - component: {fileID: 23550760382410219}
   - component: {fileID: 65532028687301991}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23224,7 +23410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4417568515081786}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: Harley_FXDR_biker_rig_head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23256,7 +23442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4911088580041381}
   - component: {fileID: 146377079232304481}
-  m_Layer: 11
+  m_Layer: 6
   m_Name: wheel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
