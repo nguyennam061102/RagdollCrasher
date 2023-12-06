@@ -27,7 +27,7 @@ public class BikeController : Singleton<BikeController>
     [SerializeField] bool isMoving;
     [SerializeField] bool isStart;
     [SerializeField] bool isPress;
-    Vector3 dir;
+    public Vector3 dir;
     void Start()
     {
         isMoving = true;
@@ -57,17 +57,27 @@ public class BikeController : Singleton<BikeController>
     private void Update()
     {
         //dir = transform.forward;
-        if (!isPress && splineFollower.followSpeed < 10)
-        {
-            if(splineFollower.followSpeed > 0)
-            {
-                splineFollower.followSpeed -= Time.deltaTime * speed;
-            }
-        }
+        
     }
     void FixedUpdate()
     {
         MoveAlongSpline();
+        if (!isMovePlayer && isStart)
+        {
+            UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+        }
+        if (!isPress && !isMovePlayer)
+        {
+            if(splineFollower.followSpeed < 10)
+            {
+                if (splineFollower.followSpeed > 0.2f)
+                {
+                    GameManager.Ins.Velocity -= Time.fixedDeltaTime * speed;
+                    splineFollower.followSpeed -= Time.fixedDeltaTime * speed;
+                    rb.velocity = transform.forward * GameManager.Ins.Velocity;
+                }
+            }
+        }
     }
 
     void GetInput()
@@ -101,6 +111,7 @@ public class BikeController : Singleton<BikeController>
             {
                 RagdollController.Ins.ChaneAnim(Constants.START);
                 isStart = true;
+                UIManager.Ins.GetUI<UIStart>().OpenNewUI<UIGamePlay>();
             }
             isPress = true;
         }
@@ -118,12 +129,11 @@ public class BikeController : Singleton<BikeController>
                 timeNitro -= Time.deltaTime;
                 if (timeNitro > 0)
                 {
-                    //rb.AddForce(dir * splineFollower.followSpeed * 100);
                     dir = rb.velocity.normalized;
-                    dir.x = 0;
-                    rb.velocity = dir * velocity;
-                    velocity += speed * Time.fixedDeltaTime;
-                    splineFollower.followSpeed = velocity;
+                    //rb.AddForce(dir * splineFollower.followSpeed * 100);
+                    rb.velocity = dir * GameManager.Ins.Velocity;
+                    GameManager.Ins.Velocity += speed * Time.fixedDeltaTime;
+                    splineFollower.followSpeed = GameManager.Ins.Velocity;
                 }
                 else
                 {
@@ -132,9 +142,9 @@ public class BikeController : Singleton<BikeController>
             }
             else
             {
-                rb.velocity = transform.forward * velocity;
-                velocity += speed * Time.fixedDeltaTime;
-                splineFollower.followSpeed = velocity;
+                rb.velocity = transform.forward * GameManager.Ins.Velocity;
+                GameManager.Ins.Velocity += speed * Time.fixedDeltaTime;
+                splineFollower.followSpeed = GameManager.Ins.Velocity;
             }
         }
 
@@ -145,9 +155,9 @@ public class BikeController : Singleton<BikeController>
     {
         isMovePlayer = true;
         isMoving = false;
-
-        rb.velocity = dir * velocity;
-        RagdollController.Ins.OnInit(velocity, timeNitro, dir);
+        RagdollController.Ins.OnInit(timeNitro);
+        dir.y = 0;
+        rb.velocity = dir * GameManager.Ins.Velocity;
     }
 
     private void RotateWheel(WheelCollider coll, Transform transform)
@@ -163,6 +173,8 @@ public class BikeController : Singleton<BikeController>
 
     public void AddForce()
     {
+        RagdollController.Ins.StartPos = transform.position;
+        RagdollController.Ins.IsAirborn = true;
         splineFollower.follow = false;
         dir = transform.forward;
         rb.velocity = dir * splineFollower.followSpeed;

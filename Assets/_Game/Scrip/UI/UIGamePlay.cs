@@ -4,7 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 using TMPro;
 
-public class UIGamePlay : MonoBehaviour
+public class UIGamePlay : UICanvas
 {
     [SerializeField] List<RectTransform> obj;
     [SerializeField] TextMeshProUGUI distanceText;
@@ -22,5 +22,15 @@ public class UIGamePlay : MonoBehaviour
     void Update()
     {
         
+    }
+    public void SetVelocity(float velocity)
+    {
+
+        velocityText.text = Mathf.CeilToInt(velocity).ToString();
+    }
+    public void SetDistance(float distance)
+    {
+
+        distanceText.text = Mathf.CeilToInt(distance).ToString();
     }
 }

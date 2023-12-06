@@ -15,10 +15,17 @@ public class RagdollController : Singleton<RagdollController>
     [SerializeField] Rigidbody rbRagdoll;
     [SerializeField] string currenAnim;
     [SerializeField] bool isMoving;
+    [SerializeField] bool isActiveRagdoll;
+    [SerializeField] bool isAirborn;
     [SerializeField] float speed;
     [SerializeField] float velocity;
     [SerializeField] float timeNitro;
+    [SerializeField] Vector3 startPos;
     Vector3 dir;
+
+    public Vector3 StartPos { get => startPos; set => startPos = value; }
+    public bool IsAirborn { get => isAirborn; set => isAirborn = value; }
+
     private void Start()
     {
         isMoving = false;
@@ -29,17 +36,31 @@ public class RagdollController : Singleton<RagdollController>
     }
     private void FixedUpdate()
     {
+        if (isAirborn)
+        {
+            UIManager.Ins.GetUI<UIGamePlay>().SetDistance(Vector3.Distance(rbRagdoll.transform.position, startPos));
+        }
         if (isMoving)
         {
+            if (!isActiveRagdoll)
+            {
+                GameManager.Ins.Velocity = rb.velocity.magnitude;
+                UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+            }
+            else
+            {
+                GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
+                UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+            }
             timeNitro -= Time.deltaTime;
             if (timeNitro > 0)
             {
-                rb.velocity = dir * velocity;
-                velocity += speed * Time.fixedDeltaTime * 0.2f;
+                rb.velocity = dir * GameManager.Ins.Velocity;
+                GameManager.Ins.Velocity += speed * Time.fixedDeltaTime * 0.2f;
             }
         }
     }
-    public void OnInit(float velocity, float timeNitro, Vector3 direction)
+    public void OnInit(float timeNitro)
     {
         ChaneAnim(Constants.JETPACKSTART);
         transform.SetParent(null);
@@ -47,10 +68,9 @@ public class RagdollController : Singleton<RagdollController>
         isMoving = true;
         rb.useGravity = true;
         rb.isKinematic = false;
-        this.velocity = velocity;
         this.timeNitro = timeNitro;
-        dir = direction;
-        rb.velocity = dir * velocity;
+        dir = transform.forward;
+        rb.velocity = dir * GameManager.Ins.Velocity;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         StartCoroutine(JetpackAnim());
     }
@@ -89,9 +109,14 @@ public class RagdollController : Singleton<RagdollController>
         {
             SetRagdoll();
             //rb.velocity = Vector3.zero;
-            rbRagdoll.velocity = dir * velocity * 2;
-            rb.isKinematic = true;
+            rbRagdoll.transform.SetParent(null);
+            isActiveRagdoll = true;
+            rbRagdoll.velocity = dir * GameManager.Ins.Velocity;
+            Debug.Log(GameManager.Ins.Velocity);
+            GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
+            UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
             CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
+            rb.isKinematic = true;
         }
     }
 }
