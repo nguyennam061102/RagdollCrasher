@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using DG.Tweening;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,12 +7,13 @@ public class UICanvas : MonoBehaviour
 {
     //public bool IsAvoidBackKey = false;
     public bool IsDestroyOnClose = false;
-
+    [SerializeField] protected List<RectTransform> obj;
+    [SerializeField] protected List<Vector3> curPosObj;
     protected RectTransform m_RectTransform;
     private Animator m_Animator;
     // private float m_OffsetY = 0;
 
-    private void Start()
+    protected virtual void Start()
     {
         OnInit();
     }
@@ -22,7 +24,11 @@ public class UICanvas : MonoBehaviour
     {
         m_RectTransform = GetComponent<RectTransform>();
         m_Animator = GetComponent<Animator>();
-
+        foreach (Transform t in obj)
+        {
+            curPosObj.Add(t.localPosition);
+            t.DOLocalMove(new Vector3(0, 0, 0), 1.5f);
+        }
         // xu ly tai tho
         // float ratio = (float)Screen.height / (float)Screen.width;
         // if (ratio > 2.1f)
@@ -36,7 +42,14 @@ public class UICanvas : MonoBehaviour
         //     m_OffsetY = 100f;
         // }
     }
-
+    public void OpenNewUI<T>() where T : UICanvas
+    {
+        for (int i = 0; i < obj.Count; i++)
+        {
+            obj[i].DOLocalMove(curPosObj[i], 1.5f);
+        }
+        UIManager.Ins.OpenUI<T>();
+    }
     //Setup canvas to avoid flash UI
     //set up mac dinh cho UI de tranh truong hop bi nhay' hinh
     public virtual void Setup()

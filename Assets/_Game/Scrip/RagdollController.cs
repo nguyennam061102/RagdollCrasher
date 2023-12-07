@@ -103,6 +103,11 @@ public class RagdollController : Singleton<RagdollController>
         }
         anim.enabled = state;
     }
+    IEnumerator SetEndPanel()
+    {
+        yield return new WaitForSeconds(3);
+        UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (isMoving)
@@ -117,6 +122,7 @@ public class RagdollController : Singleton<RagdollController>
             UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
             CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
             rb.isKinematic = true;
+            StartCoroutine(SetEndPanel());
         }
     }
 }
