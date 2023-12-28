@@ -1,6 +1,7 @@
 namespace Dreamteck.Splines
 {
     using System.Collections.Generic;
+    using System.Linq;
     using UnityEngine;
     using UnityEngine.Events;
 
@@ -35,7 +36,7 @@ namespace Dreamteck.Splines
         {
             for (int i = 0; i < triggers.Length; i++) triggers[i].Reset();
         }
-
+        
         /// <summary>
         /// Returns all triggers within the specified range
         /// </summary>
@@ -84,6 +85,7 @@ namespace Dreamteck.Splines
         {
             ArrayUtility.RemoveAt(ref triggers, index);
         }
+
     }
 
     [System.Serializable]

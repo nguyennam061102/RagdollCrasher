@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,6 +10,8 @@ public class UIEnd : UICanvas
     [SerializeField] Slider pathMoveSlider;
     [SerializeField] TextMeshProUGUI pathMoveText;
     [SerializeField] TextMeshProUGUI textCoin;
+    [SerializeField] TextMeshProUGUI coinReward;
+    [SerializeField] int coin;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -24,13 +23,21 @@ public class UIEnd : UICanvas
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void GetCoin()
     {
-        SceneManager.LoadScene(0);
+        SaveLoadData.Ins.DataGame.Coin += coin;
+        SaveLoadData.Ins.Save();
+        LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
+        //OpenNewUI<UIStart>();
+        SceneManager.LoadScene("GamePlay");
+    }
+    public void SetEnd(float distance, float maxPath)
+    {
+        pathMoveText.text = Mathf.CeilToInt(distance).ToString();
+        pathMoveSlider.maxValue = maxPath;
+        pathMoveSlider.value = distance;
+        textCoin.text = SaveLoadData.Ins.DataGame.Coin.ToString();
+        coinReward.text = Mathf.CeilToInt(distance).ToString();
+        coin = Mathf.CeilToInt(distance);
     }
 }

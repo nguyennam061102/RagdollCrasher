@@ -19,6 +19,7 @@ public class CameraManager : Singleton<CameraManager>
     private void Start()
     {
         ChangeCam(Constants.CAM_START);
+        ChaneAim();
     }
     public void ChangeCam(string name)
     {
@@ -36,6 +37,14 @@ public class CameraManager : Singleton<CameraManager>
             curentCam.virtualCamera.gameObject.SetActive(false);
             targetCam.virtualCamera.gameObject.SetActive(true);
             curentCam = targetCam;
+        }
+    }
+    public void ChaneAim()
+    {
+        foreach (var cam in lisCamera)
+        {
+            cam.virtualCamera.Follow = LevelManager.Ins.AimPlayer;
+            cam.virtualCamera.LookAt = LevelManager.Ins.AimPlayer;
         }
     }
 }

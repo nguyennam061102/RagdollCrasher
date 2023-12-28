@@ -20,7 +20,7 @@ public class UICanvas : MonoBehaviour
 
     //Init default Canvas
     //khoi tao gia tri canvas
-    protected void OnInit()
+    protected virtual void OnInit()
     {
         m_RectTransform = GetComponent<RectTransform>();
         m_Animator = GetComponent<Animator>();
@@ -49,6 +49,7 @@ public class UICanvas : MonoBehaviour
             obj[i].DOLocalMove(curPosObj[i], 1.5f);
         }
         UIManager.Ins.OpenUI<T>();
+        UIManager.Ins.GetUI<T>().OnInit();
     }
     //Setup canvas to avoid flash UI
     //set up mac dinh cho UI de tranh truong hop bi nhay' hinh

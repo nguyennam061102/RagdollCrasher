@@ -19,13 +19,14 @@ public class GameManager : Singleton<GameManager>
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
 
         //xu tai tho
-        int maxScreenHeight = 1280;
-        float ratio = (float)Screen.currentResolution.width / (float)Screen.currentResolution.height;
-        if (Screen.currentResolution.height > maxScreenHeight)
-        {
-            Screen.SetResolution(Mathf.RoundToInt(ratio * (float)maxScreenHeight), maxScreenHeight, true);
-        }
+        //int maxScreenHeight = 1280;
+        //float ratio = (float)Screen.currentResolution.width / (float)Screen.currentResolution.height;
+        //if (Screen.currentResolution.height > maxScreenHeight)
+        //{
+        //    Screen.SetResolution(Mathf.RoundToInt(ratio * (float)maxScreenHeight), maxScreenHeight, true);
+        //}
         UIManager.Ins.OpenUI<UIStart>();
+        LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
     }
     // Start is called before the first frame update
     void Start()

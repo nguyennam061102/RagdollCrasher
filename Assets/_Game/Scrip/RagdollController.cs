@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RagdollController : Singleton<RagdollController>
+public class RagdollController : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
     [SerializeField] GameObject charRagdoll;
@@ -21,10 +21,12 @@ public class RagdollController : Singleton<RagdollController>
     [SerializeField] float velocity;
     [SerializeField] float timeNitro;
     [SerializeField] Vector3 startPos;
+    [SerializeField] Vector3 endPos;
     Vector3 dir;
 
     public Vector3 StartPos { get => startPos; set => startPos = value; }
     public bool IsAirborn { get => isAirborn; set => isAirborn = value; }
+    public Vector3 EndPos { get => endPos; set => endPos = value; }
 
     private void Start()
     {
@@ -107,6 +109,7 @@ public class RagdollController : Singleton<RagdollController>
     {
         yield return new WaitForSeconds(3);
         UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
+        UIManager.Ins.GetUI<UIEnd>().SetEnd(Vector3.Distance(rbRagdoll.transform.position, startPos), Vector3.Distance(endPos, startPos));
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -123,6 +126,11 @@ public class RagdollController : Singleton<RagdollController>
             CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
             rb.isKinematic = true;
             StartCoroutine(SetEndPanel());
+        }
+        if (CompareTag("Win"))
+        {
+            SaveLoadData.Ins.DataGame.CurrenLv++;
+            SaveLoadData.Ins.Save();
         }
     }
 }

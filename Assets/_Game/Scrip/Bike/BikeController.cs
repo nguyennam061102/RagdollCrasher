@@ -4,8 +4,9 @@ using Sirenix.OdinInspector;
 using System.Collections;
 using DG.Tweening;
 using UnityEngine.EventSystems;
+using System;
 
-public class BikeController : Singleton<BikeController>
+public class BikeController : MonoBehaviour
 {
 
     [SerializeField] Rigidbody rb;
@@ -27,9 +28,27 @@ public class BikeController : Singleton<BikeController>
     [SerializeField] bool isMoving;
     [SerializeField] bool isStart;
     [SerializeField] bool isPress;
+    [SerializeField] Transform aimPlayer;
+    [SerializeField] RagdollController ragdollController;
     public Vector3 dir;
+
+    public SplineComputer Spline { get => spline; set => spline = value; }
+    public Transform AimPlayer { get => aimPlayer; set => aimPlayer = value; }
+    public SplineFollower SplineFollower { get => splineFollower; set => splineFollower = value; }
+    public RagdollController RagdollController { get => ragdollController; set => ragdollController = value; }
+
     void Start()
     {
+
+        OnInit();
+    }
+    public void OnInit()
+    {
+        if (spline.triggerGroups.Length > 0)
+        {
+            spline.triggerGroups = RemoveItemAt(spline.triggerGroups, 0);
+
+        }
         isMoving = true;
         spline.AddTrigger(0, 1, SplineTrigger.Type.Forward).AddListener(() =>
         {
@@ -43,16 +62,36 @@ public class BikeController : Singleton<BikeController>
         spline.AddTrigger(0, 0.1, SplineTrigger.Type.Forward).AddListener(() =>
         {
             CameraManager.Ins.ChangeCam(Constants.CAM_FAR);
-            RagdollController.Ins.ChaneAnim(Constants.UPANDDOWN_0);
-            //Time.timeScale = 1.5f;
+            ragdollController.ChaneAnim(Constants.UPANDDOWN_0);
+            Time.timeScale = 1.5f;
         });
         spline.AddTrigger(0, 0.7, SplineTrigger.Type.Forward).AddListener(() =>
         {
             CameraManager.Ins.ChangeCam(Constants.CAM_NEAR);
             Time.timeScale = 1;
-            
+
         });
         GetInput();
+    }
+    TriggerGroup[] RemoveItemAt(TriggerGroup[] originalArray, int index)
+    {
+        if (index < 0 || index >= originalArray.Length)
+        {
+            Debug.LogError("Invalid index to remove.");
+            return originalArray;
+        }
+
+        TriggerGroup[] newArray = new TriggerGroup[originalArray.Length - 1];
+        for (int i = 0, j = 0; i < originalArray.Length; i++)
+        {
+            if (i != index)
+            {
+                newArray[j] = originalArray[i];
+                j++;
+            }
+        }
+
+        return newArray;
     }
     private void Update()
     {
@@ -72,8 +111,9 @@ public class BikeController : Singleton<BikeController>
             {
                 if (splineFollower.followSpeed > 0.2f)
                 {
-                    GameManager.Ins.Velocity -= Time.fixedDeltaTime * speed;
+                    GameManager.Ins.Velocity -= Time.fixedDeltaTime * SaveLoadData.Ins.DataGame.EnginePow;
                     splineFollower.followSpeed -= Time.fixedDeltaTime * speed;
+                    
                     rb.velocity = transform.forward * GameManager.Ins.Velocity;
                 }
             }
@@ -109,7 +149,7 @@ public class BikeController : Singleton<BikeController>
         {
             if (!isStart)
             {
-                RagdollController.Ins.ChaneAnim(Constants.START);
+                ragdollController.ChaneAnim(Constants.START);
                 isStart = true;
                 UIManager.Ins.GetUI<UIStart>().OpenNewUI<UIGamePlay>();
             }
@@ -129,10 +169,10 @@ public class BikeController : Singleton<BikeController>
                 timeNitro -= Time.deltaTime;
                 if (timeNitro > 0)
                 {
-                    dir = rb.velocity.normalized;
-                    //rb.AddForce(dir * splineFollower.followSpeed * 100);
+                    //dir = rb.velocity.normalized;
+                    //rb.AddForce(dir * splineFollower.followSaveLoadData.Ins.DataGame.EnginePow * 100);
                     rb.velocity = dir * GameManager.Ins.Velocity;
-                    GameManager.Ins.Velocity += speed * Time.fixedDeltaTime;
+                    GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
                     splineFollower.followSpeed = GameManager.Ins.Velocity;
                 }
                 else
@@ -143,7 +183,7 @@ public class BikeController : Singleton<BikeController>
             else
             {
                 rb.velocity = transform.forward * GameManager.Ins.Velocity;
-                GameManager.Ins.Velocity += speed * Time.fixedDeltaTime;
+                GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
                 splineFollower.followSpeed = GameManager.Ins.Velocity;
             }
         }
@@ -155,7 +195,7 @@ public class BikeController : Singleton<BikeController>
     {
         isMovePlayer = true;
         isMoving = false;
-        RagdollController.Ins.OnInit(timeNitro);
+        ragdollController.OnInit(timeNitro);
         dir.y = 0;
         rb.velocity = dir * GameManager.Ins.Velocity;
     }
@@ -173,8 +213,8 @@ public class BikeController : Singleton<BikeController>
 
     public void AddForce()
     {
-        RagdollController.Ins.StartPos = transform.position;
-        RagdollController.Ins.IsAirborn = true;
+        ragdollController.StartPos = transform.position;
+        ragdollController.IsAirborn = true;
         splineFollower.follow = false;
         dir = transform.forward;
         rb.velocity = dir * splineFollower.followSpeed;
@@ -193,5 +233,13 @@ public class BikeController : Singleton<BikeController>
     public void SetAirBorne()
     {
         isAirborne = true;
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if(!other.CompareTag("Player") && !other.CompareTag("Path") && !isMovePlayer)
+        {
+            Debug.Log(other.name);
+             MovePlayer();
+        }
     }
 }
