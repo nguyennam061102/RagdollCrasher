@@ -52,6 +52,7 @@ public struct DataGame
     [SerializeField] private int currenLv;
     [SerializeField] private MotorType currenMotor;
     [SerializeField] private float maxPathMove;
+    [SerializeField] private int vibrateData;
 
     public float EnginePow { get => enginePow; set => enginePow = value; }
     public float JetpackPow { get => jetpackPow; set => jetpackPow = value; }
@@ -74,4 +75,5 @@ public struct DataGame
     public int EnginePowLv { get => enginePowLv; set => enginePowLv = value; }
     public int JetpackLv { get => jetpackLv; set => jetpackLv = value; }
     public int CoinRewardLv { get => coinRewardLv; set => coinRewardLv = value; }
+    public int VibrateData { get => vibrateData; set => vibrateData = value; }
 }

@@ -8058,7 +8058,7 @@ GameObject:
   - component: {fileID: 4628230841762149865}
   m_Layer: 7
   m_Name: RagdollController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9570,7 +9570,7 @@ GameObject:
   - component: {fileID: 7304218081430752404}
   m_Layer: 6
   m_Name: Massalia-20
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

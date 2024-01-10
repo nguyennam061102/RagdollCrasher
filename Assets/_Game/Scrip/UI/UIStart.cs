@@ -9,6 +9,7 @@ public class UIStart : UICanvas
 {
     [SerializeField] Button buttonChoseLv;
     [SerializeField] Button buttonChoseMotor;
+    [SerializeField] Button buttonSetting;
     [SerializeField] TextMeshProUGUI goldText;
     protected override void Start()
     {
@@ -21,6 +22,10 @@ public class UIStart : UICanvas
         buttonChoseMotor.onClick.AddListener(() =>
         {
             ButtonChoseMotor();
+        });
+        buttonSetting.onClick.AddListener(() =>
+        {
+            ButtonSetting();
         });
     }
     void Update()
@@ -38,5 +43,9 @@ public class UIStart : UICanvas
     void ButtonChoseMotor()
     {
         OpenNewUI<UIChoseMotor>();
+    }
+    void ButtonSetting()
+    {
+        OpenNewUI<UISetting>();
     }
 }

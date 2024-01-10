@@ -227,11 +227,5 @@ MonoBehaviour:
     alignWindowToBar: 1
     windowMode: 0
   _sceneHistory:
-  - name: Level_3
-    path: Assets/Car/Scenes/Level_3.unity
   - name: GamePlay
     path: Assets/_Game/Scenes/GamePlay.unity
-  - name: Level_2
-    path: Assets/Car/Scenes/Level_2.unity
-  - name: Main
-    path: Assets/Bike/Assets/[[MultiProjectPlugin]]/[ProjectConfigs]/BJ/Scenes/Main.unity

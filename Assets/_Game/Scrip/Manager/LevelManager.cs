@@ -10,7 +10,11 @@ public enum MotorType
     Emma,
     Makhai,
     Massalia,
-    Melpomene
+    Melpomene,
+    Nausikaa,
+    Patientia,
+    Suomi,
+    Taiowa
 }
 public class LevelManager : SerializedMonoBehaviour
 {
@@ -54,7 +58,7 @@ public class LevelManager : SerializedMonoBehaviour
     public void OnInit(MotorType motorType, int lv)
     {
         currentMap = Instantiate(maps[lv]);
-        currentMotor = Instantiate(motors[motorType]);
+        currentMotor = Instantiate(motors[motorType], currentMap.StartPoint.position,Quaternion.identity );
         currentMotor.Spline = currentMap.Spline;
         currentMotor.SplineFollower.spline = currentMap.Spline;
         currentMotor.RagdollController.EndPos = currentMap.EndPoint.position;
@@ -75,7 +79,7 @@ public class LevelManager : SerializedMonoBehaviour
     {
         Destroy(currentMotor.gameObject);
         currentMotor = null;
-        currentMotor = Instantiate(motors[SaveLoadData.Ins.DataGame.CurrenMotor]);
+        currentMotor = Instantiate(motors[SaveLoadData.Ins.DataGame.CurrenMotor], currentMap.StartPoint.position, Quaternion.identity);
         currentMotor.Spline = currentMap.Spline;
         currentMotor.SplineFollower.spline = currentMap.Spline;
         currentMotor.RagdollController.EndPos = currentMap.EndPoint.position;
