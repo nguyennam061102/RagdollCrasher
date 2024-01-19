@@ -13,10 +13,9 @@ public class Constants
     public const string CAM_ROTATE = "CamRotate";
 
     //---------Player----------------------
-    public const string IDLE = "Idle_0";
-    public const string JETPACKSTART = "JetpackStart_0";
-    public const string START = "Start_1";
-    public const string UPANDDOWN_0 = "UpAndDown_0";
-    public const string JETPACKLOOP = "JetpackLoop_0";
+    public const string IDLE = "idle";
+    public const string START = "start";
+    public const string STARTUP = "startup";
+    public const string AIR = "air";
    
 }

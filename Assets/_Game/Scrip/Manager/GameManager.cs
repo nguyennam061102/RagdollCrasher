@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : Singleton<GameManager>
 {
     [SerializeField] float velocity;
-
+    public GameState gameState;
     public float Velocity { get => velocity; set => velocity = value; }
 
     protected override void Awake()
@@ -27,6 +27,7 @@ public class GameManager : Singleton<GameManager>
         //}
         UIManager.Ins.OpenUI<UIStart>();
         LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
+        gameState = GameState.Start;
     }
     // Start is called before the first frame update
     void Start()
@@ -39,4 +40,10 @@ public class GameManager : Singleton<GameManager>
     {
         
     }
+}
+public enum GameState
+{
+    Start,
+    Playing,
+    Skip
 }

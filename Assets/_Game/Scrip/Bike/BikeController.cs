@@ -10,7 +10,9 @@ public class BikeController : MonoBehaviour
 {
 
     [SerializeField] Rigidbody rb;
-    [SerializeField] Animation anim;
+    [SerializeField] ParticleSystem smoke;
+    [SerializeField] ParticleSystem flame;
+    [SerializeField] ParticleSystem wind;
     [Header("--------Spline-------")]
     [SerializeField] SplineFollower splineFollower;
     [SerializeField] SplineComputer spline;
@@ -62,7 +64,7 @@ public class BikeController : MonoBehaviour
         spline.AddTrigger(0, 0.1, SplineTrigger.Type.Forward).AddListener(() =>
         {
             CameraManager.Ins.ChangeCam(Constants.CAM_FAR);
-            ragdollController.ChaneAnim(Constants.UPANDDOWN_0);
+            ragdollController.ChaneAnim(Constants.STARTUP);
             Time.timeScale = 1.5f;
         });
         spline.AddTrigger(0, 0.7, SplineTrigger.Type.Forward).AddListener(() =>
@@ -72,6 +74,8 @@ public class BikeController : MonoBehaviour
 
         });
         GetInput();
+        smoke.gameObject.SetActive(true);
+        flame.gameObject.SetActive(false);
     }
     TriggerGroup[] RemoveItemAt(TriggerGroup[] originalArray, int index)
     {
@@ -166,7 +170,10 @@ public class BikeController : MonoBehaviour
         {
             if (isAirborne)
             {
+                smoke.gameObject.SetActive(false);
+                flame.gameObject.SetActive(true);
                 timeNitro -= Time.deltaTime;
+                UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
                 if (timeNitro > 0)
                 {
                     //dir = rb.velocity.normalized;
@@ -187,12 +194,21 @@ public class BikeController : MonoBehaviour
                 splineFollower.followSpeed = GameManager.Ins.Velocity;
             }
         }
+        else if (isMoving && GameManager.Ins.Velocity >= 10)
+        {
+            rb.velocity = transform.forward * GameManager.Ins.Velocity;
+            GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
+            splineFollower.followSpeed = GameManager.Ins.Velocity;
+
+        }
 
         RotateWheel(_colliderF, _transformF);
         RotateWheel(_colliderB, _transformB);
     }
     void MovePlayer()
     {
+        smoke.gameObject.SetActive(true);
+        flame.gameObject.SetActive(false);
         isMovePlayer = true;
         isMoving = false;
         ragdollController.OnInit(timeNitro);
@@ -236,7 +252,7 @@ public class BikeController : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if(!other.CompareTag("Player") && !other.CompareTag("Path") && !isMovePlayer)
+        if(!other.CompareTag("Player") && !other.CompareTag("Path") && !isMovePlayer && GameManager.Ins.gameState != GameState.Skip)
         {
             Debug.Log(other.name);
              MovePlayer();

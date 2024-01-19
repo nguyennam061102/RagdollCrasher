@@ -23,14 +23,14 @@ public class CameraManager : Singleton<CameraManager>
     }
     public void ChangeCam(string name)
     {
-        if (name == Constants.CAM_FAR)
-        {
-            speedLine.Play();
-        }
-        else
-        {
-            speedLine.Stop();
-        }
+        //if (name == Constants.CAM_FAR)
+        //{
+        //    speedLine.Play();
+        //}
+        //else
+        //{
+        //    speedLine.Stop();
+        //}
         CamPos targetCam = lisCamera.Find(camera => camera.name == name);
         if(curentCam.name != targetCam.name)
         {

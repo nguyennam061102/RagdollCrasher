@@ -14,6 +14,7 @@ public class UIEnd : UICanvas
     [SerializeField] TextMeshProUGUI textCoin;
     [SerializeField] TextMeshProUGUI coinReward;
     [SerializeField] TextMeshProUGUI coinRewardQC;
+    [SerializeField] Image interacableImage;
     [SerializeField] int coin;
     [SerializeField] Transform objCoinRwQC;
 
@@ -22,6 +23,7 @@ public class UIEnd : UICanvas
     protected override void Start()
     {
         base.Start();
+        interacableImage.gameObject.SetActive(false);
         getCoin.onClick.AddListener(() =>
         {
             GetCoinReward();
@@ -45,10 +47,11 @@ public class UIEnd : UICanvas
     }
     void GetCoinRewardQC()
     {
+        interacableImage.gameObject.SetActive(true);
         randomnize.StopTween();
         SaveLoadData.Ins.DataGame.Coin += (int)(randomnize.Reward * coin);
         SaveLoadData.Ins.Save();
-        LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
+        //LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
         objCoinRwQC.transform.DOScale(1.5f, 0.5f).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
         StartCoroutine(SetRewardQCCoin());
     }

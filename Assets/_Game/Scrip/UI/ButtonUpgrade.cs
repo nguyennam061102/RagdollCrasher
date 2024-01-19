@@ -10,7 +10,9 @@ public enum ButtonType
     Jetpack,
     Gold,
     Level,
-    Motor
+    Motor,
+    Reward,
+    Purchase
 }
 public class ButtonUpgrade : MonoBehaviour
 {

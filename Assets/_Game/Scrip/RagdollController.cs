@@ -6,10 +6,7 @@ using UnityEngine;
 public class RagdollController : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
-    [SerializeField] GameObject charRagdoll;
-    [SerializeField] GameObject charAnim;
-    [SerializeField] Animation anim;
-    [SerializeField] Animation animRagdoll;
+    [SerializeField] Animator anim;
     [SerializeField] Rigidbody[] ragdollRigidbodies;
     [SerializeField] Collider col;
     [SerializeField] Rigidbody rbRagdoll;
@@ -38,11 +35,11 @@ public class RagdollController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (isAirborn)
+        if (isAirborn && GameManager.Ins.gameState != GameState.Skip)
         {
             UIManager.Ins.GetUI<UIGamePlay>().SetDistance(Vector3.Distance(rbRagdoll.transform.position, startPos));
         }
-        if (isMoving)
+        if (isMoving && GameManager.Ins.gameState != GameState.Skip)
         {
             if (!isActiveRagdoll)
             {
@@ -55,6 +52,7 @@ public class RagdollController : MonoBehaviour
                 UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
             }
             timeNitro -= Time.deltaTime;
+            UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
             if (timeNitro > 0)
             {
                 rb.velocity = dir * GameManager.Ins.Velocity;
@@ -64,7 +62,7 @@ public class RagdollController : MonoBehaviour
     }
     public void OnInit(float timeNitro)
     {
-        ChaneAnim(Constants.JETPACKSTART);
+        ChaneAnim(Constants.AIR);
         transform.SetParent(null);
         transform.rotation = Quaternion.Euler(-15, 0, 0);
         isMoving = true;
@@ -74,27 +72,15 @@ public class RagdollController : MonoBehaviour
         dir = transform.forward;
         rb.velocity = dir * GameManager.Ins.Velocity;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
-        StartCoroutine(JetpackAnim());
     }
-    IEnumerator JetpackAnim()
-    {
-        yield return new WaitForSeconds(0.15f);
-        ChaneAnim(Constants.JETPACKLOOP);
-        Time.timeScale = 1f;
-
-    }
+    
     public void ChaneAnim(string name)
     {
         if (currenAnim != name)
         {
             currenAnim = name;
-            anim.Play(currenAnim);
+            anim.SetTrigger(currenAnim);
         }
-    }
-    public void SetRagdoll()
-    {
-        charAnim.SetActive(false);
-        charRagdoll.SetActive(true);
     }
     [Button]
     public void SetStateRagdoll(bool state)
@@ -113,10 +99,9 @@ public class RagdollController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (isMoving)
+        if (isMoving && GameManager.Ins.gameState != GameState.Skip)
         {
-            SetRagdoll();
-            //rb.velocity = Vector3.zero;
+            SetStateRagdoll(false);
             rbRagdoll.transform.SetParent(null);
             isActiveRagdoll = true;
             rbRagdoll.velocity = dir * GameManager.Ins.Velocity;
@@ -127,10 +112,19 @@ public class RagdollController : MonoBehaviour
             rb.isKinematic = true;
             StartCoroutine(SetEndPanel());
         }
-        if (CompareTag("Win"))
+        if (CompareTag("Win") && GameManager.Ins.gameState != GameState.Skip)
         {
             SaveLoadData.Ins.DataGame.CurrenLv++;
             SaveLoadData.Ins.Save();
         }
+    }
+    [Button]
+    public void SetSkip()
+    {
+        GameManager.Ins.gameState = GameState.Skip;
+        CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
+        rbRagdoll.transform.SetParent(null);
+        //SetStateRagdoll(true);
+        StartCoroutine(SetEndPanel());
     }
 }
