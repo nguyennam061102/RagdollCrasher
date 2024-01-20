@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonBuyCoin : MonoBehaviour
+public class ButtonBuyCoin : MonoBehaviour, IObserver
 {
     [SerializeField] ButtonType type;
     [SerializeField] float coin;
@@ -31,6 +31,7 @@ public class ButtonBuyCoin : MonoBehaviour
                 GetCoinPurchase();
             }
         });
+        SaveLoadData.Ins.DataGame.RegisterObserver(this);
     }
 
     // Update is called once per frame
@@ -45,5 +46,10 @@ public class ButtonBuyCoin : MonoBehaviour
     void GetCoinPurchase()
     {
         SaveLoadData.Ins.DataGame.coin += (int)coin;
+    }
+
+    public void OnNotify()
+    {
+        
     }
 }

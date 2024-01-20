@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPoint: {fileID: 6173638413145081212}
   endPoint: {fileID: 3977879252050484252}
-  spline: {fileID: 0}
+  spline: {fileID: 6912606941456752779}
 --- !u!1 &5320479911251992649
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +555,22 @@ PrefabInstance:
     - target: {fileID: 1339816644827817113, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721495723523955601, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
+    - target: {fileID: 3721495723523955602, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 997a43b767814dd0a7642ec9b78cba41, type: 3}
+    - target: {fileID: 3721495723523955602, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: m_Text
+      value: Ragdoll Crasher
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721495723523955602, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: m_Color.rgba
+      value: 4294961152
       objectReference: {fileID: 0}
     - target: {fileID: 4565323650045906568, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: m_Name
@@ -1203,6 +1219,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1339816644827817113, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
   m_PrefabInstance: {fileID: 913200144302565477}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6912606941456752779 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+  m_PrefabInstance: {fileID: 913200144302565477}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 598e68924c9f6324bbfd049d3bae754c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9185193935133350369
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -22,10 +22,13 @@ public class ButtonChose : MonoBehaviour
         {
             SaveLoadData.Ins.DataGame.CurrenLv = lvChose;
             LevelManager.Ins.ChaneMap();
-        }else if(type == ButtonType.Motor)
+            UIManager.Ins.GetUI<UIChoseLv>().OpenNewUI<UIStart>();
+        }
+        else if(type == ButtonType.Motor)
         {
             SaveLoadData.Ins.DataGame.CurrenMotor = motorType;
             LevelManager.Ins.ChaneMotor();
+            UIManager.Ins.GetUI<UIChoseMotor>().OpenNewUI<UIStart>();
         }
 
     }

@@ -1,5 +1,13 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
+
+
+public interface IObserver
+{
+    void OnNotify();
+}
+
 public class SaveLoadData : Singleton<SaveLoadData>
 {
     [SerializeField] public DataGame DataGame;
@@ -36,7 +44,7 @@ public class SaveLoadData : Singleton<SaveLoadData>
     }
 }
 [Serializable]
-public struct DataGame
+public class DataGame
 {
     [SerializeField] private float enginePow;
     [SerializeField] private float jetpackPow;
@@ -63,6 +71,7 @@ public struct DataGame
         set {
             coin = value;
             UIManager.Ins.GetUI<UIStart>().SetGold();
+            NotifyObservers();
         }  
     }
     public int Lv { get => lv; set => lv = value; }
@@ -76,4 +85,25 @@ public struct DataGame
     public int JetpackLv { get => jetpackLv; set => jetpackLv = value; }
     public int CoinRewardLv { get => coinRewardLv; set => coinRewardLv = value; }
     public int VibrateData { get => vibrateData; set => vibrateData = value; }
+
+    [Header("IObserver")]
+    private List<IObserver> observers = new List<IObserver>();
+
+    public void RegisterObserver(IObserver observer)
+    {
+        observers.Add(observer);
+    }
+
+    public void RemoveObserver(IObserver observer)
+    {
+        observers.Remove(observer);
+    }
+
+    public void NotifyObservers()
+    {
+        foreach (var observer in observers)
+        {
+            observer.OnNotify();
+        }
+    }
 }
