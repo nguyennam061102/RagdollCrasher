@@ -13,6 +13,7 @@ public enum MotorType
     Melpomene,
     Nausikaa,
     Patientia,
+    Philotes,
     Suomi,
     Taiowa
 }

@@ -18965,39 +18965,55 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _rawSamples.Array.data[0].forward.x
-      value: -0.00029151494
+      value: -0.0002915141
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _rawSamples.Array.data[0].forward.y
-      value: 0.006463433
+      value: 0.0069082766
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _rawSamples.Array.data[0].forward.z
-      value: 0.999979
+      value: 0.9999761
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _rawSamples.Array.data[1].forward.x
-      value: 0.0005377927
+      value: 0.00053781853
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _rawSamples.Array.data[1].forward.y
-      value: -0.009472654
+      value: -0.009250701
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _rawSamples.Array.data[1].forward.z
-      value: 0.999955
+      value: 0.9999571
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[0].position.y
+      value: 71.31025
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _rawSamples.Array.data[0].position.z
       value: -37.88
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _spline.points.Array.data[0].tangent.y
+      value: 71.31025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _spline.points.Array.data[0].tangent.z
       value: -37.88
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _spline.points.Array.data[0].position.y
+      value: 71.31025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _spline.points.Array.data[0].position.z
       value: -37.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _spline.points.Array.data[0].tangent2.y
+      value: 71.31025
       objectReference: {fileID: 0}
     - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
       propertyPath: _spline.points.Array.data[0].tangent2.z

@@ -41,7 +41,84 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: start_vehicle
+      takeName: start_vehicle
+      internalID: -1996518379561701796
+      firstFrame: 40
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Philotes:FrontWheelBase
+        weight: 0
+      - path: Philotes:FrontWheelBase/Philotes:FrontWheel
+        weight: 0
+      - path: Philotes:Group
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:backWheel_M
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:backWheel_M/Philotes:backWheelEnd_R
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:Base_M
+        weight: 1
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:Body_M
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:Body_M/Philotes:BodyEnd_M
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:frontWheel_M
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:frontWheel_M/Philotes:frontWheelEnd_R
+        weight: 0
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:L_Pedal1_L
+        weight: 1
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:L_Pedal1_L/Philotes:L_Pedal2_L
+        weight: 1
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:L_Pedal1_L/Philotes:L_Pedal2_L/Philotes:L_Pedal3_L
+        weight: 1
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:R_Pedal1_R
+        weight: 1
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:R_Pedal1_R/Philotes:R_Pedal2_R
+        weight: 1
+      - path: Philotes:Group/Philotes:DeformationSystem/Philotes:Root_M/Philotes:R_Pedal1_R/Philotes:R_Pedal2_R/Philotes:R_Pedal3_R
+        weight: 1
+      - path: Philotes:LeftPedal
+        weight: 0
+      - path: Philotes:PedalsBase
+        weight: 0
+      - path: Philotes:RearWheel
+        weight: 0
+      - path: Philotes:RightPedal
+        weight: 0
+      - path: Philotes:Than
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 40
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -90,7 +167,127 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Philotes_anim_start_vehicle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:RearWheel
+      parentName: Philotes_anim_start_vehicle(Clone)
+      position: {x: -0.00000000889218, y: 0.36647144, z: -0.62699115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:LeftPedal
+      parentName: Philotes_anim_start_vehicle(Clone)
+      position: {x: -0.13115214, y: 0.14441228, z: -0.09606983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:RightPedal
+      parentName: Philotes_anim_start_vehicle(Clone)
+      position: {x: 0.1727097, y: 0.5321274, z: -0.09565709}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:PedalsBase
+      parentName: Philotes_anim_start_vehicle(Clone)
+      position: {x: -0, y: 0.3395156, z: -0.09586349}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:FrontWheelBase
+      parentName: Philotes_anim_start_vehicle(Clone)
+      position: {x: -0, y: 0.9299999, z: 0.37850004}
+      rotation: {x: -0.22495106, y: 0, z: -0, w: 0.97437006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:FrontWheel
+      parentName: Philotes:FrontWheelBase
+      position: {x: -0.00000000889218, y: -0.6013124, z: 0.0044453046}
+      rotation: {x: -0.000000014901165, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Philotes:Than
+      parentName: Philotes_anim_start_vehicle(Clone)
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:Group
+      parentName: Philotes_anim_start_vehicle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:DeformationSystem
+      parentName: Philotes:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:Root_M
+      parentName: Philotes:DeformationSystem
+      position: {x: -0, y: 0.0041072797, z: 0}
+      rotation: {x: -0.6815169, y: 0.1885065, z: 0.68151695, w: -0.1885065}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000002}
+    - name: Philotes:backWheel_M
+      parentName: Philotes:Root_M
+      position: {x: 0.3517731, y: -0.63232034, z: 4.933168e-16}
+      rotation: {x: 0.6815169, y: -0.1885065, z: 0.68151695, w: 0.1885065}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000006}
+    - name: Philotes:backWheelEnd_R
+      parentName: Philotes:backWheel_M
+      position: {x: -0.14585699, y: 8.5265126e-16, z: -4.973799e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Philotes:frontWheel_M
+      parentName: Philotes:Root_M
+      position: {x: -0.7532819, y: 3.8302692e-16, z: 2.1945481e-16}
+      rotation: {x: 0.68151695, y: -0.18850647, z: 0.6815169, w: 0.18850647}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: Philotes:frontWheelEnd_R
+      parentName: Philotes:frontWheel_M
+      position: {x: -0.14585699, y: 9.237055e-16, z: 1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: Philotes:Body_M
+      parentName: Philotes:Root_M
+      position: {x: -0.1975431, y: -0.32977355, z: 3.3008535e-16}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: 0.4930104, w: 0.8700234}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Philotes:BodyEnd_M
+      parentName: Philotes:Body_M
+      position: {x: -0.68865883, y: -7.2633663e-16, z: 9.866524e-16}
+      rotation: {x: -0, y: -0, z: -8.881784e-16, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Philotes:Base_M
+      parentName: Philotes:Root_M
+      position: {x: -0.09039257, y: -0.3364527, z: 1.5220364e-16}
+      rotation: {x: 0.6815169, y: -0.18850651, z: -0.68151695, w: -0.18850651}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000006}
+    - name: Philotes:R_Pedal1_R
+      parentName: Philotes:Root_M
+      position: {x: -0.09039257, y: -0.3364527, z: -0.09975281}
+      rotation: {x: 0.61519945, y: 0.348611, z: -0.34861103, w: -0.6151995}
+      scale: {x: 1.0000019, y: 1.0000018, z: 1.0000001}
+    - name: Philotes:R_Pedal2_R
+      parentName: Philotes:R_Pedal1_R
+      position: {x: 0.19258276, y: 2.3092638e-16, z: 2.842171e-16}
+      rotation: {x: -0.7071068, y: 0.70710677, z: -0.000000029802322, w: 0}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000008}
+    - name: Philotes:R_Pedal3_R
+      parentName: Philotes:R_Pedal2_R
+      position: {x: -0.14344643, y: 7.105427e-17, z: -8.8817837e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:L_Pedal1_L
+      parentName: Philotes:Root_M
+      position: {x: -0.09039257, y: -0.3364527, z: 0.060059484}
+      rotation: {x: -0.094881445, y: -0.70071226, z: -0.27868766, w: 0.6498716}
+      scale: {x: 1.0000012, y: 1.0000013, z: 1}
+    - name: Philotes:L_Pedal2_L
+      parentName: Philotes:L_Pedal1_L
+      position: {x: 0.19391534, y: 6.8389737e-16, z: -5.3290704e-17}
+      rotation: {x: -0.0000005774199, y: 0.00000005960463, z: -0.9893042, w: 0.1458671}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philotes:L_Pedal3_L
+      parentName: Philotes:L_Pedal2_L
+      position: {x: -0.14300899, y: -1.0658141e-16, z: 2.664535e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -101,11 +298,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1

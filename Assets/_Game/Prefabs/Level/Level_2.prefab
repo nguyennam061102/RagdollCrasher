@@ -57,12 +57,12 @@ MonoBehaviour:
   _spline:
     points:
     - _type: 0
-      position: {x: -9.187089, y: 71.3398, z: -38.2}
+      position: {x: -9.187089, y: 71.31025, z: -38.2}
       color: {r: 1, g: 1, b: 1, a: 1}
       normal: {x: 0, y: 1, z: 0}
       size: 1
-      tangent: {x: -9.187089, y: 71.3398, z: -38.2}
-      tangent2: {x: -9.187089, y: 71.3398, z: -38.2}
+      tangent: {x: -9.187089, y: 71.31025, z: -38.2}
+      tangent2: {x: -9.187089, y: 71.31025, z: -38.2}
     - _type: 0
       position: {x: -9.190019, y: 71.37968, z: -27.830341}
       color: {r: 1, g: 1, b: 1, a: 1}
@@ -368,15 +368,15 @@ MonoBehaviour:
   _sampleMode: 0
   _subscribers: []
   _rawSamples:
-  - position: {x: -9.187089, y: 71.3398, z: -38.2}
+  - position: {x: -9.187089, y: 71.31025, z: -38.2}
     up: {x: 0, y: 1, z: 0}
-    forward: {x: -0.00028252284, y: 0.0038456952, z: 0.99999255}
+    forward: {x: -0.0002825186, y: 0.0066951024, z: 0.9999776}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0
   - position: {x: -9.190019, y: 71.37968, z: -27.830341}
     up: {x: 0, y: 1, z: 0}
-    forward: {x: 0.0005423015, y: -0.010781845, z: 0.99994177}
+    forward: {x: 0.0005422891, y: -0.009356764, z: 0.9999561}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.025

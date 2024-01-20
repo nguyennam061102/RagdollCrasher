@@ -65,6 +65,7 @@ public class BikeController : MonoBehaviour
         {
             CameraManager.Ins.ChangeCam(Constants.CAM_FAR);
             ragdollController.ChaneAnim(Constants.STARTUP);
+            wind.Play();
             Time.timeScale = 1.5f;
         });
         spline.AddTrigger(0, 0.7, SplineTrigger.Type.Forward).AddListener(() =>

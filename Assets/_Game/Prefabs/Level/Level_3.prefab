@@ -977,6 +977,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[0].forward.x
+      value: -0.00032140932
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[0].forward.y
+      value: 0.0076167313
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[0].forward.z
+      value: 0.9999709
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[1].forward.x
+      value: 0.00052286615
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[1].forward.y
+      value: -0.008896369
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[1].forward.z
+      value: 0.99996024
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _rawSamples.Array.data[0].position.y
+      value: 71.31025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _spline.points.Array.data[0].tangent.y
+      value: 71.31025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _spline.points.Array.data[0].position.y
+      value: 71.31025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999592755298339054, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
+      propertyPath: _spline.points.Array.data[0].tangent2.y
+      value: 71.31025
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc7c44289f925e34a81a1395c61c18ea, type: 3}
 --- !u!114 &2095120418 stripped

@@ -32,12 +32,15 @@ MonoBehaviour:
     assemblyNames:
     - Assembly-CSharp
     - Assembly-CSharp-firstpass
+    - Autodesk.Fbx
+    - Autodesk.Fbx.Editor
     - BzKovSoft.RagdollHelper.Editor
     - Cinemachine
     - Dreamteck.Splines
     - Dreamteck.Splines.Editor
     - Dreamteck.Utilities
     - Dreamteck.Utilities.Editor
+    - FbxBuildTestAssets
     - UltimateEditorEnhancer
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
