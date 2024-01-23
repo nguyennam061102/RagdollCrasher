@@ -19,6 +19,7 @@ public class RagdollController : MonoBehaviour
     [SerializeField] float timeNitro;
     [SerializeField] Vector3 startPos;
     [SerializeField] Vector3 endPos;
+    [SerializeField] GameObject FlameJetpack;
     Vector3 dir;
 
     public Vector3 StartPos { get => startPos; set => startPos = value; }
@@ -57,6 +58,11 @@ public class RagdollController : MonoBehaviour
             {
                 rb.velocity = dir * GameManager.Ins.Velocity;
                 GameManager.Ins.Velocity += speed * Time.fixedDeltaTime * 0.2f;
+                FlameJetpack.SetActive(true);
+            }
+            else
+            {
+                FlameJetpack.SetActive(false);
             }
         }
     }
@@ -93,7 +99,7 @@ public class RagdollController : MonoBehaviour
     }
     IEnumerator SetEndPanel()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(7f);
         UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
         UIManager.Ins.GetUI<UIEnd>().SetEnd(Vector3.Distance(rbRagdoll.transform.position, startPos), Vector3.Distance(endPos, startPos));
     }

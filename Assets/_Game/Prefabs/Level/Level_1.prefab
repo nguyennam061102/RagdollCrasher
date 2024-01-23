@@ -84,6 +84,7 @@ MonoBehaviour:
   startPoint: {fileID: 7431063335128677865}
   endPoint: {fileID: 1925109714565177142}
   spline: {fileID: 6439238496096446772}
+  skybox: {fileID: 2100000, guid: 6839ee16887fa4146bd8ddb2361cc870, type: 2}
 --- !u!114 &4598313780697041803
 MonoBehaviour:
   m_ObjectHideFlags: 0

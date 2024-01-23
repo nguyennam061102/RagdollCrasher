@@ -52,6 +52,7 @@ MonoBehaviour:
   startPoint: {fileID: 6173638413145081212}
   endPoint: {fileID: 3977879252050484252}
   spline: {fileID: 6912606941456752779}
+  skybox: {fileID: 2100000, guid: 07c61064b5c946b45a935105639a3037, type: 2}
 --- !u!1 &5320479911251992649
 GameObject:
   m_ObjectHideFlags: 0

@@ -66,7 +66,7 @@ public class UIEnd : UICanvas
         pathMoveSlider.maxValue = maxPath;
         pathMoveSlider.value = distance;
         textCoin.text = SaveLoadData.Ins.DataGame.Coin.ToString();
-        coinReward.text = Mathf.CeilToInt(distance).ToString();
-        coin = Mathf.CeilToInt(distance);
+        coinReward.text = Mathf.CeilToInt(distance + SaveLoadData.Ins.DataGame.CoinRewardCoinUp).ToString();
+        coin = Mathf.CeilToInt(distance + SaveLoadData.Ins.DataGame.CoinRewardCoinUp);
     }
 }

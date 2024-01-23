@@ -19,7 +19,7 @@ public class CameraManager : Singleton<CameraManager>
     private void Start()
     {
         ChangeCam(Constants.CAM_START);
-        ChaneAim();
+        ChaneAim(LevelManager.Ins.AimPlayer);
     }
     public void ChangeCam(string name)
     {
@@ -39,12 +39,12 @@ public class CameraManager : Singleton<CameraManager>
             curentCam = targetCam;
         }
     }
-    public void ChaneAim()
+    public void ChaneAim(Transform aim)
     {
         foreach (var cam in lisCamera)
         {
-            cam.virtualCamera.Follow = LevelManager.Ins.AimPlayer;
-            cam.virtualCamera.LookAt = LevelManager.Ins.AimPlayer;
+            cam.virtualCamera.Follow = aim;
+            cam.virtualCamera.LookAt = aim;
         }
     }
 }

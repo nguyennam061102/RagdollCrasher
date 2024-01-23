@@ -71,7 +71,7 @@ public class BikeController : MonoBehaviour
         spline.AddTrigger(0, 0.7, SplineTrigger.Type.Forward).AddListener(() =>
         {
             CameraManager.Ins.ChangeCam(Constants.CAM_NEAR);
-            Time.timeScale = 1;
+            Time.timeScale = 1f;
 
         });
         GetInput();
@@ -181,7 +181,7 @@ public class BikeController : MonoBehaviour
                     //rb.AddForce(dir * splineFollower.followSaveLoadData.Ins.DataGame.EnginePow * 100);
                     rb.velocity = dir * GameManager.Ins.Velocity;
                     GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
-                    splineFollower.followSpeed = GameManager.Ins.Velocity;
+                    //splineFollower.followSpeed = GameManager.Ins.Velocity;
                 }
                 else
                 {
@@ -190,7 +190,7 @@ public class BikeController : MonoBehaviour
             }
             else
             {
-                rb.velocity = transform.forward * GameManager.Ins.Velocity;
+                //rb.velocity = transform.forward * GameManager.Ins.Velocity;
                 GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
                 splineFollower.followSpeed = GameManager.Ins.Velocity;
             }
@@ -236,7 +236,7 @@ public class BikeController : MonoBehaviour
         dir = transform.forward;
         rb.velocity = dir * splineFollower.followSpeed;
         isAirborne = true;
-        Time.timeScale = 0.75f;
+        Time.timeScale = 1.25f;
     }
     IEnumerator ChangeCam()
     {

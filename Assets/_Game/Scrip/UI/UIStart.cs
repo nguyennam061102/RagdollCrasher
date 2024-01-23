@@ -12,10 +12,12 @@ public class UIStart : UICanvas
     [SerializeField] Button buttonSetting;
     [SerializeField] Button buttonGold;
     [SerializeField] TextMeshProUGUI goldText;
+    [SerializeField] Image fade;
     protected override void Start()
     {
         base.Start();
         SetGold();
+        fade.DOFade(0f, 1.5f);
         buttonChoseLv.onClick.AddListener(() =>
         {
             ButtonChoseLv();
