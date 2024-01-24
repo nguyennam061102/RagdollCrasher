@@ -70,7 +70,7 @@ public class DataGame
         get => coin; 
         set {
             coin = value;
-            UIManager.Ins.GetUI<UIStart>().SetGold();
+            //UIManager.Ins.GetUI<UIStart>().SetGold();
             NotifyObservers();
         }  
     }

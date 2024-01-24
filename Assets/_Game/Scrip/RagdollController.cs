@@ -110,7 +110,7 @@ public class RagdollController : MonoBehaviour
             SetStateRagdoll(false);
             rbRagdoll.transform.SetParent(null);
             isActiveRagdoll = true;
-            rbRagdoll.velocity = dir * GameManager.Ins.Velocity;
+            rbRagdoll.velocity = dir * (GameManager.Ins.Velocity  + 10f) ;
             Debug.Log(GameManager.Ins.Velocity);
             GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
             UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);

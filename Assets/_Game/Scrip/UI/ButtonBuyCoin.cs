@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ButtonBuyCoin : MonoBehaviour, IObserver
 {
     [SerializeField] ButtonType type;
-    [SerializeField] float coin;
+    [SerializeField] int coin;
     [SerializeField] float money;
     [SerializeField] Button button;
     [SerializeField] TextMeshProUGUI textCoin;
@@ -41,11 +41,11 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
     }
     void GetCoinReward()
     {
-        SaveLoadData.Ins.DataGame.coin += (int)coin;
+        SaveLoadData.Ins.DataGame.coin += coin;
     }
     void GetCoinPurchase()
     {
-        SaveLoadData.Ins.DataGame.coin += (int)coin;
+        SaveLoadData.Ins.DataGame.coin += coin;
     }
 
     public void OnNotify()

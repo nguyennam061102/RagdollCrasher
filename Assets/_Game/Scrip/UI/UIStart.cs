@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIStart : UICanvas
+public class UIStart : UICanvas, IObserver
 {
     [SerializeField] Button buttonChoseLv;
     [SerializeField] Button buttonChoseMotor;
@@ -17,6 +17,7 @@ public class UIStart : UICanvas
     {
         base.Start();
         SetGold();
+        SaveLoadData.Ins.DataGame.RegisterObserver(this);
         fade.DOFade(0f, 1.5f);
         buttonChoseLv.onClick.AddListener(() =>
         {
@@ -35,9 +36,10 @@ public class UIStart : UICanvas
             ButtonGold();
         });
     }
-    void Update()
+    protected override void OnInit()
     {
-        
+        base.OnInit();
+        SetGold();
     }
     public void SetGold()
     {
@@ -58,5 +60,10 @@ public class UIStart : UICanvas
     void ButtonGold()
     {
         OpenNewUI<UIBuyCoin>();
+    }
+
+    public void OnNotify()
+    {
+        SetGold();
     }
 }
