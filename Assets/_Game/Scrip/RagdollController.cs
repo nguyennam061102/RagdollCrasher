@@ -99,7 +99,7 @@ public class RagdollController : MonoBehaviour
     }
     IEnumerator SetEndPanel()
     {
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(3f);
         UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
         UIManager.Ins.GetUI<UIEnd>().SetEnd(Vector3.Distance(rbRagdoll.transform.position, startPos), Vector3.Distance(endPos, startPos));
     }
@@ -129,8 +129,23 @@ public class RagdollController : MonoBehaviour
     {
         GameManager.Ins.gameState = GameState.Skip;
         CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
-        rbRagdoll.transform.SetParent(null);
-        //SetStateRagdoll(true);
-        StartCoroutine(SetEndPanel());
+        LevelManager.Ins.AimPlayer.SetParent(null);
+        LevelManager.Ins.CurrentMotor.RemoveTrigger();
+        if (isAirborn)
+        {
+
+            UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
+            UIManager.Ins.GetUI<UIEnd>().SetEnd(Vector3.Distance(rbRagdoll.transform.position, startPos), Vector3.Distance(endPos, startPos));
+            LevelManager.Ins.CurrentMotor.RagdollController.enabled = false;
+            LevelManager.Ins.CurrentMotor.enabled = false;
+        }
+        else
+        {
+            UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
+            UIManager.Ins.GetUI<UIEnd>().SetEnd(0f, 0f);
+            LevelManager.Ins.CurrentMotor.RagdollController.enabled = false;
+            LevelManager.Ins.CurrentMotor.enabled = false;
+        }    
+
     }
 }

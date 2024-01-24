@@ -46,11 +46,7 @@ public class BikeController : MonoBehaviour
     }
     public void OnInit()
     {
-        if (spline.triggerGroups.Length > 0)
-        {
-            spline.triggerGroups = RemoveItemAt(spline.triggerGroups, 0);
-
-        }
+        RemoveTrigger();
         isMoving = true;
         spline.AddTrigger(0, 1, SplineTrigger.Type.Forward).AddListener(() =>
         {
@@ -77,6 +73,14 @@ public class BikeController : MonoBehaviour
         GetInput();
         smoke.gameObject.SetActive(true);
         flame.gameObject.SetActive(false);
+    }
+    public void RemoveTrigger()
+    {
+        if (spline.triggerGroups.Length > 0)
+        {
+            spline.triggerGroups = RemoveItemAt(spline.triggerGroups, 0);
+
+        }
     }
     TriggerGroup[] RemoveItemAt(TriggerGroup[] originalArray, int index)
     {
