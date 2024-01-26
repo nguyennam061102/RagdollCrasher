@@ -57,6 +57,7 @@ public class LevelManager : SerializedMonoBehaviour
     [SerializeField] Transform aimPlayer;
     [SerializeField] Map currentMap;
     [SerializeField] BikeController currentMotor;
+    [SerializeField] Dictionary<MotorType, float> speedMotor;
     public void OnInit(MotorType motorType, int lv)
     {
         currentMap = Instantiate(maps[lv]);

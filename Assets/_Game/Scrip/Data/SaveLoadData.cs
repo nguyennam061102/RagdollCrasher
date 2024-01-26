@@ -74,7 +74,15 @@ public class DataGame
             NotifyObservers();
         }  
     }
-    public int Lv { get => lv; set => lv = value; }
+    public int Lv 
+    { 
+        get => lv;
+        set 
+        {
+            lv = value;
+            NotifyObservers();
+        }  
+    }
     public float MaxPathMove { get => maxPathMove; set => maxPathMove = value; }
     public int CurrenLv { get => currenLv; set => currenLv = value; }
     public MotorType CurrenMotor { get => currenMotor; set => currenMotor = value; }

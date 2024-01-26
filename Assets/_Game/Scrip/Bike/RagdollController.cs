@@ -1,7 +1,11 @@
 using Sirenix.OdinInspector;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UIElements;
 
 public class RagdollController : MonoBehaviour
 {
@@ -21,6 +25,7 @@ public class RagdollController : MonoBehaviour
     [SerializeField] Vector3 endPos;
     [SerializeField] GameObject FlameJetpack;
     Vector3 dir;
+    private bool isPress;
 
     public Vector3 StartPos { get => startPos; set => startPos = value; }
     public bool IsAirborn { get => isAirborn; set => isAirborn = value; }
@@ -29,6 +34,7 @@ public class RagdollController : MonoBehaviour
     private void Start()
     {
         isMoving = false;
+        GetInput();
     }
     private void Update()
     {
@@ -52,18 +58,19 @@ public class RagdollController : MonoBehaviour
                 GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
                 UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
             }
-            timeNitro -= Time.deltaTime;
-            UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
-            if (timeNitro > 0)
-            {
-                rb.velocity = dir * GameManager.Ins.Velocity;
-                GameManager.Ins.Velocity += speed * Time.fixedDeltaTime * 0.2f;
-                FlameJetpack.SetActive(true);
-            }
-            else
-            {
-                FlameJetpack.SetActive(false);
-            }
+            MoveWithhJetpack();
+            //timeNitro -= Time.deltaTime;
+            //UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
+            //if (timeNitro > 0)
+            //{
+            //    rb.velocity = dir * GameManager.Ins.Velocity;
+            //    GameManager.Ins.Velocity += speed * Time.fixedDeltaTime * 0.2f;
+            //    FlameJetpack.SetActive(true);
+            //}
+            //else
+            //{
+            //    FlameJetpack.SetActive(false);
+            //}
         }
     }
     public void OnInit(float timeNitro)
@@ -79,7 +86,54 @@ public class RagdollController : MonoBehaviour
         rb.velocity = dir * GameManager.Ins.Velocity;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
     }
-    
+    void GetInput()
+    {
+        EventTrigger.Entry entryDown = new EventTrigger.Entry();
+        entryDown.eventID = EventTriggerType.PointerDown;
+        entryDown.callback.AddListener((data) => {
+            CheckPointDown();
+        });
+        HandleInput.Ins.EventTrigger.triggers.Add(entryDown);
+
+        EventTrigger.Entry entryUp = new EventTrigger.Entry();
+        entryUp.eventID = EventTriggerType.PointerUp;
+        entryUp.callback.AddListener((data) => {
+            CheckPointUp();
+        });
+        HandleInput.Ins.EventTrigger.triggers.Add(entryUp);
+    }
+
+    private void CheckPointUp()
+    {
+        isPress = false;
+    }
+
+
+    private void CheckPointDown()
+    {
+        isPress = true;
+    }
+    void MoveWithhJetpack()
+    {
+        if (isPress)
+        {
+            
+                timeNitro -= Time.deltaTime;
+                UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
+                if (timeNitro > 0)
+                {
+                    rb.velocity = dir * GameManager.Ins.Velocity;
+                    GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime * 0.2f;
+                    FlameJetpack.SetActive(true);
+                }
+                
+            
+        }
+        else
+        {
+            FlameJetpack.SetActive(false);
+        }
+    }
     public void ChaneAnim(string name)
     {
         if (currenAnim != name)
@@ -120,6 +174,7 @@ public class RagdollController : MonoBehaviour
         }
         if (CompareTag("Win") && GameManager.Ins.gameState != GameState.Skip)
         {
+            SaveLoadData.Ins.DataGame.Lv++;
             SaveLoadData.Ins.DataGame.CurrenLv++;
             SaveLoadData.Ins.Save();
         }

@@ -17,7 +17,6 @@ public class UIStart : UICanvas, IObserver
     {
         base.Start();
         SetGold();
-        SaveLoadData.Ins.DataGame.RegisterObserver(this);
         fade.DOFade(0f, 1.5f);
         buttonChoseLv.onClick.AddListener(() =>
         {
@@ -35,6 +34,7 @@ public class UIStart : UICanvas, IObserver
         {
             ButtonGold();
         });
+        
     }
     protected override void OnInit()
     {

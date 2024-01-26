@@ -47,7 +47,6 @@ public class UIManager : Singleton<UIManager>
 
         canvas.Setup();
         canvas.Open();
-
         return canvas as T;
     }
 
