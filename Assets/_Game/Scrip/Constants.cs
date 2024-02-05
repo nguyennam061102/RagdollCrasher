@@ -17,5 +17,19 @@ public class Constants
     public const string START = "start";
     public const string STARTUP = "startup";
     public const string AIR = "air";
+
+    //---------Sound-----------------------
+    public const string MUSIC_1 = "Music_1";
+    public const string MUSIC_2 = "Music_2";
+    public const string SFX_FALL = "Fall";
+    public const string SFX_BOOST = "Boost";
+    public const string SFX_BOOST_END = "Boost_End";
+    public const string SFX_BOOST_LOOP = "Boost_Loop";
+    public const string SFX_SPIN = "Spin";
+    public const string SFX_UPGRADE_1 = "Upgrade_1";
+    public const string SFX_UPGRADE_2 = "Upgrade_2";
+    public const string SFX_CLICK_UI = "Click_UI";
+    public const string SFX_IDLE_1 = "Idle_1";
+    public const string SFX_RUN_1 = "Run_1";
    
 }

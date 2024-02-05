@@ -36,6 +36,8 @@ MonoBehaviour:
     - Autodesk.Fbx.Editor
     - BzKovSoft.RagdollHelper.Editor
     - Cinemachine
+    - Coffee.UIParticle
+    - Coffee.UIParticle.Editor
     - Dreamteck.Splines
     - Dreamteck.Splines.Editor
     - Dreamteck.Utilities

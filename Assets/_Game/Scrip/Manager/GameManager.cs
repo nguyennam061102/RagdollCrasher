@@ -28,6 +28,7 @@ public class GameManager : Singleton<GameManager>
         UIManager.Ins.OpenUI<UIStart>();
         LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
         gameState = GameState.Start;
+        AudioManager.Ins.PlayMusic(Constants.MUSIC_1);
     }
     // Start is called before the first frame update
     void Start()

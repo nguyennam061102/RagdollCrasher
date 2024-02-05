@@ -4273,7 +4273,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8206672578000159169}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.47925436, y: 0.6105036, z: 0.63488406}
@@ -4324,8 +4324,8 @@ WheelCollider:
     spring: 24347.594
     damper: 208.69365
     targetPosition: 0.5
-  m_SuspensionDistance: 0.28
-  m_ForceAppPointDistance: 0.34
+  m_SuspensionDistance: 0.18
+  m_ForceAppPointDistance: 0.32
   m_Mass: 200
   m_WheelDampingRate: 0.25
   m_ForwardFriction:
@@ -4441,9 +4441,9 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.56
-  m_Height: 2.6
+  m_Height: 3.27
   m_Direction: 1
-  m_Center: {x: 0, y: 1.14, z: -0.48}
+  m_Center: {x: 0, y: 1.5, z: 0.04}
 --- !u!114 &8206672578165157537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4579,7 +4579,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8206672579086805621}
   m_Material: {fileID: 13400000, guid: 3d996025bd1766b4094a27c63c718198, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.22
   m_Height: 0.63
@@ -4663,8 +4663,8 @@ WheelCollider:
     spring: 24652.412
     damper: 211.30637
     targetPosition: 0.5
-  m_SuspensionDistance: 0.31
-  m_ForceAppPointDistance: 0.47
+  m_SuspensionDistance: 0.18
+  m_ForceAppPointDistance: 0.32
   m_Mass: 20
   m_WheelDampingRate: 0.25
   m_ForwardFriction:

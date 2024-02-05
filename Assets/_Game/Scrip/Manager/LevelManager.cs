@@ -24,6 +24,7 @@ public class LevelManager : SerializedMonoBehaviour
     public static LevelManager Ins { get => instance; }
     public Transform AimPlayer { get => aimPlayer; set => aimPlayer = value; }
     public BikeController CurrentMotor { get => currentMotor; set => currentMotor = value; }
+    public Dictionary<int, Map> Maps { get => maps; set => maps = value; }
 
     [SerializeField] private bool needDontDestroy = false;
     protected virtual void Awake()

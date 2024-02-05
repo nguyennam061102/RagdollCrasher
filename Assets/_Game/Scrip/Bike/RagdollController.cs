@@ -77,6 +77,7 @@ public class RagdollController : MonoBehaviour
     {
         ChaneAnim(Constants.AIR);
         transform.SetParent(null);
+        GetComponent<Collider>().isTrigger = false;
         transform.rotation = Quaternion.Euler(-15, 0, 0);
         isMoving = true;
         rb.useGravity = true;
@@ -90,14 +91,16 @@ public class RagdollController : MonoBehaviour
     {
         EventTrigger.Entry entryDown = new EventTrigger.Entry();
         entryDown.eventID = EventTriggerType.PointerDown;
-        entryDown.callback.AddListener((data) => {
+        entryDown.callback.AddListener((data) =>
+        {
             CheckPointDown();
         });
         HandleInput.Ins.EventTrigger.triggers.Add(entryDown);
 
         EventTrigger.Entry entryUp = new EventTrigger.Entry();
         entryUp.eventID = EventTriggerType.PointerUp;
-        entryUp.callback.AddListener((data) => {
+        entryUp.callback.AddListener((data) =>
+        {
             CheckPointUp();
         });
         HandleInput.Ins.EventTrigger.triggers.Add(entryUp);
@@ -117,17 +120,20 @@ public class RagdollController : MonoBehaviour
     {
         if (isPress)
         {
-            
-                timeNitro -= Time.deltaTime;
-                UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
-                if (timeNitro > 0)
-                {
-                    rb.velocity = dir * GameManager.Ins.Velocity;
-                    GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime * 0.2f;
-                    FlameJetpack.SetActive(true);
-                }
-                
-            
+
+            timeNitro -= Time.deltaTime;
+            UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
+            if (timeNitro > 0)
+            {
+                rb.velocity += Vector3.up * SaveLoadData.Ins.DataGame.JetpackPow * 0.1f;
+                GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime * 0.1f;
+                FlameJetpack.SetActive(true);
+            }
+            else
+            {
+                FlameJetpack.SetActive(false);
+            }
+
         }
         else
         {
@@ -157,27 +163,35 @@ public class RagdollController : MonoBehaviour
         UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
         UIManager.Ins.GetUI<UIEnd>().SetEnd(Vector3.Distance(rbRagdoll.transform.position, startPos), Vector3.Distance(endPos, startPos));
     }
-    private void OnTriggerEnter(Collider other)
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (isMoving && GameManager.Ins.gameState != GameState.Skip)
+    //    {
+    //        SetStateRagdoll(false);
+    //        rbRagdoll.transform.SetParent(null);
+    //        isActiveRagdoll = true;
+    //        rbRagdoll.velocity = dir * (GameManager.Ins.Velocity + 10f);
+    //        Debug.Log(GameManager.Ins.Velocity);
+    //        GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
+    //        UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+    //        CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
+    //        rb.isKinematic = true;
+    //        StartCoroutine(SetEndPanel());
+    //    }
+    //}
+    private void OnCollisionEnter(Collision collision)
     {
-        if (isMoving && GameManager.Ins.gameState != GameState.Skip)
-        {
-            SetStateRagdoll(false);
-            rbRagdoll.transform.SetParent(null);
-            isActiveRagdoll = true;
-            rbRagdoll.velocity = dir * (GameManager.Ins.Velocity  + 10f) ;
-            Debug.Log(GameManager.Ins.Velocity);
-            GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
-            UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
-            CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
-            rb.isKinematic = true;
-            StartCoroutine(SetEndPanel());
-        }
-        if (CompareTag("Win") && GameManager.Ins.gameState != GameState.Skip)
-        {
-            SaveLoadData.Ins.DataGame.Lv++;
-            SaveLoadData.Ins.DataGame.CurrenLv++;
-            SaveLoadData.Ins.Save();
-        }
+        GetComponent<Collider>().isTrigger = true;
+        SetStateRagdoll(false);
+        rbRagdoll.transform.SetParent(null);
+        isActiveRagdoll = true;
+        rbRagdoll.velocity = dir * (GameManager.Ins.Velocity + 10f);
+        Debug.Log(GameManager.Ins.Velocity);
+        GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
+        UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+        CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
+        rb.isKinematic = true;
+        StartCoroutine(SetEndPanel());
     }
     [Button]
     public void SetSkip()
@@ -200,7 +214,7 @@ public class RagdollController : MonoBehaviour
             UIManager.Ins.GetUI<UIEnd>().SetEnd(0f, 0f);
             LevelManager.Ins.CurrentMotor.RagdollController.enabled = false;
             LevelManager.Ins.CurrentMotor.enabled = false;
-        }    
+        }
 
     }
 }

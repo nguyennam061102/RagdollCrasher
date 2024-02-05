@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -40,25 +41,38 @@ public class UIEnd : UICanvas
     }
     void GetCoinReward()
     {
-        SaveLoadData.Ins.DataGame.Coin += coin;
-        SaveLoadData.Ins.Save();
-        LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
-        SceneManager.LoadScene("GamePlay");
+        //inter
+        //UnityEvent e = new UnityEvent();
+        //e.AddListener(() =>
+        //{
+            SaveLoadData.Ins.DataGame.Coin += coin;
+            SaveLoadData.Ins.Save();
+            SceneManager.LoadScene("GamePlay");
+        //});
+        //bool showad = SkygoBridge.instance.ShowInterstitial(e);
+        
+        //ApplovinBridge.instance.ShowInterAdsApplovin(null);
     }
     void GetCoinRewardQC()
     {
         interacableImage.gameObject.SetActive(true);
         randomnize.StopTween();
-        SaveLoadData.Ins.DataGame.Coin += (int)(randomnize.Reward * coin);
-        SaveLoadData.Ins.Save();
-        //LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
         objCoinRwQC.transform.DOScale(1.5f, 0.5f).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
         StartCoroutine(SetRewardQCCoin());
     }
     IEnumerator SetRewardQCCoin()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("GamePlay");
+        // UnityEvent e = new UnityEvent();
+        // e.AddListener(() =>
+        // {
+            SaveLoadData.Ins.DataGame.Coin += (int)(randomnize.Reward * coin);
+            SaveLoadData.Ins.Save();
+            SceneManager.LoadScene("GamePlay");
+        // });
+        // //SkygoBridge.instance.ShowRewarded(e, null);
+        //reward
+        // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
     }
     public void SetEnd(float distance, float maxPath)
     {

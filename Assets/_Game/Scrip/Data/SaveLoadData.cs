@@ -1,4 +1,6 @@
+using Sirenix.OdinInspector;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +13,8 @@ public interface IObserver
 public class SaveLoadData : Singleton<SaveLoadData>
 {
     [SerializeField] public DataGame DataGame;
-
+    [SerializeField] private Dictionary<MotorType, bool> motorPurchase;
+    public Dictionary<MotorType, bool> MotorPurchase { get => motorPurchase; set => motorPurchase = value; }
     //public DataGame DataGame { get => dataGame; set => dataGame = value; }
     protected override void Awake()
     {
@@ -23,16 +26,22 @@ public class SaveLoadData : Singleton<SaveLoadData>
         else
         {
             DataGame = LoadData();
+            motorPurchase = LoadDataMotorPurchase();
         }
     }
 
     public void Save()
     {
         ES3.Save("DataGame",DataGame,"DataGame");
+        ES3.Save("DataMotorPurchase", motorPurchase, "DataGame");
     }
     DataGame LoadData()
     {
         return ES3.Load<DataGame>("DataGame", "DataGame");
+    }
+    Dictionary<MotorType, bool> LoadDataMotorPurchase()
+    {
+        return ES3.Load<Dictionary<MotorType, bool>>("DataMotorPurchase", "DataGame");
     }
     private void OnApplicationPause(bool pause)
     {
@@ -44,7 +53,7 @@ public class SaveLoadData : Singleton<SaveLoadData>
     }
 }
 [Serializable]
-public class DataGame
+public class DataGame 
 {
     [SerializeField] private float enginePow;
     [SerializeField] private float jetpackPow;
@@ -61,6 +70,8 @@ public class DataGame
     [SerializeField] private MotorType currenMotor;
     [SerializeField] private float maxPathMove;
     [SerializeField] private int vibrateData;
+    [SerializeField] private int countOnlineGift;
+    
 
     public float EnginePow { get => enginePow; set => enginePow = value; }
     public float JetpackPow { get => jetpackPow; set => jetpackPow = value; }
@@ -93,6 +104,7 @@ public class DataGame
     public int JetpackLv { get => jetpackLv; set => jetpackLv = value; }
     public int CoinRewardLv { get => coinRewardLv; set => coinRewardLv = value; }
     public int VibrateData { get => vibrateData; set => vibrateData = value; }
+    public int CountOnlineGift { get => countOnlineGift; set => countOnlineGift = value; }
 
     [Header("IObserver")]
     private List<IObserver> observers = new List<IObserver>();

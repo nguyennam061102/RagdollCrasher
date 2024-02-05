@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonBuyCoin : MonoBehaviour, IObserver
@@ -41,11 +42,35 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
     }
     void GetCoinReward()
     {
-        SaveLoadData.Ins.DataGame.coin += coin;
+        // UnityEvent e = new UnityEvent();
+        // e.AddListener(() =>
+        // {
+            SaveLoadData.Ins.DataGame.coin += coin;
+            SaveLoadData.Ins.Save();
+        // });
+        // //SkygoBridge.instance.ShowRewarded(e, null);
+        // //reward
+        // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+
     }
     void GetCoinPurchase()
     {
-        SaveLoadData.Ins.DataGame.coin += coin;
+        //purchase
+        //Buy in game, price is money
+        // string sku = "";
+        // Debug.Log(price + " : " + claimValue);
+        // sku = "fight_dynasty_cash_" + price.ToString();
+        // Debug.Log(sku);
+        // UnityEvent e = new UnityEvent();
+        // e.AddListener(() =>
+        // {
+            SaveLoadData.Ins.DataGame.coin += coin;
+
+        //noAdsBtn.SetActive(false);
+        // });
+
+        // SkygoBridge.instance.PurchaseIAP(sku, e);
+
     }
 
     public void OnNotify()

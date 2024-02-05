@@ -10,6 +10,7 @@ public class RagdollCheckWin : MonoBehaviour
     {
         if (!isWin)
         {
+            SaveLoadData.Ins.DataGame.Lv++;
             SaveLoadData.Ins.DataGame.CurrenLv++;
             SaveLoadData.Ins.Save();
             isWin = true;
