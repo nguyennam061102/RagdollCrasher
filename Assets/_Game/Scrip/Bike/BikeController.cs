@@ -41,7 +41,6 @@ public class BikeController : MonoBehaviour
 
     void Start()
     {
-
         OnInit();
     }
     public void OnInit()
@@ -73,6 +72,7 @@ public class BikeController : MonoBehaviour
         GetInput();
         smoke.gameObject.SetActive(true);
         flame.gameObject.SetActive(false);
+        AudioManager.Ins.PlaySfxLoop(Constants.SFX_RUN_1);
     }
     public void RemoveTrigger()
     {
@@ -161,6 +161,8 @@ public class BikeController : MonoBehaviour
                 ragdollController.ChaneAnim(Constants.START);
                 isStart = true;
                 UIManager.Ins.GetUI<UIStart>().OpenNewUI<UIGamePlay>();
+                AudioManager.Ins.PlayMusic(Constants.MUSIC_2);
+
             }
             isPress = true;
         }

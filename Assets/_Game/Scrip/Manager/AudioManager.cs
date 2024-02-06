@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : Singleton<AudioManager>
@@ -30,7 +28,20 @@ public class AudioManager : Singleton<AudioManager>
             Debug.LogWarning("Sound: " + name + " not found!");
             return;
         }
+        sfxSource.loop = false;
         sfxSource.PlayOneShot(s.clip);
+    }
+    public void PlaySfxLoop(string name)
+    {
+        Sound s = System.Array.Find(sfxSounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+        sfxSource.loop = true;
+        sfxSource.clip = s.clip;
+        sfxSource.Play();
     }
     public void StopSfx(string name)
     {
