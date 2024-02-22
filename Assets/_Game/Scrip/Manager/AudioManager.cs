@@ -5,6 +5,7 @@ public class AudioManager : Singleton<AudioManager>
     public Sound[] musicSounds, sfxSounds ;
     public AudioClip[] stepSounds;
     public AudioSource musicSource, sfxSource;
+    public string sfxName;
     private void Start()
     {
 
@@ -22,36 +23,51 @@ public class AudioManager : Singleton<AudioManager>
     }
     public void PlaySfx(string name)
     {
-        Sound s = System.Array.Find(sfxSounds, sound => sound.name == name);
-        if (s == null)
-        {
-            Debug.LogWarning("Sound: " + name + " not found!");
-            return;
-        }
-        sfxSource.loop = false;
-        sfxSource.PlayOneShot(s.clip);
+            sfxName = name;
+            Sound s = System.Array.Find(sfxSounds, sound => sound.name == name);
+            if (s == null)
+            {
+                Debug.LogWarning("Sound: " + name + " not found!");
+                return;
+            }
+            sfxSource.loop = false;
+        sfxSource.clip = null;
+        sfxSource.PlayOneShot(s.clip); 
     }
     public void PlaySfxLoop(string name)
     {
-        Sound s = System.Array.Find(sfxSounds, sound => sound.name == name);
-        if (s == null)
+        if(sfxName != name)
         {
-            Debug.LogWarning("Sound: " + name + " not found!");
-            return;
+            sfxName = name;
+            Sound s = System.Array.Find(sfxSounds, sound => sound.name == name);
+            if (s == null)
+            {
+                Debug.LogWarning("Sound: " + name + " not found!");
+                return;
+            }
+            sfxSource.loop = true;
+            sfxSource.clip = s.clip;
+            sfxSource.Play();
         }
-        sfxSource.loop = true;
-        sfxSource.clip = s.clip;
-        sfxSource.Play();
+        
     }
     public void StopSfx(string name)
     {
+        Debug.Log("1");
         Sound s = System.Array.Find(sfxSounds, sound => sound.name == name);
         if (s == null)
         {
             Debug.LogWarning("Sound: " + name + " not found!");
             return;
         }
-        sfxSource.Stop();
+        if(s.name == sfxName)
+        {
+            sfxSource.Stop();
+            sfxName = null;
+            sfxSource.clip = null;
+        }
+        
+        
     }
     public void ToggleMusic()
     {

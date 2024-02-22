@@ -1956,7 +1956,7 @@ MonoBehaviour:
   _transformB: {fileID: 1237957345563315245}
   _colliderF: {fileID: 1973592945928027247}
   _colliderB: {fileID: 1973592945684629312}
-  speed: 5
+  speed: 0.7
   velocity: 0
   timeNitro: 3.5
   isAirborne: 0

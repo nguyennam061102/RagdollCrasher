@@ -17,5 +17,6 @@ public class UIChoseMotor : UICanvas
     void ButtonQuit()
     {
         OpenNewUI<UIStart>();
+        AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
     }
 }

@@ -109,6 +109,8 @@ public class RagdollController : MonoBehaviour
     private void CheckPointUp()
     {
         isPress = false;
+        AudioManager.Ins.StopSfx(Constants.SFX_BOOST_LOOP);
+        
     }
 
 
@@ -125,12 +127,14 @@ public class RagdollController : MonoBehaviour
             UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
             if (timeNitro > 0)
             {
+                AudioManager.Ins.PlaySfxLoop(Constants.SFX_BOOST_LOOP);
                 rb.velocity += Vector3.up * SaveLoadData.Ins.DataGame.JetpackPow * 0.1f;
                 GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime * 0.1f;
                 FlameJetpack.SetActive(true);
             }
             else
             {
+                AudioManager.Ins.StopSfx(Constants.SFX_BOOST_LOOP);
                 FlameJetpack.SetActive(false);
             }
 
@@ -181,6 +185,8 @@ public class RagdollController : MonoBehaviour
     //}
     private void OnCollisionEnter(Collision collision)
     {
+        AudioManager.Ins.PlaySfx(Constants.SFX_VAR);
+        AudioManager.Ins.PlaySfx(Constants.SFX_FALL);
         GetComponent<Collider>().isTrigger = true;
         SetStateRagdoll(false);
         rbRagdoll.transform.SetParent(null);

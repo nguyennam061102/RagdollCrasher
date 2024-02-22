@@ -14,7 +14,10 @@ public class SaveLoadData : Singleton<SaveLoadData>
 {
     [SerializeField] public DataGame DataGame;
     [SerializeField] private Dictionary<MotorType, bool> motorPurchase;
+    [SerializeField] private Dictionary<MotorType, int> motorReward;
     public Dictionary<MotorType, bool> MotorPurchase { get => motorPurchase; set => motorPurchase = value; }
+    public Dictionary<MotorType, int> MotorReward { get => motorReward; set => motorReward = value; }
+
     //public DataGame DataGame { get => dataGame; set => dataGame = value; }
     protected override void Awake()
     {
@@ -27,6 +30,7 @@ public class SaveLoadData : Singleton<SaveLoadData>
         {
             DataGame = LoadData();
             motorPurchase = LoadDataMotorPurchase();
+            motorReward = LoadDataMotorReward();
         }
     }
 
@@ -34,6 +38,7 @@ public class SaveLoadData : Singleton<SaveLoadData>
     {
         ES3.Save("DataGame",DataGame,"DataGame");
         ES3.Save("DataMotorPurchase", motorPurchase, "DataGame");
+        ES3.Save("DataMotorReward", motorReward, "DataGame");
     }
     DataGame LoadData()
     {
@@ -42,6 +47,10 @@ public class SaveLoadData : Singleton<SaveLoadData>
     Dictionary<MotorType, bool> LoadDataMotorPurchase()
     {
         return ES3.Load<Dictionary<MotorType, bool>>("DataMotorPurchase", "DataGame");
+    }
+    Dictionary<MotorType, int> LoadDataMotorReward()
+    {
+        return ES3.Load<Dictionary<MotorType, int>>("DataMotorReward", "DataGame");
     }
     private void OnApplicationPause(bool pause)
     {

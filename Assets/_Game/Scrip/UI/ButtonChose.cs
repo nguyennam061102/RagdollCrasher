@@ -20,6 +20,7 @@ public class ButtonChose : MonoBehaviour,IObserver
         button.onClick.AddListener(() =>
         {
             Chose();
+            AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
         });
         isPurchase = SaveLoadData.Ins.MotorPurchase[motorType];
         SaveLoadData.Ins.DataGame.RegisterObserver(this);

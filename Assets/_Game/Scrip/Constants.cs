@@ -21,6 +21,7 @@ public class Constants
     //---------Sound-----------------------
     public const string MUSIC_1 = "Music_1";
     public const string MUSIC_2 = "Music_2";
+    public const string MUSIC_3 = "Music_3";
     public const string SFX_FALL = "Fall";
     public const string SFX_BOOST = "Boost";
     public const string SFX_BOOST_END = "Boost_End";
@@ -31,5 +32,7 @@ public class Constants
     public const string SFX_CLICK_UI = "Click_UI";
     public const string SFX_IDLE_1 = "Idle_1";
     public const string SFX_RUN_1 = "Run_1";
-   
+    public const string SFX_VAR = "Var";
+    public const string SFX_XEDAP = "Xe_Dap";
+
 }

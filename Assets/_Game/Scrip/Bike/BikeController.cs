@@ -72,7 +72,7 @@ public class BikeController : MonoBehaviour
         GetInput();
         smoke.gameObject.SetActive(true);
         flame.gameObject.SetActive(false);
-        AudioManager.Ins.PlaySfxLoop(Constants.SFX_RUN_1);
+        //AudioManager.Ins.PlaySfxLoop(Constants.SFX_IDLE_1);
     }
     public void RemoveTrigger()
     {
@@ -153,6 +153,10 @@ public class BikeController : MonoBehaviour
             {
                 MovePlayer();
             }
+            if (timeNitro > 0)
+            {
+                AudioManager.Ins.PlaySfxLoop(Constants.SFX_BOOST_LOOP);
+            }
         }
         else
         {
@@ -161,8 +165,14 @@ public class BikeController : MonoBehaviour
                 ragdollController.ChaneAnim(Constants.START);
                 isStart = true;
                 UIManager.Ins.GetUI<UIStart>().OpenNewUI<UIGamePlay>();
-                AudioManager.Ins.PlayMusic(Constants.MUSIC_2);
-
+                if(SaveLoadData.Ins.DataGame.CurrenMotor != MotorType.Philotes)
+                {
+                    AudioManager.Ins.PlaySfxLoop(Constants.SFX_RUN_1);
+                }
+                else
+                {
+                    AudioManager.Ins.PlaySfxLoop(Constants.SFX_XEDAP);
+                }
             }
             isPress = true;
         }
@@ -170,6 +180,10 @@ public class BikeController : MonoBehaviour
     void CheckPointUp()
     {
         isPress = false;
+        if (isAirborne)
+        {
+            AudioManager.Ins.StopSfx(Constants.SFX_BOOST_LOOP);
+        }
     }
     void MoveAlongSpline()
     {
@@ -183,30 +197,31 @@ public class BikeController : MonoBehaviour
                 UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
                 if (timeNitro > 0)
                 {
+                    AudioManager.Ins.PlaySfxLoop(Constants.SFX_BOOST_LOOP);
                     //dir = rb.velocity.normalized;
                     //rb.AddForce(dir * splineFollower.followSaveLoadData.Ins.DataGame.EnginePow * 100);
                     rb.velocity = dir * GameManager.Ins.Velocity;
-                    GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
+                    GameManager.Ins.Velocity += (SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime;
                     //splineFollower.followSpeed = GameManager.Ins.Velocity;
                 }
                 else
                 {
+                    AudioManager.Ins.StopSfx(Constants.SFX_BOOST_LOOP);
                     MovePlayer();
                 }
             }
             else
             {
                 //rb.velocity = transform.forward * GameManager.Ins.Velocity;
-                GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
+                GameManager.Ins.Velocity += (SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime;
                 splineFollower.followSpeed = GameManager.Ins.Velocity;
             }
         }
         else if (isMoving && GameManager.Ins.Velocity >= 10)
         {
             rb.velocity = transform.forward * GameManager.Ins.Velocity;
-            GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.EnginePow * Time.fixedDeltaTime;
+            GameManager.Ins.Velocity += (SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime;
             splineFollower.followSpeed = GameManager.Ins.Velocity;
-
         }
 
         RotateWheel(_colliderF, _transformF);
@@ -214,6 +229,7 @@ public class BikeController : MonoBehaviour
     }
     void MovePlayer()
     {
+        
         smoke.gameObject.SetActive(true);
         flame.gameObject.SetActive(false);
         isMovePlayer = true;
@@ -221,6 +237,7 @@ public class BikeController : MonoBehaviour
         ragdollController.OnInit(timeNitro);
         dir.y = 0;
         rb.velocity = dir * GameManager.Ins.Velocity;
+        this.enabled = false;
     }
 
     private void RotateWheel(WheelCollider coll, Transform transform)

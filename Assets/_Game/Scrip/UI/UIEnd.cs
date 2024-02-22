@@ -25,14 +25,19 @@ public class UIEnd : UICanvas
     {
         base.Start();
         interacableImage.gameObject.SetActive(false);
+        AudioManager.Ins.PlaySfxLoop(Constants.SFX_SPIN);
         getCoin.onClick.AddListener(() =>
         {
             GetCoinReward();
+            AudioManager.Ins.StopSfx(Constants.SFX_SPIN);
+            AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
         });
 
         getRewardCoin.onClick.AddListener(() =>
         {
             GetCoinRewardQC();
+            AudioManager.Ins.StopSfx(Constants.SFX_SPIN);
+            AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
         });
     }
     private void Update()
@@ -48,9 +53,10 @@ public class UIEnd : UICanvas
             SaveLoadData.Ins.DataGame.Coin += coin;
             SaveLoadData.Ins.Save();
             SceneManager.LoadScene("GamePlay");
+            
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
-        
+
         //ApplovinBridge.instance.ShowInterAdsApplovin(null);
     }
     void GetCoinRewardQC()

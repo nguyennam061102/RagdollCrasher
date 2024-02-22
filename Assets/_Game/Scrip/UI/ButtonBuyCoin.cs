@@ -24,7 +24,8 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
         }
         button.onClick.AddListener(() =>
         {
-            if(type == ButtonType.Reward)
+            AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
+            if (type == ButtonType.Reward)
             {
                 GetCoinReward();
             }else if(type == ButtonType.Purchase) 
