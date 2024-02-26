@@ -185,8 +185,12 @@ public class RagdollController : MonoBehaviour
     //}
     private void OnCollisionEnter(Collision collision)
     {
-        AudioManager.Ins.PlaySfx(Constants.SFX_VAR);
-        AudioManager.Ins.PlaySfx(Constants.SFX_FALL);
+        if (!UIManager.Ins.IsOpened<UIEnd>())
+        {
+            AudioManager.Ins.PlaySfx(Constants.SFX_VAR);
+            AudioManager.Ins.PlaySfx(Constants.SFX_FALL);
+
+        }
         GetComponent<Collider>().isTrigger = true;
         SetStateRagdoll(false);
         rbRagdoll.transform.SetParent(null);

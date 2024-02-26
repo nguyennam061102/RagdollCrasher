@@ -217,7 +217,7 @@ public class BikeController : MonoBehaviour
                 splineFollower.followSpeed = GameManager.Ins.Velocity;
             }
         }
-        else if (isMoving && GameManager.Ins.Velocity >= 10)
+        else if (isMoving && GameManager.Ins.Velocity >= 10 && !isAirborne)
         {
             rb.velocity = transform.forward * GameManager.Ins.Velocity;
             GameManager.Ins.Velocity += (SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime;
