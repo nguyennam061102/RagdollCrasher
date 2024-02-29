@@ -120,8 +120,8 @@ public class BikeController : MonoBehaviour
             {
                 if (splineFollower.followSpeed > 0.2f)
                 {
-                    GameManager.Ins.Velocity -= Time.fixedDeltaTime * SaveLoadData.Ins.DataGame.EnginePow;
-                    splineFollower.followSpeed -= Time.fixedDeltaTime * speed;
+                    GameManager.Ins.Velocity -= (SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime;
+                    splineFollower.followSpeed = GameManager.Ins.Velocity;
                     
                     rb.velocity = transform.forward * GameManager.Ins.Velocity;
                 }
@@ -162,6 +162,7 @@ public class BikeController : MonoBehaviour
         {
             if (!isStart)
             {
+                CameraManager.Ins.ChaneAim(this.transform);
                 ragdollController.ChaneAnim(Constants.START);
                 isStart = true;
                 UIManager.Ins.GetUI<UIStart>().OpenNewUI<UIGamePlay>();

@@ -66,7 +66,7 @@ public class LevelManager : SerializedMonoBehaviour
         currentMotor.Spline = currentMap.Spline;
         currentMotor.SplineFollower.spline = currentMap.Spline;
         currentMotor.RagdollController.EndPos = currentMap.EndPoint.position;
-        aimPlayer = currentMotor.AimPlayer;
+        aimPlayer = currentMotor.transform;
         RenderSettings.skybox = currentMap.Skybox;
     }
     public void ChaneMap()
@@ -78,6 +78,7 @@ public class LevelManager : SerializedMonoBehaviour
         currentMotor.SplineFollower.spline = currentMap.Spline;
         currentMotor.RagdollController.EndPos = currentMap.EndPoint.position;
         currentMotor.OnInit();
+        aimPlayer = currentMotor.transform;
         RenderSettings.skybox = currentMap.Skybox;
     }
     public void ChaneMotor()
@@ -88,7 +89,7 @@ public class LevelManager : SerializedMonoBehaviour
         currentMotor.Spline = currentMap.Spline;
         currentMotor.SplineFollower.spline = currentMap.Spline;
         currentMotor.RagdollController.EndPos = currentMap.EndPoint.position;
-        aimPlayer = currentMotor.AimPlayer;
+        aimPlayer = currentMotor.transform;
         CameraManager.Ins.ChaneAim(aimPlayer);
     }
 }

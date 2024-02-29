@@ -4740,7 +4740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 4869076470371585799}
   type: 3
-  lvChose: 12
+  lvChose: 13
   motorType: 0
   imageLock: {fileID: 4906659321848345690}
   isPurchase: 0
@@ -7060,7 +7060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 7706119425568465754}
   type: 3
-  lvChose: 12
+  lvChose: 14
   motorType: 0
   imageLock: {fileID: 7042408658432365942}
   isPurchase: 0

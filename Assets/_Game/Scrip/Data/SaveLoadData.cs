@@ -73,13 +73,15 @@ public class DataGame
     [SerializeField] private int enginePowLv;
     [SerializeField] private int jetpackLv;
     [SerializeField] private int coinRewardLv;
-    [SerializeField] public int coin;
+    [SerializeField] private int coin;
     [SerializeField] private int lv;
     [SerializeField] private int currenLv;
     [SerializeField] private MotorType currenMotor;
     [SerializeField] private float maxPathMove;
     [SerializeField] private int vibrateData;
     [SerializeField] private int countOnlineGift;
+    [SerializeField] private bool musicOn;
+    [SerializeField] private bool sfxOn;
     
 
     public float EnginePow { get => enginePow; set => enginePow = value; }
@@ -92,6 +94,7 @@ public class DataGame
             coin = value;
             //UIManager.Ins.GetUI<UIStart>().SetGold();
             NotifyObservers();
+            Debug.Log("1");
         }  
     }
     public int Lv 
@@ -114,6 +117,8 @@ public class DataGame
     public int CoinRewardLv { get => coinRewardLv; set => coinRewardLv = value; }
     public int VibrateData { get => vibrateData; set => vibrateData = value; }
     public int CountOnlineGift { get => countOnlineGift; set => countOnlineGift = value; }
+    public bool MusicOn { get => musicOn; set => musicOn = value; }
+    public bool SfxOn { get => sfxOn; set => sfxOn = value; }
 
     [Header("IObserver")]
     private List<IObserver> observers = new List<IObserver>();

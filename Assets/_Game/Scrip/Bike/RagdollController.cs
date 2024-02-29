@@ -86,6 +86,7 @@ public class RagdollController : MonoBehaviour
         dir = transform.forward;
         rb.velocity = dir * GameManager.Ins.Velocity;
         rb.interpolation = RigidbodyInterpolation.Interpolate;
+        CameraManager.Ins.ChaneAim(rbRagdoll.transform);
     }
     void GetInput()
     {
@@ -128,7 +129,7 @@ public class RagdollController : MonoBehaviour
             if (timeNitro > 0)
             {
                 AudioManager.Ins.PlaySfxLoop(Constants.SFX_BOOST_LOOP);
-                rb.velocity += Vector3.up * SaveLoadData.Ins.DataGame.JetpackPow * 0.1f;
+                rb.velocity += dir * SaveLoadData.Ins.DataGame.JetpackPow * 0.1f;
                 GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime * 0.1f;
                 FlameJetpack.SetActive(true);
             }
@@ -208,7 +209,7 @@ public class RagdollController : MonoBehaviour
     {
         GameManager.Ins.gameState = GameState.Skip;
         CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
-        LevelManager.Ins.AimPlayer.SetParent(null);
+        LevelManager.Ins.CurrentMotor.AimPlayer.SetParent(null);
         LevelManager.Ins.CurrentMotor.RemoveTrigger();
         if (isAirborn)
         {

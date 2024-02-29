@@ -29,6 +29,14 @@ public class GameManager : Singleton<GameManager>
         LevelManager.Ins.OnInit(SaveLoadData.Ins.DataGame.CurrenMotor, SaveLoadData.Ins.DataGame.CurrenLv);
         gameState = GameState.Start;
         AudioManager.Ins.PlayMusic(Constants.MUSIC_3);
+        if (!SaveLoadData.Ins.DataGame.MusicOn)
+        {
+            AudioManager.Ins.ToggleMusic();
+        }
+        if (!SaveLoadData.Ins.DataGame.SfxOn)
+        {
+            AudioManager.Ins.ToggleSfx();
+        }
     }
     // Start is called before the first frame update
     void Start()

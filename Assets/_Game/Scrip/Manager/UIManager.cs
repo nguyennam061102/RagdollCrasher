@@ -39,6 +39,14 @@ public class UIManager : Singleton<UIManager>
 
     #region Canvas
 
+    public void OffUI()
+    {
+        CanvasParentTF.transform.localScale = Vector3.zero;
+    }
+    public void OnUI()
+    {
+        CanvasParentTF.transform.localScale = Vector3.one;
+    }
     //open UI
     //mo UI canvas
     public T OpenUI<T>() where T : UICanvas

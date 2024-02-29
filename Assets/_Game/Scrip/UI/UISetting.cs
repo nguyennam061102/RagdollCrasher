@@ -26,38 +26,94 @@ public class UISetting : UICanvas
     protected override void Start()
     {
         base.Start();
+        ToggleVibration(soundToggle, soundImg);
+        ToggleVibration(musicToggle, musicImg);
         sfx.onClick.AddListener(() => {
-            ToggleVibration(soundToggle, soundImg);
+            ToggleSfx(soundToggle, soundImg);
+            AudioManager.Ins.ToggleSfx();
         });
         music.onClick.AddListener(() => {
-            ToggleVibration(musicToggle, musicImg);
+            ToggleMusic(musicToggle, musicImg);
+            AudioManager.Ins.ToggleMusic();
         });
         buttonHome.onClick.AddListener(() => {
             ButtonQuit();
         });
     }
 
-   
-
-    void ToggleVibration(Image toggle, Image image)
+   void ToggleMusic(Image toggle, Image image)
     {
-        if (SaveLoadData.Ins.DataGame.VibrateData == 1)
+        if (SaveLoadData.Ins.DataGame.MusicOn)
         {
-            SaveLoadData.Ins.DataGame.VibrateData = 0;
+            SaveLoadData.Ins.DataGame.MusicOn = false;
             // turn off music
             toggle.sprite = Off;
             image.sprite = OffVibrate;
             toggle.rectTransform.DOAnchorPosX(-51f, .1f);
-
         }
-        else if (SaveLoadData.Ins.DataGame.VibrateData == 0)
+        else
         {
-            SaveLoadData.Ins.DataGame.VibrateData = 1;
+            SaveLoadData.Ins.DataGame.MusicOn = true;
             //turn on music
             toggle.sprite = On;
             image.sprite = OnVibrate;
             toggle.rectTransform.DOAnchorPosX(51f, .1f);
-
+        }
+    }
+    void ToggleSfx(Image toggle, Image image)
+    {
+        if (SaveLoadData.Ins.DataGame.SfxOn)
+        {
+            SaveLoadData.Ins.DataGame.SfxOn = false;
+            // turn off music
+            toggle.sprite = Off;
+            image.sprite = OffVibrate;
+            toggle.rectTransform.DOAnchorPosX(-51f, .1f);
+        }
+        else
+        {
+            SaveLoadData.Ins.DataGame.SfxOn = true;
+            //turn on music
+            toggle.sprite = On;
+            image.sprite = OnVibrate;
+            toggle.rectTransform.DOAnchorPosX(51f, .1f);
+        }
+    }
+    void ToggleVibration(Image toggle, Image image)
+    {
+        if(toggle == musicToggle)
+        {
+            if (!SaveLoadData.Ins.DataGame.MusicOn)
+            {
+                // turn off music
+                toggle.sprite = Off;
+                image.sprite = OffVibrate;
+                toggle.rectTransform.DOAnchorPosX(-51f, .1f);
+            }
+            else
+            { 
+                //turn on music
+                toggle.sprite = On;
+                image.sprite = OnVibrate;
+                toggle.rectTransform.DOAnchorPosX(51f, .1f);
+            }
+        }
+        else
+        {
+            if (!SaveLoadData.Ins.DataGame.SfxOn)
+            {
+                // turn off music
+                toggle.sprite = Off;
+                image.sprite = OffVibrate;
+                toggle.rectTransform.DOAnchorPosX(-51f, .1f);
+            }
+            else
+            {
+                //turn on music
+                toggle.sprite = On;
+                image.sprite = OnVibrate;
+                toggle.rectTransform.DOAnchorPosX(51f, .1f);
+            }
         }
 
     }

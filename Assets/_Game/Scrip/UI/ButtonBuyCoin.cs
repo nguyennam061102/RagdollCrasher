@@ -46,7 +46,7 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>
         // {
-            SaveLoadData.Ins.DataGame.coin += coin;
+            SaveLoadData.Ins.DataGame.Coin += coin;
             SaveLoadData.Ins.Save();
         // });
         // //SkygoBridge.instance.ShowRewarded(e, null);
@@ -65,7 +65,7 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>
         // {
-            SaveLoadData.Ins.DataGame.coin += coin;
+            SaveLoadData.Ins.DataGame.Coin += coin;
 
         //noAdsBtn.SetActive(false);
         // });

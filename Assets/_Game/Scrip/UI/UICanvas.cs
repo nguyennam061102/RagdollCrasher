@@ -27,7 +27,7 @@ public class UICanvas : MonoBehaviour
         foreach (Transform t in obj)
         {
             curPosObj.Add(t.localPosition);
-            t.DOLocalMove(new Vector3(0, 0, 0), 1.5f);
+            t.DOLocalMove(new Vector3(0, 0, 0), 1f);
         }
         // xu ly tai tho
         // float ratio = (float)Screen.height / (float)Screen.width;
