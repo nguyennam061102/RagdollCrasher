@@ -60,7 +60,7 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
         //Buy in game, price is money
         // string sku = "";
         // Debug.Log(price + " : " + claimValue);
-        // sku = "fight_dynasty_cash_" + price.ToString();
+        // sku = "ragdoll_crasher_cash_" + price.ToString();
         // Debug.Log(sku);
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>

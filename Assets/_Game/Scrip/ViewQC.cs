@@ -31,8 +31,8 @@ public class ViewQC : MonoBehaviour
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>
         // {
-        SaveLoadData.Ins.MotorReward[motorType]++;
-        CheckCountQC();
+            SaveLoadData.Ins.MotorReward[motorType]++;
+            CheckCountQC();
         // });
         // //SkygoBridge.instance.ShowRewarded(e, null);
         //reward

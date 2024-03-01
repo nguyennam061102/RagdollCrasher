@@ -122,7 +122,6 @@ public class BikeController : MonoBehaviour
                 {
                     GameManager.Ins.Velocity -= (SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime;
                     splineFollower.followSpeed = GameManager.Ins.Velocity;
-                    
                     rb.velocity = transform.forward * GameManager.Ins.Velocity;
                 }
             }
@@ -162,6 +161,7 @@ public class BikeController : MonoBehaviour
         {
             if (!isStart)
             {
+                Debug.Log("Level " + SaveLoadData.Ins.DataGame.CurrenLv);
                 CameraManager.Ins.ChaneAim(this.transform);
                 ragdollController.ChaneAnim(Constants.START);
                 isStart = true;

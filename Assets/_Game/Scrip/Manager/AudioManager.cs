@@ -53,7 +53,6 @@ public class AudioManager : Singleton<AudioManager>
     }
     public void StopSfx(string name)
     {
-        Debug.Log("1");
         Sound s = System.Array.Find(sfxSounds, sound => sound.name == name);
         if (s == null)
         {

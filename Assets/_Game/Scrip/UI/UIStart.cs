@@ -110,7 +110,6 @@ public class UIStart : UICanvas, IObserver
             AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
-
         //ApplovinBridge.instance.ShowInterAdsApplovin(null);
 
     }
@@ -120,19 +119,27 @@ public class UIStart : UICanvas, IObserver
     }
     void ButtonOnlGift()
     {
-        if(SaveLoadData.Ins.DataGame.CountOnlineGift < 3)
-        {
-            SaveLoadData.Ins.DataGame.CountOnlineGift ++;
-            countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
-            AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
-        }
-        else
-        {
-            SaveLoadData.Ins.DataGame.CountOnlineGift = 1;
-            SaveLoadData.Ins.DataGame.Coin += 500;
-            countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
-            AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
-        }
+        // UnityEvent e = new UnityEvent();
+        // e.AddListener(() =>
+        // {
+            if (SaveLoadData.Ins.DataGame.CountOnlineGift < 3)
+            {
+                SaveLoadData.Ins.DataGame.CountOnlineGift++;
+                countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
+                AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
+            }
+            else
+            {
+                SaveLoadData.Ins.DataGame.CountOnlineGift = 1;
+                SaveLoadData.Ins.DataGame.Coin += 500;
+                countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
+                AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
+            }
+        // });
+        // //SkygoBridge.instance.ShowRewarded(e, null);
+        //reward
+        // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+
     }
     public void OnNotify()
     {
