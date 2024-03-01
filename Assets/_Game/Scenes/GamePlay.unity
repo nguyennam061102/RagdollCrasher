@@ -1006,7 +1006,7 @@ MonoBehaviour:
     currenMotor: 8
     maxPathMove: 0
     vibrateData: 0
-    countOnlineGift: 1
+    countOnlineGift: 0
     musicOn: 1
     sfxOn: 1
 --- !u!1 &398848218

@@ -131,7 +131,7 @@ public class UIStart : UICanvas, IObserver
             else
             {
                 SaveLoadData.Ins.DataGame.CountOnlineGift = 1;
-                SaveLoadData.Ins.DataGame.Coin += 500;
+                SaveLoadData.Ins.DataGame.Coin += 5000;
                 countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
                 AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
             }
