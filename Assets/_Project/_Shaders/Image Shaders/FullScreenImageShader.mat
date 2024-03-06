@@ -117,8 +117,8 @@ Material:
     - _UseSpeedEffect: 0
     - _UseWindNoiseTexure: 0
     - _UseWindTexure: 0
-    - _VignetteIntensity: 0.63112366
-    - _VignetteRadiusPower: 1.7404875
+    - _VignetteIntensity: 0.6523897
+    - _VignetteRadiusPower: 1.5278275
     - _VoronoiCells: 1
     - _VoronoiScale: 7
     - _VoronoiSpeed: 2

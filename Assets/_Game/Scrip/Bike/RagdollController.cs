@@ -24,7 +24,7 @@ public class RagdollController : MonoBehaviour
     [SerializeField] Vector3 startPos;
     [SerializeField] Vector3 endPos;
     [SerializeField] GameObject FlameJetpack;
-    Vector3 dir;
+    public Vector3 dir;
     private bool isPress;
 
     public Vector3 StartPos { get => startPos; set => startPos = value; }
@@ -48,17 +48,16 @@ public class RagdollController : MonoBehaviour
         }
         if (isMoving && GameManager.Ins.gameState != GameState.Skip)
         {
+            MoveWithhJetpack();
+
             if (!isActiveRagdoll)
             {
-                GameManager.Ins.Velocity = rb.velocity.magnitude;
-                UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+                UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(rb.velocity.magnitude);
             }
             else
             {
-                GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
-                UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+                UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(rbRagdoll.velocity.magnitude);
             }
-            MoveWithhJetpack();
             //timeNitro -= Time.deltaTime;
             //UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
             //if (timeNitro > 0)
@@ -129,8 +128,9 @@ public class RagdollController : MonoBehaviour
             if (timeNitro > 0)
             {
                 AudioManager.Ins.PlaySfxLoop(Constants.SFX_BOOST_LOOP);
-                rb.velocity += dir * SaveLoadData.Ins.DataGame.JetpackPow * 0.1f;
-                GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime * 0.1f;
+                rb.velocity = dir * GameManager.Ins.Velocity;
+                GameManager.Ins.Velocity += SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime;
+                Debug.Log(SaveLoadData.Ins.DataGame.JetpackPow * Time.fixedDeltaTime);
                 FlameJetpack.SetActive(true);
             }
             else
@@ -227,5 +227,10 @@ public class RagdollController : MonoBehaviour
             LevelManager.Ins.CurrentMotor.enabled = false;
         }
 
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawRay(new Ray(transform.position, dir));
     }
 }

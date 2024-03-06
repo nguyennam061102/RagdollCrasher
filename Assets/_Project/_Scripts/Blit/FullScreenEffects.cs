@@ -12,6 +12,7 @@ public class FullScreenEffects : Singleton<FullScreenEffects> {
         float _verlosity = GameManager.Ins.Velocity - 300;
         if(_verlosity > -290)
         {
+            if (_verlosity > 0) _verlosity = 0;
             OnSpeedEf();
             materialPixelationChromatic.SetFloat("_VignetteIntensity", (_verlosity + 300) * (0.15f / 290) + 0.5f);
             materialPixelationChromatic.SetFloat("_VignetteRadiusPower", _verlosity * (-1.5f / 290) + 1.5f);

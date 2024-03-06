@@ -24,7 +24,6 @@ public class coinReward : MonoBehaviour
     public void CountCoins(RectTransform tf)
     {
         var delay = 0f;
-        Debug.Log(tf.localPosition);
         for (int i = 0; i < coins.Count; i++)
         {
             coins[i].DOScale(1f, 0.3f).SetDelay(delay).SetEase(Ease.OutBack);

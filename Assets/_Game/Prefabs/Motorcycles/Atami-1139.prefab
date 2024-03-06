@@ -1641,7 +1641,6 @@ MonoBehaviour:
   rb: {fileID: 3183509359556645509}
   smoke: {fileID: 5643975927003357803}
   flame: {fileID: 3420705831977985512}
-  wind: {fileID: 0}
   splineFollower: {fileID: 3183509359556645507}
   spline: {fileID: 0}
   _transformF: {fileID: 3100503266713052572}
@@ -4487,7 +4486,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 3
 --- !u!136 &8206672578165157536
 CapsuleCollider:
@@ -4546,6 +4545,7 @@ MonoBehaviour:
   startPos: {x: 0, y: 0, z: 0}
   endPos: {x: 0, y: 0, z: 0}
   FlameJetpack: {fileID: 8958359426881745527}
+  dir: {x: 0, y: 0.3, z: 1}
 --- !u!1 &8206672579086805621
 GameObject:
   m_ObjectHideFlags: 0

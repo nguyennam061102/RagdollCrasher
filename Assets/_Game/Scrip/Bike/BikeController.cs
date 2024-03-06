@@ -201,6 +201,7 @@ public class BikeController : MonoBehaviour
                     //rb.AddForce(dir * splineFollower.followSaveLoadData.Ins.DataGame.EnginePow * 100);
                     rb.velocity = dir * GameManager.Ins.Velocity;
                     GameManager.Ins.Velocity += (SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime;
+                    Debug.Log((SaveLoadData.Ins.DataGame.EnginePow + speed) * Time.fixedDeltaTime);
                     //splineFollower.followSpeed = GameManager.Ins.Velocity;
                 }
                 else
