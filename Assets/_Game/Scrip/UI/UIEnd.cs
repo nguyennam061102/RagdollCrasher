@@ -50,10 +50,11 @@ public class UIEnd : UICanvas
         //UnityEvent e = new UnityEvent();
         //e.AddListener(() =>
         //{
+            UIManager.Ins.SpawnCoin(getCoin.GetComponent<RectTransform>(), true);
             SaveLoadData.Ins.DataGame.Coin += coin;
             SaveLoadData.Ins.Save();
-            SceneManager.LoadScene("GamePlay");
-            
+            StartCoroutine(LoadGame());
+
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
 
@@ -72,13 +73,19 @@ public class UIEnd : UICanvas
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>
         // {
+            UIManager.Ins.SpawnCoin(getRewardCoin.GetComponent<RectTransform>(), true);
             SaveLoadData.Ins.DataGame.Coin += (int)(randomnize.Reward * coin);
             SaveLoadData.Ins.Save();
-            SceneManager.LoadScene("GamePlay");
+            StartCoroutine(LoadGame());
         // });
         // //SkygoBridge.instance.ShowRewarded(e, null);
         //reward
         // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+    }
+    IEnumerator LoadGame()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("GamePlay");
     }
     public void SetEnd(float distance, float maxPath)
     {

@@ -46,6 +46,7 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>
         // {
+            UIManager.Ins.SpawnCoin(button.GetComponent<RectTransform>(), false);
             SaveLoadData.Ins.DataGame.Coin += coin;
             SaveLoadData.Ins.Save();
         // });
@@ -65,8 +66,9 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>
         // {
+            UIManager.Ins.SpawnCoin(button.GetComponent<RectTransform>(), false);
             SaveLoadData.Ins.DataGame.Coin += coin;
-
+            SaveLoadData.Ins.Save();
         //noAdsBtn.SetActive(false);
         // });
 

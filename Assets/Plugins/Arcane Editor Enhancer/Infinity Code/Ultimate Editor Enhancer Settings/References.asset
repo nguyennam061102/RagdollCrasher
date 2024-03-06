@@ -398,5 +398,7 @@ MonoBehaviour:
     alignWindowToBar: 1
     windowMode: 0
   _sceneHistory:
+  - name: coin
+    path: Assets/CoinFly/Scenes/coin.unity
   - name: GamePlay
     path: Assets/_Game/Scenes/GamePlay.unity

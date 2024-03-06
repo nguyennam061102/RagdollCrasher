@@ -123,4 +123,9 @@ public class UISetting : UICanvas
         OpenNewUI<UIStart>();
         AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
     }
+
+    public void GDPRSetting()
+    {
+        //GDPR Setting
+    }
 }

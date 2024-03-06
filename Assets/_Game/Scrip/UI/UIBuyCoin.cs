@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIBuyCoin : UICanvas
+public class UIBuyCoin : UICanvas,IObserver
 {
     [SerializeField] Button buttonBack;
+    [SerializeField] TextMeshProUGUI textCoin;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -13,6 +15,8 @@ public class UIBuyCoin : UICanvas
         buttonBack.onClick.AddListener(() => {
             ButtonQuit();
         });
+        SaveLoadData.Ins.DataGame.RegisterObserver(this);
+        textCoin.text = SaveLoadData.Ins.DataGame.Coin.ToString();
     }
 
     // Update is called once per frame
@@ -24,5 +28,10 @@ public class UIBuyCoin : UICanvas
     {
         OpenNewUI<UIStart>();
         AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
+    }
+
+    public void OnNotify()
+    {
+        textCoin.text = SaveLoadData.Ins.DataGame.Coin.ToString();
     }
 }

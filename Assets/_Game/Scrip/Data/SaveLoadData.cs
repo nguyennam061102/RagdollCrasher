@@ -94,7 +94,6 @@ public class DataGame
             coin = value;
             //UIManager.Ins.GetUI<UIStart>().SetGold();
             NotifyObservers();
-            Debug.Log("1");
         }  
     }
     public int Lv 

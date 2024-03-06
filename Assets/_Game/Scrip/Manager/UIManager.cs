@@ -36,6 +36,9 @@ public class UIManager : Singleton<UIManager>
     //canvas container, it should be a canvas - root
     //canvas chua dung cac canvas con, nen la mot canvas - root de chua cac canvas nay
     public Transform CanvasParentTF;
+    public RectTransform left;
+    public RectTransform right;
+    public RectTransform coin;
 
     #region Canvas
 
@@ -46,6 +49,19 @@ public class UIManager : Singleton<UIManager>
     public void OnUI()
     {
         CanvasParentTF.transform.localScale = Vector3.one;
+    }
+    public void SpawnCoin(RectTransform tf, bool pos)
+    {
+        coinReward newCoin = Instantiate(coin, this.transform).GetComponent<coinReward>();
+        newCoin.GetComponent<RectTransform>().position = tf.position;
+        if(pos == true)
+        {
+            newCoin.CountCoins(right);
+        }
+        else
+        {
+            newCoin.CountCoins(left);
+        }
     }
     //open UI
     //mo UI canvas

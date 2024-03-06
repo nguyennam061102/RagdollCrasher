@@ -1,4 +1,5 @@
 using DG.Tweening;
+using InfinityCode.UltimateEditorEnhancer;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -17,6 +18,7 @@ public class UIStart : UICanvas, IObserver
     [SerializeField] TextMeshProUGUI goldText;
     [SerializeField] TextMeshProUGUI countOnlGiftText;
     [SerializeField] Image fade;
+    [SerializeField] Transform logo;
     protected override void Start()
     {
         base.Start();
@@ -53,6 +55,7 @@ public class UIStart : UICanvas, IObserver
     {
         base.OnInit();
         SetGold();
+        logo.DOScale(1, 1.5f).SetLoops(-1, LoopType.Yoyo).SetEase(Ease.Linear);
     }
     public void SetGold()
     {
@@ -122,7 +125,7 @@ public class UIStart : UICanvas, IObserver
         // UnityEvent e = new UnityEvent();
         // e.AddListener(() =>
         // {
-            if (SaveLoadData.Ins.DataGame.CountOnlineGift < 3)
+            if (SaveLoadData.Ins.DataGame.CountOnlineGift < 2)
             {
                 SaveLoadData.Ins.DataGame.CountOnlineGift++;
                 countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
@@ -130,7 +133,8 @@ public class UIStart : UICanvas, IObserver
             }
             else
             {
-                SaveLoadData.Ins.DataGame.CountOnlineGift = 1;
+                UIManager.Ins.SpawnCoin(buttonOnlineGift.GetComponent<RectTransform>(), false);
+                SaveLoadData.Ins.DataGame.CountOnlineGift = 0;
                 SaveLoadData.Ins.DataGame.Coin += 5000;
                 countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
                 AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
