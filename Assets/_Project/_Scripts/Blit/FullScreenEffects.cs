@@ -3,17 +3,16 @@ using UnityEngine;
 public class FullScreenEffects : Singleton<FullScreenEffects> {
 	[SerializeField] Material materialPixelationChromatic;
 
-	[Range(0.0f, 1.0f)]
-	public float chromaticAberration = 1.0f;
-    public bool onTheScreenEdges = true;
-    bool isOn;
+    public bool isOn ;
 
 	public void OnRenderImage(RenderTexture inTexture, RenderTexture outTexture) {
         float _verlosity = GameManager.Ins.Velocity - 300;
         if(_verlosity > -290)
         {
-            if (_verlosity > 0) _verlosity = 0;
             OnSpeedEf();
+            if (_verlosity > 0) { 
+                _verlosity = 0; 
+            }
             materialPixelationChromatic.SetFloat("_VignetteIntensity", (_verlosity + 300) * (0.15f / 290) + 0.5f);
             materialPixelationChromatic.SetFloat("_VignetteRadiusPower", _verlosity * (-1.5f / 290) + 1.5f);
         }
@@ -21,15 +20,6 @@ public class FullScreenEffects : Singleton<FullScreenEffects> {
         {
             OffSpeedEf();
         }
-
-        materialPixelationChromatic.SetFloat("_ChromaticAberration", 0.01f * chromaticAberration);
-
-        if (onTheScreenEdges)
-			materialPixelationChromatic.SetFloat("_Center", 0.5f);
-
-        else
-			materialPixelationChromatic.SetFloat("_Center", 0);
-
         Graphics.Blit(inTexture, outTexture, materialPixelationChromatic);
 	}
 
@@ -41,7 +31,7 @@ public class FullScreenEffects : Singleton<FullScreenEffects> {
             isOn = true;
         }
     }
-    void OffSpeedEf()
+    public void OffSpeedEf()
     {
         if (isOn)
         {
@@ -49,6 +39,11 @@ public class FullScreenEffects : Singleton<FullScreenEffects> {
             isOn = false;
         }
     }
-    void Start() => materialPixelationChromatic.DisableKeyword("USE_SPEEDEFFECT");
+    public void Off()
+    {
+        isOn = true;
+        //OffSpeedEf();
+        //materialPixelationChromatic.DisableKeyword("USE_SPEEDEFFECT");
+    }
 }
 

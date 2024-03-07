@@ -41,9 +41,14 @@ public class GameManager : Singleton<GameManager>
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(OffEf());
     }
+    IEnumerator OffEf()
+    {
+        yield return new WaitForSeconds(0.05f);
+        FullScreenEffects.Ins.Off();
 
+    }
     // Update is called once per frame
     void Update()
     {

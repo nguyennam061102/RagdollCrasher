@@ -36,10 +36,7 @@ public class RagdollController : MonoBehaviour
         isMoving = false;
         GetInput();
     }
-    private void Update()
-    {
-        //dir = transform.forward;  
-    }
+
     private void FixedUpdate()
     {
         if (isAirborn && GameManager.Ins.gameState != GameState.Skip)
@@ -56,20 +53,9 @@ public class RagdollController : MonoBehaviour
             }
             else
             {
+                GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
                 UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(rbRagdoll.velocity.magnitude);
             }
-            //timeNitro -= Time.deltaTime;
-            //UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
-            //if (timeNitro > 0)
-            //{
-            //    rb.velocity = dir * GameManager.Ins.Velocity;
-            //    GameManager.Ins.Velocity += speed * Time.fixedDeltaTime * 0.2f;
-            //    FlameJetpack.SetActive(true);
-            //}
-            //else
-            //{
-            //    FlameJetpack.SetActive(false);
-            //}
         }
     }
     public void OnInit(float timeNitro)
@@ -168,22 +154,7 @@ public class RagdollController : MonoBehaviour
         UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
         UIManager.Ins.GetUI<UIEnd>().SetEnd(Vector3.Distance(rbRagdoll.transform.position, startPos), Vector3.Distance(endPos, startPos));
     }
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (isMoving && GameManager.Ins.gameState != GameState.Skip)
-    //    {
-    //        SetStateRagdoll(false);
-    //        rbRagdoll.transform.SetParent(null);
-    //        isActiveRagdoll = true;
-    //        rbRagdoll.velocity = dir * (GameManager.Ins.Velocity + 10f);
-    //        Debug.Log(GameManager.Ins.Velocity);
-    //        GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
-    //        UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
-    //        CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
-    //        rb.isKinematic = true;
-    //        StartCoroutine(SetEndPanel());
-    //    }
-    //}
+
     private void OnCollisionEnter(Collision collision)
     {
         if (!UIManager.Ins.IsOpened<UIEnd>())
