@@ -785,6 +785,7 @@ MonoBehaviour:
   Off: {fileID: 21300000, guid: 91ca848fbc0cac64a8905df81f6785e6, type: 3}
   OnVibrate: {fileID: 21300000, guid: aa1f31a1bcbd26f48bc828c9ce892f5e, type: 3}
   OffVibrate: {fileID: 21300000, guid: b35434f716b94024993c747a130fe330, type: 3}
+  btnGDPR: {fileID: 6819523472093528981}
 --- !u!1 &8431185298824921769
 GameObject:
   m_ObjectHideFlags: 0

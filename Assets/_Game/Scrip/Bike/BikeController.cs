@@ -159,7 +159,10 @@ public class BikeController : MonoBehaviour
         {
             if (!isStart)
             {
-                Debug.Log("Level " + SaveLoadData.Ins.DataGame.CurrenLv);
+                Debug.Log($"play_level_{SaveLoadData.Ins.DataGame.CurrenLv:00}");
+                //logevent
+                //SkygoBridge.instance.LogEvent($"play_level_{SaveLoadData.Ins.DataGame.CurrenLv:00}");
+ 
                 CameraManager.Ins.ChaneAim(this.transform);
                 ragdollController.ChaneAnim(Constants.START);
                 isStart = true;
@@ -171,6 +174,10 @@ public class BikeController : MonoBehaviour
                 else
                 {
                     AudioManager.Ins.PlaySfxLoop(Constants.SFX_XEDAP);
+                }
+                if (SaveLoadData.Ins.DataGame.CountTutoral < 3)
+                {
+                    UIManager.Ins.GetUI<UIGamePlay>().SetTutorial(true);
                 }
             }
             isPress = true;
@@ -260,6 +267,12 @@ public class BikeController : MonoBehaviour
         rb.velocity = dir * splineFollower.followSpeed;
         isAirborne = true;
         Time.timeScale = 1.25f;
+        if (SaveLoadData.Ins.DataGame.CountTutoral < 3)
+        {
+            UIManager.Ins.GetUI<UIGamePlay>().SetTutorial(false);
+            SaveLoadData.Ins.DataGame.CountTutoral++;
+
+        }
     }
     IEnumerator ChangeCam()
     {

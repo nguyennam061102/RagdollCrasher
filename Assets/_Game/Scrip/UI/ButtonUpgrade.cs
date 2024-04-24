@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -41,7 +42,6 @@ public class ButtonUpgrade : MonoBehaviour, IObserver
     {
         if (isUpgrade)
         {
-            //inter
             //UnityEvent e = new UnityEvent();
             //e.AddListener(() =>
             //{
@@ -91,58 +91,61 @@ public class ButtonUpgrade : MonoBehaviour, IObserver
             //});
             //bool showad = SkygoBridge.instance.ShowInterstitial(e);
 
-            //ApplovinBridge.instance.ShowInterAdsApplovin(null);
-
         }
         else
         {
-            // UnityEvent e = new UnityEvent();
-            // e.AddListener(() =>
-            // {
-                    switch (buttonType)
-                    {
-                        case ButtonType.Engine:
-                            if (SaveLoadData.Ins.DataGame.EnginePowLv < 150)
-                            {
-                                SaveLoadData.Ins.DataGame.EnginePow += SaveLoadData.Ins.DataGame.EnginePow * 0.02f;
-                                SaveLoadData.Ins.DataGame.EnginePowCoinUp += 350;
-                                SaveLoadData.Ins.DataGame.EnginePowLv++;
-                                gold.text = SaveLoadData.Ins.DataGame.EnginePowCoinUp.ToString();
-                                power.text = SaveLoadData.Ins.DataGame.EnginePowLv.ToString();
-                                xitLua.Play();
-                                AudioManager.Ins.PlaySfx(Constants.SFX_UPGRADE_1);
-                            }
-                            break;
-                        case ButtonType.Jetpack:
-                            if ( SaveLoadData.Ins.DataGame.JetpackLv < 150)
-                            {
-                                SaveLoadData.Ins.DataGame.JetpackPow += SaveLoadData.Ins.DataGame.JetpackPow * 0.02f;
-                                SaveLoadData.Ins.DataGame.JetpackPowCoinUp += 350;
-                                SaveLoadData.Ins.DataGame.JetpackLv++;
-                                gold.text = SaveLoadData.Ins.DataGame.JetpackPowCoinUp.ToString();
-                                power.text = SaveLoadData.Ins.DataGame.JetpackLv.ToString();
-                                xitLua.Play();
-                                AudioManager.Ins.PlaySfx(Constants.SFX_UPGRADE_1);
-                            }
+            UnityEvent e = new UnityEvent();
+            e.AddListener(() =>
+            {
+                switch (buttonType)
+                {
+                    case ButtonType.Engine:
+                        if (SaveLoadData.Ins.DataGame.EnginePowLv < 150)
+                        {
+                            SaveLoadData.Ins.DataGame.EnginePow += SaveLoadData.Ins.DataGame.EnginePow * 0.02f;
+                            SaveLoadData.Ins.DataGame.EnginePowCoinUp += 350;
+                            SaveLoadData.Ins.DataGame.EnginePowLv++;
+                            gold.text = SaveLoadData.Ins.DataGame.EnginePowCoinUp.ToString();
+                            power.text = SaveLoadData.Ins.DataGame.EnginePowLv.ToString();
+                            xitLua.Play();
+                            AudioManager.Ins.PlaySfx(Constants.SFX_UPGRADE_1);
+                            //logevent
+                            //SkygoBridge.instance.LogEvent("reward_upgrade_engine");
+                        }
+                        break;
+                    case ButtonType.Jetpack:
+                        if (SaveLoadData.Ins.DataGame.JetpackLv < 150)
+                        {
+                            SaveLoadData.Ins.DataGame.JetpackPow += SaveLoadData.Ins.DataGame.JetpackPow * 0.02f;
+                            SaveLoadData.Ins.DataGame.JetpackPowCoinUp += 350;
+                            SaveLoadData.Ins.DataGame.JetpackLv++;
+                            gold.text = SaveLoadData.Ins.DataGame.JetpackPowCoinUp.ToString();
+                            power.text = SaveLoadData.Ins.DataGame.JetpackLv.ToString();
+                            xitLua.Play();
+                            AudioManager.Ins.PlaySfx(Constants.SFX_UPGRADE_1);
+                            //logevent
+                            SkygoBridge.instance.LogEvent("reward_upgrade_jetpack");
+                        }
 
-                            break;
-                        case ButtonType.Gold:
-                            if (SaveLoadData.Ins.DataGame.CoinRewardLv < 150)
-                            {
-                                SaveLoadData.Ins.DataGame.CoinReward += SaveLoadData.Ins.DataGame.CoinReward * 0.05f;
-                                SaveLoadData.Ins.DataGame.CoinRewardCoinUp += 110;
-                                SaveLoadData.Ins.DataGame.CoinRewardLv++;
-                                gold.text = SaveLoadData.Ins.DataGame.CoinRewardCoinUp.ToString();
-                                power.text = SaveLoadData.Ins.DataGame.CoinRewardLv.ToString();
-                                xitLua.Play();
-                                AudioManager.Ins.PlaySfx(Constants.SFX_UPGRADE_1);
-                            }
-                            break;
-                    }
-            // });
-            // //SkygoBridge.instance.ShowRewarded(e, null);
-            // //reward
-            // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+                        break;
+                    case ButtonType.Gold:
+                        if (SaveLoadData.Ins.DataGame.CoinRewardLv < 150)
+                        {
+                            SaveLoadData.Ins.DataGame.CoinReward += SaveLoadData.Ins.DataGame.CoinReward * 0.05f;
+                            SaveLoadData.Ins.DataGame.CoinRewardCoinUp += 110;
+                            SaveLoadData.Ins.DataGame.CoinRewardLv++;
+                            gold.text = SaveLoadData.Ins.DataGame.CoinRewardCoinUp.ToString();
+                            power.text = SaveLoadData.Ins.DataGame.CoinRewardLv.ToString();
+                            xitLua.Play();
+                            AudioManager.Ins.PlaySfx(Constants.SFX_UPGRADE_1);
+                            //logevent
+                            SkygoBridge.instance.LogEvent("reward_upgrade_gold");
+                        }
+                        break;
+                }
+            });
+            //reward
+            ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
 
         }
     }

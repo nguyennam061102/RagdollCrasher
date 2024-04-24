@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -58,21 +59,23 @@ public class ButtonChose : MonoBehaviour, IObserver
             if (isPurchase)
             {
                 //purchase
-                //purchase
                 //Buy in game, price is money
-                // string sku = "";
-                // Debug.Log(price + " : " + claimValue);
-                // sku = "ragdoll_crasher_cash_" + price.ToString();
-                // Debug.Log(sku);
-                // UnityEvent e = new UnityEvent();
-                // e.AddListener(() =>
-                // {
+                string sku = "";
+                string str = "";
+                Debug.Log(" motorType: " + motorType);
+                if (motorType == MotorType.Taiowa) str = "499";
+                else if (motorType == MotorType.Makhai) str = "299";
+                else if (motorType == MotorType.Emma) str = "099";
+                sku = "ragdoll_crasher_moto_" + str;
+                Debug.Log(sku);
+                UnityEvent e = new UnityEvent();
+                e.AddListener(() =>
+                {
                     isPurchase = false;
                     SaveLoadData.Ins.MotorPurchase[motorType] = false;
                     SaveLoadData.Ins.Save();
-                //noAdsBtn.SetActive(false);
-                // });
-                // SkygoBridge.instance.PurchaseIAP(sku, e);
+                });
+                //SkygoBridge.instance.PurchaseIAP(sku, e);
             }
             else
             {

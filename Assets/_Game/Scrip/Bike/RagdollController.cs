@@ -36,7 +36,10 @@ public class RagdollController : MonoBehaviour
         isMoving = false;
         GetInput();
     }
-
+    private void Update()
+    {
+        //dir = transform.forward;  
+    }
     private void FixedUpdate()
     {
         if (isAirborn && GameManager.Ins.gameState != GameState.Skip)
@@ -56,6 +59,18 @@ public class RagdollController : MonoBehaviour
                 GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
                 UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(rbRagdoll.velocity.magnitude);
             }
+            //timeNitro -= Time.deltaTime;
+            //UIManager.Ins.GetUI<UIGamePlay>().SetSlider(timeNitro);
+            //if (timeNitro > 0)
+            //{
+            //    rb.velocity = dir * GameManager.Ins.Velocity;
+            //    GameManager.Ins.Velocity += speed * Time.fixedDeltaTime * 0.2f;
+            //    FlameJetpack.SetActive(true);
+            //}
+            //else
+            //{
+            //    FlameJetpack.SetActive(false);
+            //}
         }
     }
     public void OnInit(float timeNitro)
@@ -148,32 +163,61 @@ public class RagdollController : MonoBehaviour
         }
         anim.enabled = state;
     }
+
+    public bool isWin;
     IEnumerator SetEndPanel()
     {
         yield return new WaitForSeconds(3f);
+        if (!isWin) {
+            //Debug.Log("Lose_level_" + SaveLoadData.Ins.DataGame.CurrenLv);
+            Debug.Log($"Lose_level_{SaveLoadData.Ins.DataGame.CurrenLv:00}");
+            //SkygoBridge.instance.LogEvent($"Lose_level_{SaveLoadData.Ins.DataGame.CurrenLv:00}");
+        } 
+        else isWin = false;
         UIManager.Ins.GetUI<UIGamePlay>().OpenNewUI<UIEnd>();
         UIManager.Ins.GetUI<UIEnd>().SetEnd(Vector3.Distance(rbRagdoll.transform.position, startPos), Vector3.Distance(endPos, startPos));
     }
-
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (isMoving && GameManager.Ins.gameState != GameState.Skip)
+    //    {
+    //        SetStateRagdoll(false);
+    //        rbRagdoll.transform.SetParent(null);
+    //        isActiveRagdoll = true;
+    //        rbRagdoll.velocity = dir * (GameManager.Ins.Velocity + 10f);
+    //        Debug.Log(GameManager.Ins.Velocity);
+    //        GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
+    //        UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+    //        CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
+    //        rb.isKinematic = true;
+    //        StartCoroutine(SetEndPanel());
+    //    }
+    //}
+    bool isEnd = false;
     private void OnCollisionEnter(Collision collision)
     {
-        if (!UIManager.Ins.IsOpened<UIEnd>())
+        if (!isEnd)
         {
-            AudioManager.Ins.PlaySfx(Constants.SFX_VAR);
-            AudioManager.Ins.PlaySfx(Constants.SFX_FALL);
+            isEnd = true;
+            if (!UIManager.Ins.IsOpened<UIEnd>())
+            {
+                AudioManager.Ins.PlaySfx(Constants.SFX_VAR);
+                AudioManager.Ins.PlaySfx(Constants.SFX_FALL);
 
+            }
+            GetComponent<Collider>().isTrigger = true;
+            SetStateRagdoll(false);
+            rbRagdoll.transform.SetParent(null);
+            isActiveRagdoll = true;
+            rbRagdoll.velocity = dir * (GameManager.Ins.Velocity + 10f);
+            Debug.Log(GameManager.Ins.Velocity);
+            GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
+            UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
+            CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
+            rb.isKinematic = true;
+            StartCoroutine(SetEndPanel());
         }
-        GetComponent<Collider>().isTrigger = true;
-        SetStateRagdoll(false);
-        rbRagdoll.transform.SetParent(null);
-        isActiveRagdoll = true;
-        rbRagdoll.velocity = dir * (GameManager.Ins.Velocity + 10f);
-        Debug.Log(GameManager.Ins.Velocity);
-        GameManager.Ins.Velocity = rbRagdoll.velocity.magnitude;
-        UIManager.Ins.GetUI<UIGamePlay>().SetVelocity(GameManager.Ins.Velocity);
-        CameraManager.Ins.ChangeCam(Constants.CAM_ROTATE);
-        rb.isKinematic = true;
-        StartCoroutine(SetEndPanel());
+       
     }
     [Button]
     public void SetSkip()

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "619049859888",
+    "project_id": "ragdoll-crasher-nam",
+    "storage_bucket": "ragdoll-crasher-nam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619049859888:android:ad14ab7a2ece52502ae6f5",
+        "android_client_info": {
+          "package_name": "com.ragdoll.turbo.crasher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjKN6MJKXIvWH1cHsxfwR3ih9ZhmlZysk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

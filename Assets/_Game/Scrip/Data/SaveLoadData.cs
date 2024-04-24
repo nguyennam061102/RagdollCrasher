@@ -82,7 +82,7 @@ public class DataGame
     [SerializeField] private int countOnlineGift;
     [SerializeField] private bool musicOn;
     [SerializeField] private bool sfxOn;
-    
+    [SerializeField] private int countTutoral;
 
     public float EnginePow { get => enginePow; set => enginePow = value; }
     public float JetpackPow { get => jetpackPow; set => jetpackPow = value; }
@@ -118,6 +118,7 @@ public class DataGame
     public int CountOnlineGift { get => countOnlineGift; set => countOnlineGift = value; }
     public bool MusicOn { get => musicOn; set => musicOn = value; }
     public bool SfxOn { get => sfxOn; set => sfxOn = value; }
+    public int CountTutoral { get => countTutoral; set => countTutoral = value; }
 
     [Header("IObserver")]
     private List<IObserver> observers = new List<IObserver>();

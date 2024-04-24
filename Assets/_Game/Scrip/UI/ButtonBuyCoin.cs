@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -43,36 +44,38 @@ public class ButtonBuyCoin : MonoBehaviour, IObserver
     }
     void GetCoinReward()
     {
-        // UnityEvent e = new UnityEvent();
-        // e.AddListener(() =>
-        // {
+        UnityEvent e = new UnityEvent();
+        e.AddListener(() =>
+        {
             UIManager.Ins.SpawnCoin(button.GetComponent<RectTransform>(), false);
             SaveLoadData.Ins.DataGame.Coin += coin;
             SaveLoadData.Ins.Save();
-        // });
-        // //SkygoBridge.instance.ShowRewarded(e, null);
-        // //reward
-        // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+            //logevent
+            //SkygoBridge.instance.LogEvent("reward_getcoin");
+        });
+        //reward
+        //ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
 
     }
     void GetCoinPurchase()
     {
         //purchase
         //Buy in game, price is money
-        // string sku = "";
-        // Debug.Log(price + " : " + claimValue);
-        // sku = "ragdoll_crasher_cash_" + price.ToString();
-        // Debug.Log(sku);
-        // UnityEvent e = new UnityEvent();
-        // e.AddListener(() =>
-        // {
+        string sku = "";
+        Debug.Log(coin + " : " + money);
+        string str = money.ToString();
+        str = str.Replace(".","");
+        sku = "ragdoll_crasher_cash_" + str;
+        Debug.Log(sku);
+        UnityEvent e = new UnityEvent();
+        e.AddListener(() =>
+        {
             UIManager.Ins.SpawnCoin(button.GetComponent<RectTransform>(), false);
             SaveLoadData.Ins.DataGame.Coin += coin;
             SaveLoadData.Ins.Save();
-        //noAdsBtn.SetActive(false);
-        // });
+        });
 
-        // SkygoBridge.instance.PurchaseIAP(sku, e);
+        //SkygoBridge.instance.PurchaseIAP(sku, e);
 
     }
 

@@ -114,11 +114,11 @@ Material:
     - _UseChromatic: 0
     - _UseChromaticAberration: 0
     - _UsePixelation: 0
-    - _UseSpeedEffect: 0
+    - _UseSpeedEffect: 1
     - _UseWindNoiseTexure: 0
     - _UseWindTexure: 0
-    - _VignetteIntensity: 0.51103175
-    - _VignetteRadiusPower: 2.9414067
+    - _VignetteIntensity: 0.51963097
+    - _VignetteRadiusPower: 2.8554142
     - _VoronoiCells: 1
     - _VoronoiScale: 7
     - _VoronoiSpeed: 2

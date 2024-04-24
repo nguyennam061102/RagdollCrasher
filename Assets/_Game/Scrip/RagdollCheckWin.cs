@@ -10,6 +10,11 @@ public class RagdollCheckWin : MonoBehaviour
     {
         if (!isWin)
         {
+            LevelManager.Ins.CurrentMotor.RagdollController.isWin = true;
+            Debug.Log($"win_level_{SaveLoadData.Ins.DataGame.CurrenLv:00}");
+            //logevent
+            //SkygoBridge.instance.LogEvent("Win_level_" + SaveLoadData.Ins.DataGame.CurrenLv);
+            //SkygoBridge.instance.LogEvent($"win_level_{SaveLoadData.Ins.DataGame.CurrenLv:00}");
             if (SaveLoadData.Ins.DataGame.Lv < LevelManager.Ins.Maps.Count - 1)
             {
                 SaveLoadData.Ins.DataGame.Lv++;

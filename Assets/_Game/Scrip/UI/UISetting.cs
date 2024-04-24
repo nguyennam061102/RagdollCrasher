@@ -21,6 +21,13 @@ public class UISetting : UICanvas
     [SerializeField] Sprite OnVibrate;
     [SerializeField] Sprite OffVibrate;
 
+    [SerializeField] GameObject btnGDPR;
+
+    private void OnEnable()
+    {
+        //GDPR
+        btnGDPR.SetActive(/*SkygoBridge.instance.PORS*/);
+    }
 
     // Start is called before the first frame update
     protected override void Start()
@@ -127,5 +134,23 @@ public class UISetting : UICanvas
     public void GDPRSetting()
     {
         //GDPR Setting
+        OnConfirmAds();
+    }
+
+    public void OnConfirmAds()
+    {
+        LoadAndShowCmpFlow();
+    }
+    private void LoadAndShowCmpFlow()
+    {
+        var cmpService = MaxSdk.CmpService;
+
+        cmpService.ShowCmpForExistingUser(error =>
+        {
+            if (null == error)
+            {
+                // The CMP alert was shown successfully.
+            }
+        });
     }
 }

@@ -46,7 +46,6 @@ public class UIEnd : UICanvas
     }
     void GetCoinReward()
     {
-        //inter
         //UnityEvent e = new UnityEvent();
         //e.AddListener(() =>
         //{
@@ -58,6 +57,7 @@ public class UIEnd : UICanvas
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
 
+        //inter
         //ApplovinBridge.instance.ShowInterAdsApplovin(null);
     }
     void GetCoinRewardQC()
@@ -70,17 +70,18 @@ public class UIEnd : UICanvas
     IEnumerator SetRewardQCCoin()
     {
         yield return new WaitForSeconds(2);
-        // UnityEvent e = new UnityEvent();
-        // e.AddListener(() =>
-        // {
+        UnityEvent e = new UnityEvent();
+        e.AddListener(() =>
+        {
             UIManager.Ins.SpawnCoin(getRewardCoin.GetComponent<RectTransform>(), true);
             SaveLoadData.Ins.DataGame.Coin += (int)(randomnize.Reward * coin);
             SaveLoadData.Ins.Save();
             StartCoroutine(LoadGame());
-        // });
-        // //SkygoBridge.instance.ShowRewarded(e, null);
+            //logevent
+            SkygoBridge.instance.LogEvent("reward_x_coin");
+        });
         //reward
-        // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+        ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
     }
     IEnumerator LoadGame()
     {

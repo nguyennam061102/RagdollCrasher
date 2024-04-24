@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -63,7 +64,6 @@ public class UIStart : UICanvas, IObserver
     }
     void ButtonChoseLv()
     {
-        //inter
         //UnityEvent e = new UnityEvent();
         //e.AddListener(() =>
         //{
@@ -72,12 +72,12 @@ public class UIStart : UICanvas, IObserver
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
 
-        //ApplovinBridge.instance.ShowInterAdsApplovin(null);
+        //inter
+        if(SkygoBridge.instance.inter_menu_game == 1) ApplovinBridge.instance.ShowInterAdsApplovin(null);
 
     }
     void ButtonChoseMotor()
     {
-        //inter
         //UnityEvent e = new UnityEvent();
         //e.AddListener(() =>
         //{
@@ -86,12 +86,12 @@ public class UIStart : UICanvas, IObserver
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
 
-        //ApplovinBridge.instance.ShowInterAdsApplovin(null);
+        //inter
+        if (SkygoBridge.instance.inter_menu_game == 1) ApplovinBridge.instance.ShowInterAdsApplovin(null);
 
     }
     void ButtonSetting()
     {
-        //inter
         //UnityEvent e = new UnityEvent();
         //e.AddListener(() =>
         //{
@@ -100,12 +100,12 @@ public class UIStart : UICanvas, IObserver
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
 
-        //ApplovinBridge.instance.ShowInterAdsApplovin(null);
+        //inter
+        if (SkygoBridge.instance.inter_menu_game == 1) ApplovinBridge.instance.ShowInterAdsApplovin(null);
 
     }
     void ButtonGold()
     {
-        //inter
         //UnityEvent e = new UnityEvent();
         //e.AddListener(() =>
         //{
@@ -113,18 +113,26 @@ public class UIStart : UICanvas, IObserver
             AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
         //});
         //bool showad = SkygoBridge.instance.ShowInterstitial(e);
-        //ApplovinBridge.instance.ShowInterAdsApplovin(null);
+
+        //inter
+        if (SkygoBridge.instance.inter_menu_game == 1) ApplovinBridge.instance.ShowInterAdsApplovin(null);
 
     }
     void ButtonNoADS()
     {
         AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
+        UnityEvent e = new UnityEvent();
+        e.AddListener(() =>
+        {
+            SkygoBridge.instance.CanShowAd = 0;
+        });
+        SkygoBridge.instance.PurchaseIAP("ragdoll_crasher_noads_099", e);
     }
     void ButtonOnlGift()
     {
-        // UnityEvent e = new UnityEvent();
-        // e.AddListener(() =>
-        // {
+        UnityEvent e = new UnityEvent();
+        e.AddListener(() =>
+        {
             if (SaveLoadData.Ins.DataGame.CountOnlineGift < 2)
             {
                 SaveLoadData.Ins.DataGame.CountOnlineGift++;
@@ -139,10 +147,11 @@ public class UIStart : UICanvas, IObserver
                 countOnlGiftText.text = SaveLoadData.Ins.DataGame.CountOnlineGift.ToString() + "/3";
                 AudioManager.Ins.PlaySfx(Constants.SFX_CLICK_UI);
             }
-        // });
-        // //SkygoBridge.instance.ShowRewarded(e, null);
+            //logevent
+            SkygoBridge.instance.LogEvent("reward_onlGift");
+        });
         //reward
-        // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+        ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
 
     }
     public void OnNotify()

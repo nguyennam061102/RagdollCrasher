@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -28,15 +29,17 @@ public class ViewQC : MonoBehaviour
     }
     void ButtonViewQC()
     {
-        // UnityEvent e = new UnityEvent();
-        // e.AddListener(() =>
-        // {
+        UnityEvent e = new UnityEvent();
+        e.AddListener(() =>
+        {
             SaveLoadData.Ins.MotorReward[motorType]++;
             CheckCountQC();
-        // });
-        // //SkygoBridge.instance.ShowRewarded(e, null);
+            //logevent
+            Debug.Log("reward_motorType_" + motorType);
+            SkygoBridge.instance.LogEvent("reward_motorType_" + motorType);
+        });
         //reward
-        // ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
+        ApplovinBridge.instance.ShowRewarAdsApplovin(e, null);
     }
     void CheckCountQC()
     {

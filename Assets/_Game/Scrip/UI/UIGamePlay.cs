@@ -3,6 +3,7 @@ using UnityEngine;
 using DG.Tweening;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections;
 
 public class UIGamePlay : UICanvas
 {
@@ -10,6 +11,7 @@ public class UIGamePlay : UICanvas
     [SerializeField] TextMeshProUGUI velocityText;
     [SerializeField] Slider slider;
     [SerializeField] Button skip;
+    [SerializeField] TextMeshProUGUI textTutorial;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -40,5 +42,25 @@ public class UIGamePlay : UICanvas
     void ButtonSkip()
     {
         LevelManager.Ins.CurrentMotor.RagdollController.SetSkip();
+    }
+    public void SetTutorial(bool tf)
+    {
+        if (tf)
+        {
+            textTutorial.text = "Tap And Hold To Move";
+            textTutorial.transform.DOScale(1, 0.5f).SetEase(Ease.OutBack);
+            
+        }
+        else
+        {
+            textTutorial.text = "Tap TO Jump";
+            textTutorial.transform.DOScale(1, 0.5f).SetEase(Ease.OutBack);
+        }
+        StartCoroutine(OffText());
+    }
+    IEnumerator OffText()
+    {
+        yield return new WaitForSeconds(2f);
+        textTutorial.transform.DOScale(0, 0.5f).SetEase(Ease.InBack);
     }
 }
